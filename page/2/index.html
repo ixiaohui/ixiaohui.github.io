@@ -1,96 +1,574 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  
+
+
 
   
-  <title>Hexo</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/page/2/index.html">
-<meta property="og:site_name" content="Hexo">
+
+
+<html class="theme-next pisces use-motion" lang="en">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="Hexo, NexT" />
+
+
+
+
+
+
+
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="城市的心弦">
+<meta property="og:url" content="https://citiesheart.com/page/2/index.html">
+<meta property="og:site_name" content="城市的心弦">
 <meta property="og:locale" content="en_US">
-<meta property="article:author" content="John Doe">
+<meta property="article:author" content="Xiaohui Yuan">
 <meta name="twitter:card" content="summary">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: 'Author'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="https://citiesheart.com/page/2/"/>
+
+
+
+
+
+  <title>城市的心弦</title>
   
-    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
-  
-  
-    <link rel="icon" href="/favicon.png">
-  
-  
-    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  
-  
-<link rel="stylesheet" href="/css/style.css">
+
+
+
+
+
+
+
 
 <meta name="generator" content="Hexo 4.2.0"></head>
 
-<body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">Hexo</a>
-      </h1>
+<body itemscope itemtype="http://schema.org/WebPage" lang="en">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left 
+  page-home">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">城市的心弦</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
       
-    </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"></a>
-        
-          <a class="main-nav-link" href="/">Home</a>
-        
-          <a class="main-nav-link" href="/archives">Archives</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
-        
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
-      </div>
-    </div>
-  </div>
-</header>
-      <div class="outer">
-        <section id="main">
-  
-    <article id="post-the-definition-of-public-entrepreneurship-space" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2016/03/10/the-definition-of-public-entrepreneurship-space/" class="article-date">
-  <time datetime="2016-03-10T08:05:25.000Z" itemprop="datePublished">2016-03-10</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%E5%AD%A6%E6%9C%AF%E4%BA%A4%E6%B5%81/">学术交流</a>
+        <p class="site-subtitle"></p>
+      
   </div>
 
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
   </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/03/10/the-definition-of-public-entrepreneurship-space/">众创空间概念辨析</a>
-    </h1>
+</div>
+
+<nav class="site-nav">
   
 
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/%20" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            Home
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/%20" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            Archives
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+  <section id="posts" class="posts-expand">
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://citiesheart.com/2016/03/21/what-is-virtual-reality/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Xiaohui Yuan">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="城市的心弦">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2016/03/21/what-is-virtual-reality/" itemprop="url">虚拟现实是什么？</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-03-21T15:38:25+08:00">
+                2016-03-21
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E8%AF%BB%E4%B9%A6%E5%BF%83%E5%BE%97/" itemprop="url" rel="index">
+                    <span itemprop="name">读书心得</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
       </header>
     
-    <div class="article-entry" itemprop="articleBody">
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
-        <p><a href="http://citiesheart.com/wp-content/uploads/2016/03/teambition.jpg" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2016/03/teambition.jpg" alt="teambition"></a></p>
+      
+
+      
+        
+          
+            <p><a href="http://citiesheart.com/wp-content/uploads/2016/03/13虚拟现实.jpg" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2016/03/13%E8%99%9A%E6%8B%9F%E7%8E%B0%E5%AE%9E.jpg" alt="13虚拟现实"></a></p>
+<p>虚拟现实，一个在几年前还很陌生的名词，近来频频进入我们的视线。很多媒体都称：2016将是虚拟现实（Virtual Reality，简称VR）技术元年。我们这代人仿佛再次站在了见证人类历史出现重大变化的节点，想想还是挺激动的。那虚拟现实到底是什么？它会带给我们怎样的体验？未来将会有哪些应用场景？它究竟距离我们还有多远？今天想结合自己的一些体会和最近读的一本书《虚拟现实：从阿凡达到永生》，来跟大家分享一下。</p>
+<h4 id="虚拟现实：沉浸式体验十分奇特"><a href="#虚拟现实：沉浸式体验十分奇特" class="headerlink" title="虚拟现实：沉浸式体验十分奇特"></a>虚拟现实：沉浸式体验十分奇特</h4><p>第一次接触虚拟现实设备，是在去年11月北京举办的TechCrunch大会上。一家国内开发虚拟现实应用软件的公司在展台放置了的几台设备，供参观者体验。我带上设备，虽然没有耳机，耳边萦绕的还是展会现场嘈杂的人声，但精神却完全处于另一个世界中，瞪大了眼睛，转动脑袋充满新奇地四处打量。也终于体会到了之前听别人说的那句：</p>
+<blockquote>
+<p>世界上有两种人，体验过VR的，和没有体验过VR的。</p>
+</blockquote>
+<p><a href="http://citiesheart.com/wp-content/uploads/2016/03/03参加Tech-Crunch大会.jpg" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2016/03/03%E5%8F%82%E5%8A%A0Tech-Crunch%E5%A4%A7%E4%BC%9A.jpg" alt="03参加Tech Crunch大会"></a>图1 完全沉浸于另一个世界</p>
+<p>今年2月22日，三星用虚拟现实技术直播手机发布会，那张扎克伯格出场时所有现场观众都头戴VR设备的照片让人相当震撼。想想看，几千人的现场鸦雀无声，却让每个人都拥有了最棒的在场体验，每一排的观众都在虚拟世界中坐到了第一排。</p>
+<p><a href="http://citiesheart.com/wp-content/uploads/2016/03/01三星发布会.jpeg" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2016/03/01%E4%B8%89%E6%98%9F%E5%8F%91%E5%B8%83%E4%BC%9A.jpeg" alt="01三星发布会"></a>2 三星发布会上小扎的出场画面</p>
+<h4 id="增强现实：当虚拟与现实相遇"><a href="#增强现实：当虚拟与现实相遇" class="headerlink" title="增强现实：当虚拟与现实相遇"></a>增强现实：当虚拟与现实相遇</h4><p>前两天，国匠城在国匠优选里上线的2个新产品都跟增强现实（Augmented Reality，简称AR）有关。所谓增强现实是指通过一定的技术手段，将创造的虚拟世界与现实世界互动起来。虽然增强现实（AR）和虚拟现实（VR）差别不小，但二者的应用前景都十分广阔。 买了两套，发现真是不错。感慨现如今的小朋友好幸福，都已经可以看着这些立体的动物在桌子上蹦哒了。</p>
+<p><a href="http://citiesheart.com/wp-content/uploads/2016/03/05口袋动物园.jpg" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2016/03/05%E5%8F%A3%E8%A2%8B%E5%8A%A8%E7%89%A9%E5%9B%AD.jpg" alt="05口袋动物园"></a>图3 碰一碰还有动画效果</p>
+<p>还有这个涂涂乐，给小朋友的涂色书，我却玩了好久。不是涂色好玩，而是涂的颜色居然会出现在3D小人儿的身上，互动感非常好，让人感觉一秒变身服装设计师。请注意下图中雪人帽子和围巾上的条纹（我涂的啦），在3D雪人的身上也出现了。是不是有点意思？</p>
+<p><a href="http://citiesheart.com/wp-content/uploads/2016/03/06雪人.jpg" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2016/03/06%E9%9B%AA%E4%BA%BA.jpg" alt="06雪人"></a>图4 涂色的平面雪人</p>
+<p><img src="http://citiesheart.com/wp-content/uploads/2016/03/06%E9%9B%AA%E4%BA%BA2.png" alt="06雪人2">图6 涂的条纹围巾！</p>
+<h4 id="你看老罗都开始动手了，咱也得跟上啊"><a href="#你看老罗都开始动手了，咱也得跟上啊" class="headerlink" title="你看老罗都开始动手了，咱也得跟上啊"></a>你看老罗都开始动手了，咱也得跟上啊</h4><p>之前就听说，老罗曾经透漏，如果锤子手机不见起色，就转战虚拟现实。就在前两天，锤子科技在官方微博上发出了招聘VR技术人才的消息，成为既索尼、HTC、三星、华为和小米等科技企业之后，又一家明确表示涉足虚拟现实的企业。这是要锤出一个虚拟现实的架势啊，再次感叹彪悍的人生不需要解释！ <a href="http://citiesheart.com/wp-content/uploads/2016/03/02锤子科技招贤纳士.png" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2016/03/02%E9%94%A4%E5%AD%90%E7%A7%91%E6%8A%80%E6%8B%9B%E8%B4%A4%E7%BA%B3%E5%A3%AB.png" alt="02锤子科技招贤纳士"></a></p>
+<p>图5 锤子科技招募VR团队工程师</p>
+<p>风雨欲来，却还对虚拟现实啥啥都不懂，不行，得学习！于是买了一本题为《虚拟现实：从阿凡达到永生》的书。两位作者挺厉害，一位是斯坦福大学虚拟人机交互实验室的创始主管，另一位是加州大学圣芭芭拉分校虚拟环境研究中心的主管和联合创始人，也是心理学教授。他们基于团队开展了大量有关虚拟现实的理论和实证研究，探讨了虚拟现实技术对人类个体和社会可能产生的影响。以下捞些书中的干货跟大家分享一下： <a href="http://citiesheart.com/wp-content/uploads/2016/03/04虚拟现实书.jpg" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2016/03/04%E8%99%9A%E6%8B%9F%E7%8E%B0%E5%AE%9E%E4%B9%A6.jpg" alt="04虚拟现实书"></a></p>
+<p>图7 《虚拟现实：从阿凡达到永生》</p>
+<h4 id="到底什么是虚拟现实？"><a href="#到底什么是虚拟现实？" class="headerlink" title="到底什么是虚拟现实？"></a>到底什么是虚拟现实？</h4><p>我们一般所理解的虚拟现实，都是指以数字技术为基础的沉浸式虚拟现实。而作者在书中并没有直接给出对虚拟现实的明确定义，而是首先探讨了”什么是真实”以及”心理真实原则”，即：</p>
+<blockquote>
+<p>我们的大脑决定认知是否真实。如果头脑相信了某种体验，它就会认为这种体验是真的，反之就认为它是假的。</p>
+</blockquote>
+<p>也就是说，当虚拟现实真实到一定程度，人们可能就会觉得是真实的。而人们之所以能够区分真实和虚拟，是因为：</p>
+<blockquote>
+<p>人们往往会用”绝对真实”来对比”虚拟现实”的体验。”绝对真实”使人们相信那些”自然”或”物理”的体验，而”虚拟现实”则是梦、文艺作品、动画、电影，以及Facebook或者《第二人生》这样的在线环境。 <a href="http://citiesheart.com/wp-content/uploads/2016/03/07第二人生.jpg" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2016/03/07%E7%AC%AC%E4%BA%8C%E4%BA%BA%E7%94%9F.jpg" alt="07第二人生"></a></p>
+<p>图8 第二人生游戏画面</p>
+</blockquote>
+<p>也就是说，无论睡着还是清醒，当我们的心智和身体能够同处两地，比如说，我脑子里正在想工作上遇到的一个难题，而完全没有注意到肚子已经饿的咕咕叫，我们就可以说心智处于虚拟现实中，是我大脑虚拟出来的现实。</p>
+<p>所以作者认为，虚拟现实其实早已存在，人类历史进程中的讲故事、绘画、雕塑、剧场、摄影、摄像、广播、计算机和互联网，其实都是虚拟媒体，都给人类带来一种远离眼前物质世界的体验，给人的大脑带来沉浸感。</p>
+<p><img src="http://citiesheart.com/wp-content/uploads/2016/03/08%E7%9C%8B%E7%94%B5%E5%BD%B1.jpg" alt="08看电影">图9 看电影也是在体验虚拟现实</p>
+<p>而我们今天所关注的虚拟现实其实是从技术上增进了这种沉浸感，围绕我们所有感觉建立起来的虚拟世界，会让我们在某些时候”感觉”到另一种”真实”。作者说，我们人类其实是非常擅长”出神”的：</p>
+<blockquote>
+<p>我们一直以来都在结合艺术和科学，制造出让自己出神的工具。 虚拟现实不是什么新东西，它只是一个新标签而已。</p>
+</blockquote>
+<h4 id="沉浸式的虚拟现实是如何实现的？"><a href="#沉浸式的虚拟现实是如何实现的？" class="headerlink" title="沉浸式的虚拟现实是如何实现的？"></a>沉浸式的虚拟现实是如何实现的？</h4><p>来了解一下原理，虚拟现实有三个关键技术：跟踪、渲染和显示。其实现的基本原理是循环，让设备能够循环进行以下三个过程，从而为佩戴者建立起与身体行动匹配的体验：</p>
+<ul>
+<li>跟踪：跟踪用户的视线焦点，确认你的视线位置；</li>
+<li>渲染：根据你的视线焦点，渲染对应出现的场景；</li>
+<li>显示：把场景发送到用户的显示设备上。</li>
+</ul>
+<p><a href="http://citiesheart.com/wp-content/uploads/2016/03/09VR原理.jpg" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2016/03/09VR%E5%8E%9F%E7%90%86.jpg" alt="09VR原理"></a>图10 头戴Oculus Rift的体验者，电视机里是他看到的画面</p>
+<h4 id="我们在虚拟现实中与他人的互动是怎样？"><a href="#我们在虚拟现实中与他人的互动是怎样？" class="headerlink" title="我们在虚拟现实中与他人的互动是怎样？"></a>我们在虚拟现实中与他人的互动是怎样？</h4><p>虚拟现实中会出现两种人形：</p>
+<ul>
+<li>化身（Avatars）：由真人的活动转化而来的形象，一般是实时的；</li>
+<li>代理（Agents）：由计算机程序驱动的形象。</li>
+</ul>
+<p>学者们开展了很多研究，如歧视研究、从众行为的研究、社会阻抑的研究等等，尝试发现人们对待虚拟人物的方式和对待真实人物的方式有何不同，以及对待化身和对待代理有何不同，他们发现：</p>
+<blockquote>
+<p>不仅大脑对待虚拟人物和对待真实人物的方式很相像。而且人与虚拟代理之间的社交方式，恰如人们与其他化身的社交方式一样。</p>
+</blockquote>
+<p>也就是说，从社会交往的意义上讲，人在虚拟现实中的行为准则和社交规则基本与真实世界一致。 研究人员还发现，我们在虚拟世界中获得的体验会对真实世界产生影响，包括对亲密关系的影响、对社交恐惧的治疗等等。 比如，你在虚拟世界中与一个长得很像你伴侣的代理（计算机操作的程序）一起经受了一次考验，而”他”没有及时帮你，让你很沮丧。当你回到现实生活中，就很有可能会迁怒于你真正的伴侣。是不是很神奇？</p>
+<p><a href="http://citiesheart.com/wp-content/uploads/2016/03/10虚拟现实游戏.png" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2016/03/10%E8%99%9A%E6%8B%9F%E7%8E%B0%E5%AE%9E%E6%B8%B8%E6%88%8F.png" alt="10虚拟现实游戏"></a>图11 虚拟现实中的游戏体验</p>
+<h4 id="虚拟现实技术会有哪些应用场景？"><a href="#虚拟现实技术会有哪些应用场景？" class="headerlink" title="虚拟现实技术会有哪些应用场景？"></a>虚拟现实技术会有哪些应用场景？</h4><p>虚拟现实技术的应用场景非常广泛，教育、国防、医疗、度假等等均有奇效：</p>
+<ul>
+<li>教育：实验证明，教师的目光关注可以提升孩子们的学习效果，在现实中老师的目光只能照顾到少数学生，而在虚拟世界中，可以借助技术手段，让每一个孩子都感受到老师更多的关注_（__老师一直盯着我，妈妈再也不用担心我开小差了 T.T_）；</li>
+<li>教育：每个孩子都可以选择在虚拟教室中的座位，而且好的位置大家都可以坐，更好的位置能够增强孩子们上课的注意力（_再也不会发生用卫生纸占座一占占一排这种糟心事儿了）_；</li>
+<li>教育：想学太极拳，还在远远地模仿老师打拳的动作吗？你out了！直接在虚拟空间里”进入”老师的身体体验一下吧，超出老师的身体就表示你做错了，实验证明，这样学学得超快哦_（知乎用户：跟体育老师合体是一种怎样的体验？）_。</li>
+</ul>
+<p><a href="http://citiesheart.com/wp-content/uploads/2016/03/11虚拟现实技术在教育中的应用2.jpg" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2016/03/11%E8%99%9A%E6%8B%9F%E7%8E%B0%E5%AE%9E%E6%8A%80%E6%9C%AF%E5%9C%A8%E6%95%99%E8%82%B2%E4%B8%AD%E7%9A%84%E5%BA%94%E7%94%A82.jpg" alt="11虚拟现实技术在教育中的应用2"></a>图12 虚拟教室让五湖四海的人民走到一起来</p>
+<ul>
+<li>国防：知道为什么培养飞行员贵吗？因为费油，油贵啊。通过虚拟现实中的飞行模拟，不仅减少了燃油的消耗，也让飞行训练更加安全_（如果有一天，你乘坐的飞机上并没有飞行员，而是在地面上带着VR设备操纵飞机，这样的飞机你敢坐不？）_；</li>
+<li>国防：想当兵？先来玩一局！通过视频游戏招募适合作战、敏捷度更高的新兵_（以后的真人CS值得期待）_；</li>
+<li>国防：美国国防部曾在2006年耗资2千万美元设计了一个名为《城市决策》的虚拟培训计划，培训了分散在19个不同地区的1000名学员和士兵，让他们足不出户就可以做好应对城市战争的准备_（2006年，10年前啊，人家就已经这么干了，技术就是战斗力）_。</li>
+</ul>
+<p><a href="http://citiesheart.com/wp-content/uploads/2016/03/12虚拟现实技术在国防中的应用.jpg" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2016/03/12%E8%99%9A%E6%8B%9F%E7%8E%B0%E5%AE%9E%E6%8A%80%E6%9C%AF%E5%9C%A8%E5%9B%BD%E9%98%B2%E4%B8%AD%E7%9A%84%E5%BA%94%E7%94%A8.jpg" alt="12虚拟现实技术在国防中的应用"></a>图13 虚拟现实技术在国防中的应用</p>
+<ul>
+<li>医疗：新医生的手术培训，在真人身上实践前，可以先在虚拟世界中练他个几百次，熟能生巧嘛_（看来以后医生更不好当了）_；</li>
+<li>医疗：有一些埋藏很深的肿瘤，医生由于视线受阻不容易取出，就可以3D建模，医生利用头戴设备看到内脏结构，从而更加精准地进行手术操作（_目测微创手术会越来越多）_；</li>
+<li>医疗：肢体受伤的病人做复健，由于困难和枯燥，很多人都放弃了，而在虚拟现实中进行的康复训练，让人置身于游戏的场景中，让重复和繁琐的过程变得有趣很多_（游戏过程释放的多巴胺让人更容易坚持做有挑战的事）_；</li>
+<li>医疗：对于那些经历过大的创伤的病人，多患有创伤后应激障碍，虚拟现实技术通过场景还原，能够让病人反复沉浸在当初出事的事件场景中，减少了日后的痛苦和恐慌_（脱敏疗法）_。</li>
+</ul>
+<p><a href="http://citiesheart.com/wp-content/uploads/2016/03/11虚拟现实在医疗健康中的应用.jpg" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2016/03/11%E8%99%9A%E6%8B%9F%E7%8E%B0%E5%AE%9E%E5%9C%A8%E5%8C%BB%E7%96%97%E5%81%A5%E5%BA%B7%E4%B8%AD%E7%9A%84%E5%BA%94%E7%94%A8.jpg" alt="11虚拟现实在医疗健康中的应用"></a>图14 虚拟现实技术在医疗健康中的应用</p>
+<p>此外，在购物、度假、犯罪现场调查等领域，虚拟现实技术也将大有可为。足不出户，体验世界各地风土人情，再也不用人挤人，也不用担心参观人数太多，对文物造成破坏。目击证人可以再次回到虚拟的犯罪现场，回忆犯罪行为发生过程，提供更准确的案件信息，也能有效减少错判误判。 可以说，虚拟现实是一扇打开新世界的大门，更多玩法和潜力的挖掘就需要大家拼想象力了。</p>
+<h4 id="虚拟现实中，人获得了永生的可能？"><a href="#虚拟现实中，人获得了永生的可能？" class="headerlink" title="虚拟现实中，人获得了永生的可能？"></a>虚拟现实中，人获得了永生的可能？</h4><p>想不想在肉身死亡之后，让精神永生，让后代能跟自己的虚拟化身互动？就像《基地》里心理史学的创立者哈里•谢顿时不时地冒出来给几百年后的人们一个锦囊那样。</p>
+<blockquote>
+<p>研究人员表明，有意识或无意识的死亡焦虑，都是导致许多人类行为的动机。而作者也相信，这样的生存焦虑，是人们乐于从真实世界转入虚拟现实的核心因素。</p>
+</blockquote>
+<p>而不久的将来，人们就可以有两种方式考虑”不朽”这件事。一种是延长自然生命，而另一种就是保存一个人的数字遗产，保留和记录下关于自己的大量数据，在虚拟世界中通过化身获得永生。</p>
+<blockquote>
+<p>他们死后，一个看起来说话方式、姿态和行为都像他们的数字化造物会在虚拟空间永远存在。</p>
+</blockquote>
+<p>你会希望自己在虚拟世界中永久地活下来吗？</p>
+<p><a href="http://citiesheart.com/wp-content/uploads/2016/03/13虚拟永生.jpg" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2016/03/13%E8%99%9A%E6%8B%9F%E6%B0%B8%E7%94%9F.jpg" alt="13虚拟永生"></a>图15 电影中的虚拟永生</p>
+<h4 id="虚拟现实，上瘾怎么办？"><a href="#虚拟现实，上瘾怎么办？" class="headerlink" title="虚拟现实，上瘾怎么办？"></a>虚拟现实，上瘾怎么办？</h4><p>我觉得，不上瘾是不可能的，看看今天任何一趟地铁里发生的情况就知道： <a href="http://citiesheart.com/wp-content/uploads/2016/03/14地铁低头族.jpg" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2016/03/14%E5%9C%B0%E9%93%81%E4%BD%8E%E5%A4%B4%E6%97%8F.jpg" alt="14地铁低头族"></a></p>
+<p>图16 低头大军颈椎堪忧</p>
+<p>不在场的体验，虚拟现实的体验，让我们能跨越时空的距离，去到任何一个我们想去的虚拟空间，去聊天、去交友、去国家大剧院听音乐会、去德云社听相声、去NBA现场看比赛、去哈佛大学听正义课，为什么还要目光呆滞地看着车厢内的各类广告听着地铁咣当当咣当当的声音惆怅着买不起房呢？ 作者在书中说：</p>
+<blockquote>
+<p>可以肯定的是，不是每个使用互联网的人都会上瘾，不是每个进入社交网络的人都会沉溺其中，就像不是每个抽过大麻的人都会成瘾一样。</p>
+</blockquote>
+<p>我觉得他说的没错，但他低估了虚拟现实体验的魔力。你想，真实世界中人们总是有很多烦恼，而当人有了永久地逃离这些烦恼的办法，他还会再主动回来面对吗？从这点来看，最初愿意留在虚拟世界中的人，很可能是在真实世界中不太如意的人，也许他们会成为虚拟世界的主人，而到所有人都涌入虚拟世界的那一天，这个世界的格局已经被改变。</p>
+<h4 id="虚拟现实，华丽丽地铺面而来"><a href="#虚拟现实，华丽丽地铺面而来" class="headerlink" title="虚拟现实，华丽丽地铺面而来"></a>虚拟现实，华丽丽地铺面而来</h4><p>毋庸置疑，虚拟现实将会带给我们前所未有的体验，未来的工作也许会更多地被远程办公所取代，不需要通勤，也能保证大家面对面的交流。只不过我们交流的空间将不再是真实的空间，而是一个我们想怎么布置就怎么布置的虚拟空间。 说到这儿，想到一个问题，在虚拟世界中，空间资源并不是稀缺的。只要有服务器，我们就可以想盖几栋楼盖几栋楼，想拥有几套房子拥有几套房子。到那个时候，人们每天都泡在虚拟世界中工作学习娱乐，而只在真实世界中填饱肚子睡个觉，那是不是人们就没有必要奋力拼搏买大房子住了？那是不是北京上海深圳的房价就能降下来呢？T.T 我们很有可能会是最后一代在真实世界中停留更长时间的人类了。作为时代更迭的见证者，面对一个华丽丽的、体验更丰富、生活更便捷的虚拟未来，我们的想象力和创造力将会得到怎样的发挥呢？ 恩，保护眼睛，从今天做起。</p>
+<hr>
+<p><em>图片来源：</em></p>
+<p>图0：<a href="http://www.augmentedrealitytrends.com/wp-content/uploads/2015/02/Virtual-Reality.jpg" target="_blank" rel="noopener">http://www.augmentedrealitytrends.com/wp-content/uploads/2015/02/Virtual-Reality.jpg</a></p>
+<p>图2：<a href="http://finance.591hx.com/article/2016-02-26/0000548302s.shtml" target="_blank" rel="noopener">http://finance.591hx.com/article/2016-02-26/0000548302s.shtml</a></p>
+<p>图5：<a href="http://weibo.com/smartisan?profile\_ftype=1&amp;is\_all=1#_0" target="_blank" rel="noopener">http://weibo.com/smartisan?profile\_ftype=1&amp;is\_all=1#_0</a></p>
+<p>图8：<a href="http://www.secondlifeitalia.com/images/screenshot2.jpg" target="_blank" rel="noopener">http://www.secondlifeitalia.com/images/screenshot2.jpg</a></p>
+<p>图9：<a href="http://img.taopic.com/uploads/allimg/110504/1901-1105041Q53126.jpg" target="_blank" rel="noopener">http://img.taopic.com/uploads/allimg/110504/1901-1105041Q53126.jpg</a></p>
+<p>图10：<a href="http://www.roadtovr.com/wp-content/uploads/2015/02/nimble-vr-nimble-sense-oculus-input.jpg" target="_blank" rel="noopener">http://www.roadtovr.com/wp-content/uploads/2015/02/nimble-vr-nimble-sense-oculus-input.jpg</a></p>
+<p>图11：<a href="http://tech.sina.com.cn/d/i/2015-09-20/doc-ifxhytwr2199600.shtml" target="_blank" rel="noopener">http://tech.sina.com.cn/d/i/2015-09-20/doc-ifxhytwr2199600.shtml</a></p>
+<p>图12：<a href="https://lindenlab.files.wordpress.com/2008/11/classroom.jpg" target="_blank" rel="noopener">https://lindenlab.files.wordpress.com/2008/11/classroom.jpg</a></p>
+<p>图13：<a href="http://realvision.ae/blog/wp-content/uploads/2011/02/800px-US\_Navy\_100224-N-7676W-204\_Marines\_from\_the\_2d\_Battalion\_8th\_Marine\_Regiment\_train\_with\_the\_Future\_Immersive\_Training\_Environment\_FITE\_Joint\_Capabilities\_Technology\_Demonstration\_JCTD\_virtual\_reality\_system.jpg" target="_blank" rel="noopener">http://realvision.ae/blog/wp-content/uploads/2011/02/800px-US\_Navy\_100224-N-7676W-204\_Marines\_from\_the\_2d\_Battalion\_8th\_Marine\_Regiment\_train\_with\_the\_Future\_Immersive\_Training\_Environment\_FITE\_Joint\_Capabilities\_Technology\_Demonstration\_JCTD\_virtual\_reality\_system.jpg</a></p>
+<p>图14：<a href="http://a.abcnews.com/images/Health/ht\_doctor\_virtual\_reality\_surgery\_01\_jc\_150313\_16x9_992.jpg" target="_blank" rel="noopener">http://a.abcnews.com/images/Health/ht\_doctor\_virtual\_reality\_surgery\_01\_jc\_150313\_16x9_992.jpg</a></p>
+<p>图15：<a href="http://img1.cache.netease.com/catchpic/B/B9/B9EB1D2CCBAF1E6847334B130A90F589.jpg" target="_blank" rel="noopener">http://img1.cache.netease.com/catchpic/B/B9/B9EB1D2CCBAF1E6847334B130A90F589.jpg</a></p>
+<p>图16：<a href="http://i4.hexunimg.cn/2013-11-21/159880480.jpg" target="_blank" rel="noopener">http://i4.hexunimg.cn/2013-11-21/159880480.jpg</a></p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://citiesheart.com/2016/03/10/the-definition-of-public-entrepreneurship-space/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Xiaohui Yuan">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="城市的心弦">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2016/03/10/the-definition-of-public-entrepreneurship-space/" itemprop="url">众创空间概念辨析</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-03-10T16:05:25+08:00">
+                2016-03-10
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E5%AD%A6%E6%9C%AF%E4%BA%A4%E6%B5%81/" itemprop="url" rel="index">
+                    <span itemprop="name">学术交流</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p><a href="http://citiesheart.com/wp-content/uploads/2016/03/teambition.jpg" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2016/03/teambition.jpg" alt="teambition"></a></p>
 <p>在大众创业，万众创新的国家政策引领下，从中央文件到地方政策，从媒体报道到街头闲谈，众创一词越来越多地走入我们的视线。而在众创实践如火如荼地开展之时，众创空间也成为一个新的热点，成为支持创新创业活动顺利开展的载体。</p>
 <p>于是，创客空间、联合办公空间、媒体类孵化器、投资类孵化器、大学创业培训营、创业社区等等与众创空间相关的概念一个一个地涌现，让人傻傻分不清他们之间到底是什么关系。</p>
 <p>然而，忧伤的是，与实践界新概念新模式的层出不穷相对，学术界对众创空间的研究仍处于起步阶段，水果君查了半天文献，也没有找到一篇系统性梳理众创空间概念和基本类型的论述。</p>
@@ -192,48 +670,147 @@
 <p>[12] 引自<a href="http://www.thholding.com.cn/FTBImage/2015102394835420.jpg" target="_blank" rel="noopener">清华控股网站</a></p>
 <p>​</p>
 
+          
+        
       
     </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2016/03/10/the-definition-of-public-entrepreneurship-space/" data-id="ck6ni9ef60076d16bbfym6zpo" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E4%BC%97%E5%88%9B%E7%A9%BA%E9%97%B4/" rel="tag">众创空间</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%88%9B%E4%B8%9A/" rel="tag">创业</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%88%9B%E6%96%B0/" rel="tag">创新</a></li></ul>
+    
+    
+    
 
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
     </footer>
   </div>
   
-</article>
+  
+  
+  </article>
 
+
+    
+      
 
   
-    <article id="post-one-thing-for-all-life" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2016/01/25/one-thing-for-all-life/" class="article-date">
-  <time datetime="2016-01-25T07:53:57.000Z" itemprop="datePublished">2016-01-25</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%E6%88%90%E9%95%BF%E6%84%9F%E6%82%9F/">成长感悟</a>
-  </div>
 
-  </div>
-  <div class="article-inner">
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://citiesheart.com/2016/01/25/one-thing-for-all-life/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Xiaohui Yuan">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="城市的心弦">
+    </span>
+
     
-    
-      <header class="article-header">
+      <header class="post-header">
+
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/01/25/one-thing-for-all-life/">为什么有些人能一辈子只做一件事？</a>
-    </h1>
-  
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2016/01/25/one-thing-for-all-life/" itemprop="url">为什么有些人能一辈子只做一件事？</a></h1>
+        
 
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-01-25T15:53:57+08:00">
+                2016-01-25
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E6%88%90%E9%95%BF%E6%84%9F%E6%82%9F/" itemprop="url" rel="index">
+                    <span itemprop="name">成长感悟</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
       </header>
     
-    <div class="article-entry" itemprop="articleBody">
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
-        <p><a href="http://citiesheart.com/wp-content/uploads/2016/01/tianfuluo.png" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2016/01/tianfuluo-1024x683.png" alt="tianfuluo"></a>最近有一个自制节目挺有意思，叫《搜神记》。 每期节目，主持人冯唐找一个“大神”，通过对话、过招的方式，与“大神”们PK一下“神技”，呈现他们的故事。 第一期讲的是与罗永浩PK演讲，本来想在<a href="http://mp.weixin.qq.com/s?__biz=MzA3NDY0MjMzMA==&mid=402678781&idx=1&sn=2779d5496b9fdc69458c5a256f4f7baf#rd" target="_blank" rel="noopener">《为什么老罗的幻灯片那么受欢迎》</a>里推送给大家，但一来那篇写得太长了，怕大家读起来累；二来那篇主要讲的其实还是幻灯片，不是演讲，于是作罢。 第二期，也就是刚播出的这期，讲的是炸天妇罗<em>的故事。片中主人公在日本的师傅，和小野二郎（寿司之神）齐名，近五十年的时间里都在经营一家只有二十多个座位的天妇罗小店，而且每天只工作四个半小时——晚上五点到九点半。 师傅店里的天妇罗卖得不算便宜，20,000日元（约合1100人民币）一位，但预约要提前两个多月，天天爆满。 这是什么概念呢？ *</em>1100元/人 * 20人 * 3次(翻台) * 365天 = 24,090,000元** 数数有多少个零。而创造这些价值的只有师傅一人，加两三个打下手的徒弟。 在五十年的时间里，师傅守着一个不大的店（二十多座），每天工作时间也不长（四个半小时），但师傅自开店到现在一共炸了多少个天妇罗呢？ 6000多万个。 大家感兴趣的话，不妨看看下面这期节目，长度20多分钟： <a href="http://v.qq.com/cover/3/3v8qjo24bipe0kd.html" target="_blank" rel="noopener">搜神记第2期：日本食神VS中国油条师傅</a>   我看完节目的感受是：<strong>世上有那么多有意思的事，为什么他却只盯着天妇罗？ ** 年轻的时候，他为什么能克服东看看西看看的冲动，就抱定了“咬定天妇罗不放松”的信念呢？  想起了，我曾经问过我的博士导师一句话：</strong>您当年选择读这个专业并且后来一直从事了下去，是因为您当时就觉得自己真的就喜欢，还是因为能做得好才一直这么做下来？ ** 我记得当时我的师父的回答是：因为能做得好吧。   仔细想想，当年师父的发展应该是这么一个过程：</p>
+      
+
+      
+        
+          
+            <p><a href="http://citiesheart.com/wp-content/uploads/2016/01/tianfuluo.png" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2016/01/tianfuluo-1024x683.png" alt="tianfuluo"></a>最近有一个自制节目挺有意思，叫《搜神记》。 每期节目，主持人冯唐找一个“大神”，通过对话、过招的方式，与“大神”们PK一下“神技”，呈现他们的故事。 第一期讲的是与罗永浩PK演讲，本来想在<a href="http://mp.weixin.qq.com/s?__biz=MzA3NDY0MjMzMA==&mid=402678781&idx=1&sn=2779d5496b9fdc69458c5a256f4f7baf#rd" target="_blank" rel="noopener">《为什么老罗的幻灯片那么受欢迎》</a>里推送给大家，但一来那篇写得太长了，怕大家读起来累；二来那篇主要讲的其实还是幻灯片，不是演讲，于是作罢。 第二期，也就是刚播出的这期，讲的是炸天妇罗<em>的故事。片中主人公在日本的师傅，和小野二郎（寿司之神）齐名，近五十年的时间里都在经营一家只有二十多个座位的天妇罗小店，而且每天只工作四个半小时——晚上五点到九点半。 师傅店里的天妇罗卖得不算便宜，20,000日元（约合1100人民币）一位，但预约要提前两个多月，天天爆满。 这是什么概念呢？ *</em>1100元/人 * 20人 * 3次(翻台) * 365天 = 24,090,000元** 数数有多少个零。而创造这些价值的只有师傅一人，加两三个打下手的徒弟。 在五十年的时间里，师傅守着一个不大的店（二十多座），每天工作时间也不长（四个半小时），但师傅自开店到现在一共炸了多少个天妇罗呢？ 6000多万个。 大家感兴趣的话，不妨看看下面这期节目，长度20多分钟： <a href="http://v.qq.com/cover/3/3v8qjo24bipe0kd.html" target="_blank" rel="noopener">搜神记第2期：日本食神VS中国油条师傅</a>   我看完节目的感受是：<strong>世上有那么多有意思的事，为什么他却只盯着天妇罗？ ** 年轻的时候，他为什么能克服东看看西看看的冲动，就抱定了“咬定天妇罗不放松”的信念呢？  想起了，我曾经问过我的博士导师一句话：</strong>您当年选择读这个专业并且后来一直从事了下去，是因为您当时就觉得自己真的就喜欢，还是因为能做得好才一直这么做下来？ ** 我记得当时我的师父的回答是：因为能做得好吧。   仔细想想，当年师父的发展应该是这么一个过程：</p>
 <ul>
 <li>那是一个信息稀缺的年代，通过认真读书，考取大学；</li>
 <li>上了大学，继续认真读书（在他上大学和读研期间读遍了当时图书馆中与专业相关的藏书）；</li>
@@ -280,48 +857,147 @@
 <hr>
 <p>*注释：天妇罗是日式料理中的油炸食品，用面粉、鸡蛋与水和成浆，将新鲜的鱼虾和时令蔬菜裹上浆放入油锅炸成金黄色。吃时蘸酱油和萝卜泥调成的汁，鲜嫩美味，香而不腻。它不是某个具体菜肴的名称，而是对油炸食品的总称，具体的种类则有蔬菜天妇罗、海鲜天妇罗、什锦天妇罗等。（百度百科） 题图来源：<a href="http://tupian.baike.com/" target="_blank" rel="noopener">http://tupian.baike.com/</a></p>
 
+          
+        
       
     </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2016/01/25/one-thing-for-all-life/" data-id="ck6ni9eei004od16bd01j9x0i" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E4%B8%AA%E4%BA%BA%E9%80%89%E6%8B%A9/" rel="tag">个人选择</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E4%BB%B7%E5%80%BC%E8%A7%82/" rel="tag">价值观</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%9B%9E%E5%BF%86/" rel="tag">回忆</a></li></ul>
+    
+    
+    
 
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
     </footer>
   </div>
   
-</article>
+  
+  
+  </article>
 
+
+    
+      
 
   
-    <article id="post-the-things-i-am-worried-about" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2016/01/22/the-things-i-am-worried-about/" class="article-date">
-  <time datetime="2016-01-22T07:29:06.000Z" itemprop="datePublished">2016-01-22</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%E6%88%90%E9%95%BF%E6%84%9F%E6%82%9F/">成长感悟</a>
-  </div>
 
-  </div>
-  <div class="article-inner">
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://citiesheart.com/2016/01/22/the-things-i-am-worried-about/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Xiaohui Yuan">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="城市的心弦">
+    </span>
+
     
-    
-      <header class="article-header">
+      <header class="post-header">
+
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/01/22/the-things-i-am-worried-about/">天寒地冻的日子里，想点让人担心的事儿</a>
-    </h1>
-  
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2016/01/22/the-things-i-am-worried-about/" itemprop="url">天寒地冻的日子里，想点让人担心的事儿</a></h1>
+        
 
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-01-22T15:29:06+08:00">
+                2016-01-22
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E6%88%90%E9%95%BF%E6%84%9F%E6%82%9F/" itemprop="url" rel="index">
+                    <span itemprop="name">成长感悟</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
       </header>
     
-    <div class="article-entry" itemprop="articleBody">
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
-        <p><a href="http://citiesheart.com/wp-content/uploads/2016/01/cold.png" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2016/01/cold.png" alt="cold"></a>今天是寒假第二天，也是近几年北京最冷的日子。因为早就听说此次寒潮凶猛，特地多穿了点。早上骑电动车去学校，看到大大的蓝天，心里那个高兴啊，<strong>冷点就冷点吧。</strong>  <a href="http://citiesheart.com/wp-content/uploads/2016/01/cold1.png" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2016/01/cold1.png" alt="cold1"></a> 等红灯，看着旁边一股小旋风刮起了尘土，打着漩涡，四处移动。嘿，以前还真没这么近距离观察过。看着看着，不好，旋风袭来，哎，迷眼了。这个时候绿灯也亮了。不能挡在马路中间不走啊，闭眼三秒钟，居然好了，眯起眼睛往前开去。 没开几米远，感觉不对啊。眼皮越来越疼，越来越疼。不光是眼皮，还有脑门，还有耳朵。感觉马上就要掉了啊，真的是冻！掉！了！尼玛零下十几度就冷成这样，<strong>哈尔滨人民可怎么活，可怎么活？</strong> 迎着一股又一股小刀片儿似的寒风，往前开，边转油门边想：<strong>会不会地奔儿走路好一些？会不会地奔儿走路好一些？</strong> 斯哈斯哈着，好不容易到地儿了。留个念吧，都已经包扎成这样了，还被冻成狗。 <a href="http://citiesheart.com/wp-content/uploads/2016/01/cold2.jpg" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2016/01/cold2.jpg" alt="cold2"></a> 大家都说，寒冷能让人更清醒。 我觉得也是，<strong>难得有个如此清新又让人无比清醒的冬日早晨</strong>，不如今天在这个清醒的日子，想一件之前没有好好想过的事吧：<strong>平日里我都在担心些啥？</strong> 因为隐约觉得自己平时在做很多选择的时候，都会有些担心。到底是在担心些什么，害怕些什么呢？ 静下来仔细想了想，让我担心焦虑的，比如说： <a href="http://citiesheart.com/wp-content/uploads/2016/01/cold3.png" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2016/01/cold3.png" alt="cold3"></a>   比如说： <a href="http://citiesheart.com/wp-content/uploads/2016/01/cold4.png" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2016/01/cold4.png" alt="cold4"></a> 再比如说： <a href="http://citiesheart.com/wp-content/uploads/2016/01/cold5.png" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2016/01/cold5.png" alt="cold5"></a> 以上三个就是现在的自己会偶尔担心焦虑的问题。仔细分析一下，以上几个害怕，一个是关于买房，一个是关于人生道路选择，一个是关于努力与成功。既然这些问题让我担心焦虑，那我就用头脑中的AB两个小人儿来探讨一下这几个问题：  </p>
+      
+
+      
+        
+          
+            <p><a href="http://citiesheart.com/wp-content/uploads/2016/01/cold.png" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2016/01/cold.png" alt="cold"></a>今天是寒假第二天，也是近几年北京最冷的日子。因为早就听说此次寒潮凶猛，特地多穿了点。早上骑电动车去学校，看到大大的蓝天，心里那个高兴啊，<strong>冷点就冷点吧。</strong>  <a href="http://citiesheart.com/wp-content/uploads/2016/01/cold1.png" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2016/01/cold1.png" alt="cold1"></a> 等红灯，看着旁边一股小旋风刮起了尘土，打着漩涡，四处移动。嘿，以前还真没这么近距离观察过。看着看着，不好，旋风袭来，哎，迷眼了。这个时候绿灯也亮了。不能挡在马路中间不走啊，闭眼三秒钟，居然好了，眯起眼睛往前开去。 没开几米远，感觉不对啊。眼皮越来越疼，越来越疼。不光是眼皮，还有脑门，还有耳朵。感觉马上就要掉了啊，真的是冻！掉！了！尼玛零下十几度就冷成这样，<strong>哈尔滨人民可怎么活，可怎么活？</strong> 迎着一股又一股小刀片儿似的寒风，往前开，边转油门边想：<strong>会不会地奔儿走路好一些？会不会地奔儿走路好一些？</strong> 斯哈斯哈着，好不容易到地儿了。留个念吧，都已经包扎成这样了，还被冻成狗。 <a href="http://citiesheart.com/wp-content/uploads/2016/01/cold2.jpg" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2016/01/cold2.jpg" alt="cold2"></a> 大家都说，寒冷能让人更清醒。 我觉得也是，<strong>难得有个如此清新又让人无比清醒的冬日早晨</strong>，不如今天在这个清醒的日子，想一件之前没有好好想过的事吧：<strong>平日里我都在担心些啥？</strong> 因为隐约觉得自己平时在做很多选择的时候，都会有些担心。到底是在担心些什么，害怕些什么呢？ 静下来仔细想了想，让我担心焦虑的，比如说： <a href="http://citiesheart.com/wp-content/uploads/2016/01/cold3.png" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2016/01/cold3.png" alt="cold3"></a>   比如说： <a href="http://citiesheart.com/wp-content/uploads/2016/01/cold4.png" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2016/01/cold4.png" alt="cold4"></a> 再比如说： <a href="http://citiesheart.com/wp-content/uploads/2016/01/cold5.png" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2016/01/cold5.png" alt="cold5"></a> 以上三个就是现在的自己会偶尔担心焦虑的问题。仔细分析一下，以上几个害怕，一个是关于买房，一个是关于人生道路选择，一个是关于努力与成功。既然这些问题让我担心焦虑，那我就用头脑中的AB两个小人儿来探讨一下这几个问题：  </p>
 <h4 id="第一个担心：关于买房"><a href="#第一个担心：关于买房" class="headerlink" title="第一个担心：关于买房"></a>第一个担心：关于买房</h4><p><strong>担心：如果现在不买房，将来更买不起。</strong> A：好像现在就能买得起似的！ B：那既然现在依靠自己的力量买不起，为啥还要考虑买呢？ A：为了有个稳定的住处啊，不用经常被租房的房东赶来赶去，而且还保值。 B：那投入是啥呢？你能依靠自己的力量把首付付了吗？把爸妈的积蓄都借出来，东拼拼西凑凑掏空两代人，付个首付。然后之后的二三十年，每个月老老实实还月供，就图有个稳定的住处？这住处的代价会不会有点高呢？ A：是有点高。但这不仅是稳定住处的需要，还是户口落户、孩子上学的需要啊，这些都需要有个房子来解决啊。 B：这些都是你当前需要面对的问题吗？ A：还不是，但远期是。 B：那你现在就应该把注意力集中在你最应该面对的问题上：<strong>提高个人价值，创造更多价值。</strong>利用手头的资源，投资到自己身上，投资到有成长性的事上。等到将来有一天，房子的价格对你来说，已经不是负担的时候，再去拿下。 A：可是，如果将来房价飞涨更贵了怎么办？ B：那就要问你自己：你觉得是你的身价上涨更快，还是房价上涨更快了。<strong>如果你觉得是你自己更有潜力，那么就把仅有的资源投入在自己身上；如果你觉得是房子更有潜力，那么就果断买房。</strong>所以，这个问题可以转化为：在资源有限的前提下，你是更看好自己的成长性，还是更相信房价的走势？ <strong>所以，我的第一个担心其实不是关于买房这个决定，而是关于将来的自己会不会有能力解决今天还解决不了的问题。</strong> 在这一点上，我觉得我应该乐观。所以，还是暂时不买房喽。  </p>
 <h4 id="第二个担心：关于方向"><a href="#第二个担心：关于方向" class="headerlink" title="第二个担心：关于方向"></a>第二个担心：关于方向</h4><p><strong>担心：选错了方向，走上一条错误的道路。</strong> A：这可以拆解为两个问题：1、如何评判正确还是错误？2、如果知道什么是错误，该如何避免？ B：<strong>正确的道路应该是非常匹配你的能力而且你自己也非常喜欢的道路，在这条道路上，你身心愉悦，游刃有余，能够在前行中找到自我实现的感觉。</strong> A：那照你这么说，错误的道路可能有三种情况：</p>
 <ol>
@@ -332,48 +1008,147 @@
 <p>B：差不多。我们来看看踏上这3条所谓的错误的道路会有什么后果。 A：好啊，首先是第一条：我自己喜欢但能力不匹配的路。 B：如果踏上这条错误的路，你会怎么办？你既然喜欢，那么肯定会努力提升自己的能力，让你的能力与这条路的要求更加匹配。结果可能是：你的能力得到了极大提升，那么恭喜你，你将这条”错误”的路，转变为了正确的路。 B：还有一种可能：你用尽了全力还是无法达到要求，始终很辛苦，就面临两个选择，要么继续坚持，痛并快乐着，因为这毕竟是你喜欢的路啊；要么放弃，错误的路我不再继续了，再去寻找其他更合适的路。这个时候，你会觉得自己之前的选择是错误的吗？你毕竟在你喜欢的方向上努力过、拼搏过、尝试过，这不也是一种很棒的人生体验吗？ A：所以，如果选错了方向，选择了一条这样的道路，也值了啊。那第二条：我自己不喜欢但能力很匹配的路。 B：如果踏上这条错误的路，你会怎么办？你能力很匹配，干活非常轻松，但你觉得没那么喜欢。也是两个选择：要么坚持做能力匹配的事，慢慢让自己喜欢上；要么放弃这条路，去寻找自己喜欢的方向。无论哪个选择，也都可以接受啊。 A：好像是的。似乎只要我们还拥有选择的能力，即使先前选错了方向，也没什么好怕的。那第三条呢，我选错了方向，踏上了一条我自己也不喜欢，也不匹配我的能力的路。 B：既不喜欢又没能力，你会选吗？ A：不会哦。那这么看来，害怕选错了方向，也是个不必要的担心啦。 <strong>所以，**</strong>我的第二个担心其实不是关于是否能选对路，而是关于<strong>**当发现错误之后，能不能有勇气和有能力来面对和解决，去勇敢探索更适合自己的那条路</strong>。  </p>
 <h4 id="第三个担心：关于努力与成功"><a href="#第三个担心：关于努力与成功" class="headerlink" title="第三个担心：关于努力与成功"></a>第三个担心：关于努力与成功</h4><p><strong>我的担心：跟别人付出同样多努力，却没有别人成功。</strong> A：我担心看到跟我一样努力的人，却比我更成功，我自己勤勤恳恳一辈子，却依然没能做成什么事。 B：那么你想做成什么事呢？ A：随便什么都行啊。 B：那这就不好办了，因为你说到了成功，咱们就得有个标准。什么叫成功呢？ A：成功要么是实现了自己的愿望，把想做的事做成了；要么是得到了别人的认可，大家都觉得我成功了。当然，也可以体现在赚钱上，我实现了财务自由，也可以叫成功。 B：对，我们每个人的眼中都有对成功不同的理解。你担心跟别人付出同样多努力，却不如别人成功，那有可能，在别人的眼中，还觉得你更成功呢。所以，我们讨论这个问题，首先要明确自己希望的成功是什么样子。 A：好吧，<strong>我眼中的成功，也许就是能够找到自己存在的价值，让自己能够自由自主地选择，能够给这个世界带来一些贡献。</strong> B：如果能清晰地说出自己所理解的成功，就照着这个方向努力就好啦。别人可能比你更轻松地实现了你的愿望，但那又如何呢？每个人所面对的初始条件和机遇都是不同的，而我们能控制的，也只有自己的努力。 A：是啊，在已经尽力的情况下，即使没有别人成功，我们也无怨无悔啊。好像，这也不需要担心了。 <strong>所以，**</strong>我的第三个担心其实不是关于是不是能比别人成功的问题，而是关于我对成功到底如何理解，我理想中的成功到底是什么样子？<strong>如果我可以勾勒出成功的样子，并努力去接近他，最后即使没有够到，又如何呢？   最后，总结一下，我的三个担心： <a href="http://citiesheart.com/wp-content/uploads/2016/01/cold6.png" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2016/01/cold6.png" alt="cold6"></a> 似乎都不是真正应该担心的事，我真正应该关注的三个问题是： <a href="http://citiesheart.com/wp-content/uploads/2016/01/cold7.png" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2016/01/cold7.png" alt="cold7"></a> **将勇敢的努力留给自己，将理想的成功交给命运</strong>，是我在这个美好冬日好好想过的事儿。</p>
 
+          
+        
       
     </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2016/01/22/the-things-i-am-worried-about/" data-id="ck6ni9efa007hd16b8g735esv" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E4%B8%AA%E4%BA%BA%E7%AE%A1%E7%90%86/" rel="tag">个人管理</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E4%B8%AA%E4%BA%BA%E9%80%89%E6%8B%A9/" rel="tag">个人选择</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E4%BA%BA%E7%94%9F%E6%84%8F%E4%B9%89/" rel="tag">人生意义</a></li></ul>
+    
+    
+    
 
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
     </footer>
   </div>
   
-</article>
+  
+  
+  </article>
 
+
+    
+      
 
   
-    <article id="post-blackswan-future-and-uncertainty" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2015/12/12/blackswan-future-and-uncertainty/" class="article-date">
-  <time datetime="2015-12-12T07:07:28.000Z" itemprop="datePublished">2015-12-12</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%E8%AF%BB%E4%B9%A6%E5%BF%83%E5%BE%97/">读书心得</a>
-  </div>
 
-  </div>
-  <div class="article-inner">
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://citiesheart.com/2015/12/12/blackswan-future-and-uncertainty/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Xiaohui Yuan">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="城市的心弦">
+    </span>
+
     
-    
-      <header class="article-header">
+      <header class="post-header">
+
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/12/12/blackswan-future-and-uncertainty/">黑天鹅、未来与不确定性</a>
-    </h1>
-  
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2015/12/12/blackswan-future-and-uncertainty/" itemprop="url">黑天鹅、未来与不确定性</a></h1>
+        
 
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2015-12-12T15:07:28+08:00">
+                2015-12-12
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E8%AF%BB%E4%B9%A6%E5%BF%83%E5%BE%97/" itemprop="url" rel="index">
+                    <span itemprop="name">读书心得</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
       </header>
     
-    <div class="article-entry" itemprop="articleBody">
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
-        <p><a href="http://citiesheart.com/wp-content/uploads/2016/01/blackswan.jpeg" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2016/01/blackswan.jpeg" alt="blackswan"></a>在看这本《黑天鹅》的时候，我一直在思考一个问题：对待未来，我究竟是什么态度？是做好今天的一切，等待未来的自然发生，还是瞄准了一个自己更喜欢的未来，主动向它奔去张开手臂拥抱她？ 这两个选择中，看起来后一个更有主动性，更能体现我们人类对自我的控制力和创造未来的能力，但背后有一个值得思考的问题：<strong>我们瞄准的未来在未来真的会发生吗？在世界巨大的不确定性中，未来的发展很多时候会偏离我们预先设想的轨道，在这样的现实下，我们究竟该如何面对这带给我们无限希望，却又扑朔迷离的未来？</strong> 塔勒布的《黑天鹅》正是在探讨这个关于未来的命题：</p>
+      
+
+      
+        
+          
+            <p><a href="http://citiesheart.com/wp-content/uploads/2016/01/blackswan.jpeg" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2016/01/blackswan.jpeg" alt="blackswan"></a>在看这本《黑天鹅》的时候，我一直在思考一个问题：对待未来，我究竟是什么态度？是做好今天的一切，等待未来的自然发生，还是瞄准了一个自己更喜欢的未来，主动向它奔去张开手臂拥抱她？ 这两个选择中，看起来后一个更有主动性，更能体现我们人类对自我的控制力和创造未来的能力，但背后有一个值得思考的问题：<strong>我们瞄准的未来在未来真的会发生吗？在世界巨大的不确定性中，未来的发展很多时候会偏离我们预先设想的轨道，在这样的现实下，我们究竟该如何面对这带给我们无限希望，却又扑朔迷离的未来？</strong> 塔勒布的《黑天鹅》正是在探讨这个关于未来的命题：</p>
 <ul>
 <li>未来究竟能否预测？</li>
 <li>面对不确定的未来我们该如何应对？</li>
@@ -428,48 +1203,147 @@
 <p>基于这一点，你可以多试试那些负面影响可控，但正面影响可能无法预期的事。比如说出书，比如说做一些小额度高风险高收益的投资。  </p>
 <h4 id="等待未来还是拥抱未来"><a href="#等待未来还是拥抱未来" class="headerlink" title="等待未来还是拥抱未来"></a>等待未来还是拥抱未来</h4><p>未来的种种我们无法预期，不确定性，黑天鹅，我们总会在未来女神面前搓手不及。那我们是不是应该老老实实等在当下，远远地仰慕心仪的她，期待她哪天心情好眷顾下我们就好呢？我觉得不行。如果我们不鼓足勇气采取行动向着心仪的女神的方向前进，很有可能会跟她越走越远，哪天失去信心，随便落脚在某个没那么喜欢的地方。 而相反，在张开双臂主动靠近她的过程中，也许会遇到障碍，也许会摔倒，也许她还会跟我们捉迷藏，但我们总还是会得到更多的机会，获得她注视的目光。而且这一路的风雨兼程会让我们在一次又一次的失败面前更坦然，让我们在更多的知识和更广阔的视角下更淡定，也会让我们当真正站在未来女神面前时，不至于红了脸庞，乱了分寸。 是不是那时的我们，也可以更加坦然地说出这句：<strong>未来女神，让我好好抱抱你</strong> :P</p>
 
+          
+        
       
     </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2015/12/12/blackswan-future-and-uncertainty/" data-id="ck6ni9ed2000gd16bayqkfeg2" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E4%B8%8D%E7%A1%AE%E5%AE%9A%E6%80%A7/" rel="tag">不确定性</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%9C%AA%E6%9D%A5/" rel="tag">未来</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E7%A4%BE%E4%BC%9A%E7%89%A9%E7%90%86%E5%AD%A6/" rel="tag">社会物理学</a></li></ul>
+    
+    
+    
 
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
     </footer>
   </div>
   
-</article>
+  
+  
+  </article>
 
+
+    
+      
 
   
-    <article id="post-cooperation-and-human-evolution" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2015/11/25/cooperation-and-human-evolution/" class="article-date">
-  <time datetime="2015-11-25T13:48:02.000Z" itemprop="datePublished">2015-11-25</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%E8%AF%BB%E4%B9%A6%E5%BF%83%E5%BE%97/">读书心得</a>
-  </div>
 
-  </div>
-  <div class="article-inner">
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://citiesheart.com/2015/11/25/cooperation-and-human-evolution/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Xiaohui Yuan">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="城市的心弦">
+    </span>
+
     
-    
-      <header class="article-header">
+      <header class="post-header">
+
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/11/25/cooperation-and-human-evolution/">被富豪包养的科学家发现了人类合作的秘密</a>
-    </h1>
-  
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2015/11/25/cooperation-and-human-evolution/" itemprop="url">被富豪包养的科学家发现了人类合作的秘密</a></h1>
+        
 
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2015-11-25T21:48:02+08:00">
+                2015-11-25
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E8%AF%BB%E4%B9%A6%E5%BF%83%E5%BE%97/" itemprop="url" rel="index">
+                    <span itemprop="name">读书心得</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
       </header>
     
-    <div class="article-entry" itemprop="articleBody">
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
-        <p><a href="http://citiesheart.com/wp-content/uploads/2015/11/超级合作者1.png" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2015/11/%E8%B6%85%E7%BA%A7%E5%90%88%E4%BD%9C%E8%80%851.png" alt="超级合作者"></a> <a href="http://citiesheart.com/wp-content/uploads/2015/11/超级合作者.png" target="_blank" rel="noopener"></a> 读完这本《超级合作者》，忍不住想问大家一个问题：大富豪看得上，还愿意花大价钱包养的人，会有什么特征？ 你可能会答：肤白貌美身材好，才华出众气质佳呗。 但对于今天我们的主人公来说，后半句肯定没错，但前半句就要改成：聪明绝顶爱合作了。你看，这真的是一位聪明绝顶的科学家哦:P  [caption id=”attachment_1167” align=”aligncenter” width=”425”]<a href="http://citiesheart.com/wp-content/uploads/2015/11/MartinNowak.jpg" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2015/11/MartinNowak.jpg" alt="8/5/08 Cambridge, MA -- Portrait of Martin Nowak, Director of Harvard University&#39;s Program for Evolutionary Dynamics, August 5, 2008.  Erik Jacobs for Scientific American"></a> 8/5/08 Cambridge, MA – Portrait of Martin Nowak, Director of Harvard University’s Program for Evolutionary Dynamics, August 5, 2008. Erik Jacobs for Scientific American[/caption]  </p>
+      
+
+      
+        
+          
+            <p><a href="http://citiesheart.com/wp-content/uploads/2015/11/超级合作者1.png" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2015/11/%E8%B6%85%E7%BA%A7%E5%90%88%E4%BD%9C%E8%80%851.png" alt="超级合作者"></a> <a href="http://citiesheart.com/wp-content/uploads/2015/11/超级合作者.png" target="_blank" rel="noopener"></a> 读完这本《超级合作者》，忍不住想问大家一个问题：大富豪看得上，还愿意花大价钱包养的人，会有什么特征？ 你可能会答：肤白貌美身材好，才华出众气质佳呗。 但对于今天我们的主人公来说，后半句肯定没错，但前半句就要改成：聪明绝顶爱合作了。你看，这真的是一位聪明绝顶的科学家哦:P  [caption id=”attachment_1167” align=”aligncenter” width=”425”]<a href="http://citiesheart.com/wp-content/uploads/2015/11/MartinNowak.jpg" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2015/11/MartinNowak.jpg" alt="8/5/08 Cambridge, MA -- Portrait of Martin Nowak, Director of Harvard University&#39;s Program for Evolutionary Dynamics, August 5, 2008.  Erik Jacobs for Scientific American"></a> 8/5/08 Cambridge, MA – Portrait of Martin Nowak, Director of Harvard University’s Program for Evolutionary Dynamics, August 5, 2008. Erik Jacobs for Scientific American[/caption]  </p>
 <h4 id="被富豪包养的科学家"><a href="#被富豪包养的科学家" class="headerlink" title="被富豪包养的科学家"></a>被富豪包养的科学家</h4><p>有一天，这位科学家在办公室接到了一个华尔街阔佬的电话，对方让他介绍了一下当前的工作，素来与人为善的他欣然同意。没想到第二天，就收到了这位富豪（以下简称小富）的一大笔钱，说是要资助他的研究。 又过了几天，小富邀请他去了自己的别墅，作为唯一的客人，他们相谈甚欢。 一段时间之后，小富邀请他去他家小住，先是让他飞往波多黎各，然后又派了一架直升机把他接到了加勒比海中的一座小岛。0.45平方公里的这座小岛，周围是一望无际的温暖的深蓝色海水，岛上一座奢华的豪宅闪烁着铜绿色的光彩，还有长达1.6公里、长满棕榈树的海滩。他每天都在晨光的沐浴下与小富共进早餐，在喷泉、庭院、湖水的陪伴中与小富谈天说地聊理想聊未来。啊，多么美好的画面。 一天，他问小富，在小岛周围温暖透明的海水中潜水会是什么感觉？没想到第二天，一位蛙潜教练就出现在他面前。多么贴心的小富啊。 <a href="http://citiesheart.com/wp-content/uploads/2015/11/beach_summer_break.jpg" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2015/11/beach_summer_break.jpg" alt="beach_summer_break"></a></p>
 <p>图片来源：<a href="http://icar.travel" target="_blank" rel="noopener">http://icar.travel</a></p>
 <p>看到这儿，有没有感觉一个基情无限的故事即将拉开序幕？ 但是，你想多了，哈哈。这是一个慧眼识英才的故事。 因为不止是这位哈佛大学数学与生物学教授马丁•诺瓦克曾经到过这座小岛，曾经撰写《时间简史》的英国著名物理学家斯蒂芬•霍金也曾经受小富之邀来到过这座小岛，也曾得到过无微不至的照顾。所以说，科学才是小富先生的真爱。 在与我们的主人公诺瓦克教授接触了一段时间之后，小富决定，在哈佛大学资助他成立一个研究中心，这就是”进化动力学中心”(PED)，给的唯一建议是：”该花就花，钱永远够用。”一个科学家在听到有人要这么资助他的科学研究时，是什么感觉？ 幸福的诺瓦克教授于是租下了城市中心地带的智能写字楼顶层，招募到了好多世界上非常优秀的数学家和生物学家。他们以合作的形式，共同开展起了对合作的研究。 要说这位马丁•诺瓦克教授真的是位英才，值得小富为他付出这么多。他曾在牛津、普林斯顿、哈佛都做出了卓越的研究成果，32岁就成为牛津数学生物学教授，几年后被普林斯顿挖去，创建全球第一个理论生物学项目，后在小富（华尔街投资人杰弗里•爱普斯坦）赏识下，支持他在哈佛大学创办”进化动力学中心”，那一年，他才37岁。 这么牛的学者，他到底在研究些什么？富豪看上了他的什么研究成果呢？其实简单概括起来，就是两个字：合作。  </p>
@@ -531,48 +1405,147 @@
 </blockquote>
 <p><em>（本文首发于我们的微信公众号，欢迎关注：果说，公众号ifruitalk）</em></p>
 
+          
+        
       
     </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2015/11/25/cooperation-and-human-evolution/" data-id="ck6ni9edc0012d16bbl8423kv" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%88%9B%E4%B8%9A/" rel="tag">创业</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%90%88%E4%BD%9C/" rel="tag">合作</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E7%A4%BE%E4%BC%9A%E7%89%A9%E7%90%86%E5%AD%A6/" rel="tag">社会物理学</a></li></ul>
+    
+    
+    
 
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
     </footer>
   </div>
   
-</article>
+  
+  
+  </article>
 
+
+    
+      
 
   
-    <article id="post-why-talents-grow-together-ef-bc-9f" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2015/11/16/why-talents-grow-together-ef-bc-9f/" class="article-date">
-  <time datetime="2015-11-16T03:40:24.000Z" itemprop="datePublished">2015-11-16</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%E8%AF%BB%E4%B9%A6%E5%BF%83%E5%BE%97/">读书心得</a>
-  </div>
 
-  </div>
-  <div class="article-inner">
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://citiesheart.com/2015/11/16/why-talents-grow-together-ef-bc-9f/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Xiaohui Yuan">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="城市的心弦">
+    </span>
+
     
-    
-      <header class="article-header">
+      <header class="post-header">
+
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/11/16/why-talents-grow-together-ef-bc-9f/">为啥牛人都是一波儿一波儿地出？</a>
-    </h1>
-  
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2015/11/16/why-talents-grow-together-ef-bc-9f/" itemprop="url">为啥牛人都是一波儿一波儿地出？</a></h1>
+        
 
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2015-11-16T11:40:24+08:00">
+                2015-11-16
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E8%AF%BB%E4%B9%A6%E5%BF%83%E5%BE%97/" itemprop="url" rel="index">
+                    <span itemprop="name">读书心得</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
       </header>
     
-    <div class="article-entry" itemprop="articleBody">
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
-        <p><a href="http://citiesheart.com/wp-content/uploads/2015/11/智慧社会.png" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2015/11/%E6%99%BA%E6%85%A7%E7%A4%BE%E4%BC%9A.png" alt="智慧社会"></a>读博士的时候，导师曾经跟我们说过一句话：</p>
+      
+
+      
+        
+          
+            <p><a href="http://citiesheart.com/wp-content/uploads/2015/11/智慧社会.png" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2015/11/%E6%99%BA%E6%85%A7%E7%A4%BE%E4%BC%9A.png" alt="智慧社会"></a>读博士的时候，导师曾经跟我们说过一句话：</p>
 <blockquote>
 <p>研究生阶段的学习，30%跟老师学，30%自学，40%是跟同学学。</p>
 </blockquote>
@@ -674,48 +1647,147 @@
 </blockquote>
 <p>愿我们都能成为自己心中的牛人。 <em>（本文首发于我们的微信公众号，欢迎关注：果说，公众号ifruitalk）</em></p>
 
+          
+        
       
     </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2015/11/16/why-talents-grow-together-ef-bc-9f/" data-id="ck6ni9efu009fd16b9et60ob3" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE/" rel="tag">大数据</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E7%A4%BE%E4%BC%9A%E7%89%A9%E7%90%86%E5%AD%A6/" rel="tag">社会物理学</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E7%A7%91%E6%8A%80%E5%9F%8E/" rel="tag">科技城</a></li></ul>
+    
+    
+    
 
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
     </footer>
   </div>
   
-</article>
+  
+  
+  </article>
 
+
+    
+      
 
   
-    <article id="post-priority-list-and-the-burst-of-human-behavior" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2015/11/11/priority-list-and-the-burst-of-human-behavior/" class="article-date">
-  <time datetime="2015-11-11T03:21:12.000Z" itemprop="datePublished">2015-11-11</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%E8%AF%BB%E4%B9%A6%E5%BF%83%E5%BE%97/">读书心得</a>
-  </div>
 
-  </div>
-  <div class="article-inner">
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://citiesheart.com/2015/11/11/priority-list-and-the-burst-of-human-behavior/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Xiaohui Yuan">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="城市的心弦">
+    </span>
+
     
-    
-      <header class="article-header">
+      <header class="post-header">
+
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/11/11/priority-list-and-the-burst-of-human-behavior/">优先清单与人类行为爆发的秘密</a>
-    </h1>
-  
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2015/11/11/priority-list-and-the-burst-of-human-behavior/" itemprop="url">优先清单与人类行为爆发的秘密</a></h1>
+        
 
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2015-11-11T11:21:12+08:00">
+                2015-11-11
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E8%AF%BB%E4%B9%A6%E5%BF%83%E5%BE%97/" itemprop="url" rel="index">
+                    <span itemprop="name">读书心得</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
       </header>
     
-    <div class="article-entry" itemprop="articleBody">
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
-        <p><a href="http://citiesheart.com/wp-content/uploads/2015/11/爆发.jpg" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2015/11/%E7%88%86%E5%8F%91-1024x448.jpg" alt="爆发"></a></p>
+      
+
+      
+        
+          
+            <p><a href="http://citiesheart.com/wp-content/uploads/2015/11/爆发.jpg" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2015/11/%E7%88%86%E5%8F%91-1024x448.jpg" alt="爆发"></a></p>
 <blockquote>
 <p>人类发展究竟有没有遵循潜在的规律，遵循那些并非人类自创的规律？</p>
 </blockquote>
@@ -794,48 +1866,147 @@
 <p>特别是在大数据时代，当我们的很多行为都可以被互联网记录、被传感器记录时，预测我们的行为也变得更加容易。有没有种细思极恐的感觉？ <a href="http://citiesheart.com/wp-content/uploads/2015/11/dataprivacy.jpg" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2015/11/dataprivacy.jpg" alt="dataprivacy"></a>  </p>
 <h4 id="谁掌控着我们的未来？"><a href="#谁掌控着我们的未来？" class="headerlink" title="谁掌控着我们的未来？"></a>谁掌控着我们的未来？</h4><p>当我们越来越多的行为被掌握在少数互联网企业的手中的时候，当基于这些宝贵的历史数据，他们可以在很大程度上推断我们行为，甚至加以利用的时候，我们的未来究竟掌握在谁的手中？ 很多情况下，今天的我们还没有意识到隐私问题的重要性，随随便便一个app需要我们的注册信息的时候，我们就毫不犹豫地填上了。 有没有想过，当我们在各大网站各类app的数据汇总起来，就会描述出一个比我还懂我的画像，当我们自己都不知道下一步该往哪个方向走时，这个画像给出了判断：她有70%的可能性往东走，于是在向东的道路上布置上了我们也许并不想见到的各种广告。这个时候，你能说我们在新技术的帮助下，变得越来越自由了吗？ 这本《爆发》读了两遍，读完情绪很复杂，为了解了一些人类行为的神奇模式而兴奋，也陷入了对未来种种可能性的思考。 如果你也关心自己的未来，人类的未来，不妨把这本书置入你的优先清单。 <em>（本文首发于我们的微信公众号，欢迎关注：果说，公众号ifruitalk）</em></p>
 
+          
+        
       
     </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2015/11/11/priority-list-and-the-burst-of-human-behavior/" data-id="ck6ni9eeo0055d16b3po6f6r6" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE/" rel="tag">大数据</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E7%A4%BE%E4%BC%9A%E7%89%A9%E7%90%86/" rel="tag">社会物理</a></li></ul>
+    
+    
+    
 
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
     </footer>
   </div>
   
-</article>
+  
+  
+  </article>
 
+
+    
+      
 
   
-    <article id="post-the-cities-favored-by-talents" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2015/09/15/the-cities-favored-by-talents/" class="article-date">
-  <time datetime="2015-09-15T14:36:36.000Z" itemprop="datePublished">2015-09-15</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%E5%9F%8E%E5%B8%82%E6%80%9D%E8%80%83/">城市思考</a>
-  </div>
 
-  </div>
-  <div class="article-inner">
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://citiesheart.com/2015/09/15/the-cities-favored-by-talents/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Xiaohui Yuan">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="城市的心弦">
+    </span>
+
     
-    
-      <header class="article-header">
+      <header class="post-header">
+
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/09/15/the-cities-favored-by-talents/">这才是科技范儿人才想去的城市</a>
-    </h1>
-  
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2015/09/15/the-cities-favored-by-talents/" itemprop="url">这才是科技范儿人才想去的城市</a></h1>
+        
 
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2015-09-15T22:36:36+08:00">
+                2015-09-15
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E5%9F%8E%E5%B8%82%E6%80%9D%E8%80%83/" itemprop="url" rel="index">
+                    <span itemprop="name">城市思考</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
       </header>
     
-    <div class="article-entry" itemprop="articleBody">
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
-        <p>科技范儿人才会更喜欢颜值高的城市？ <a href="http://citiesheart.com/wp-content/uploads/2015/09/Colorful-New-York-City.jpg" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2015/09/Colorful-New-York-City.jpg" alt="Colorful-New-York-City"></a>科技范儿的城市？ <a href="http://citiesheart.com/wp-content/uploads/2015/09/science-fiction-city.jpg" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2015/09/science-fiction-city.jpg" alt="science-fiction city"></a>还是人文范儿的城市？ <a href="http://citiesheart.com/wp-content/uploads/2015/09/market.jpg" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2015/09/market.jpg" alt="market"></a>你觉得科技型人才会更想到什么样的城市中生活？什么样的城市更容易集聚科技型人才呢？  乍一看，这个提问采取的是上帝视角，大家看了的第一反应可能会是：什么样的城市更容易集聚科技人才，跟我有什么关系？</p>
+      
+
+      
+        
+          
+            <p>科技范儿人才会更喜欢颜值高的城市？ <a href="http://citiesheart.com/wp-content/uploads/2015/09/Colorful-New-York-City.jpg" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2015/09/Colorful-New-York-City.jpg" alt="Colorful-New-York-City"></a>科技范儿的城市？ <a href="http://citiesheart.com/wp-content/uploads/2015/09/science-fiction-city.jpg" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2015/09/science-fiction-city.jpg" alt="science-fiction city"></a>还是人文范儿的城市？ <a href="http://citiesheart.com/wp-content/uploads/2015/09/market.jpg" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2015/09/market.jpg" alt="market"></a>你觉得科技型人才会更想到什么样的城市中生活？什么样的城市更容易集聚科技型人才呢？  乍一看，这个提问采取的是上帝视角，大家看了的第一反应可能会是：什么样的城市更容易集聚科技人才，跟我有什么关系？</p>
 <h4 id="谁有可能比较关心这个问题？"><a href="#谁有可能比较关心这个问题？" class="headerlink" title="谁有可能比较关心这个问题？"></a>谁有可能比较关心这个问题？</h4><p>想了想，可能有三类朋友会比较关心：</p>
 <ul>
 <li><p>一类是<strong>希望提升城市竞争力的城市管理者或城市规划师</strong>：我们常常会听到某某城市的发展定位是科技创新型城市，比如我们的首都北京，习大大明确给了四个定位：『政治中心、文化中心、国际交往中心、科技创新中心』。这最后一个科技创新中心，就意味着北京的管理者们会比较在意：到底什么样的城市才能对科技型人才充满吸引力呢？</p>
@@ -901,48 +2072,147 @@
 <hr>
 <p>图片来源：   特别鸣谢图片搜索网站多搜搜（duososo.com）提供图片搜索支持 图1 <a href="http://www.mrwallpaper.com/wallpapers/Colorful-New-York-City.jpg" target="_blank" rel="noopener">http://www.mrwallpaper.com/wallpapers/Colorful-New-York-City.jpg</a> 图2 <a href="http://www.cartoontreasure.com/" target="_blank" rel="noopener">http://www.cartoontreasure.com/</a> 图3 <a href="http://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2011/10/15/1318681593086/Central-wet-market-Hollyw-001.jpg" target="_blank" rel="noopener">http://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2011/10/15/1318681593086/Central-wet-market-Hollyw-001.jpg</a> 图4 <a href="http://images1.fanpop.com/images/photos/1700000/AHH-britains-got-talent-1781227-621-500.jpg" target="_blank" rel="noopener">http://images1.fanpop.com/images/photos/1700000/AHH-britains-got-talent-1781227-621-500.jpg</a> 图5 <a href="http://www.personalitytutor.com/files/2012/05/How-to-Be-Creative.jpg" target="_blank" rel="noopener">http://www.personalitytutor.com/files/2012/05/How-to-Be-Creative.jpg</a> 图6 <a href="http://www.studyinaustralia.gov.au/images/UserUploadedImages/1440/13_Scientist.jpg" target="_blank" rel="noopener">http://www.studyinaustralia.gov.au/images/UserUploadedImages/1440/13_Scientist.jpg</a> 图7 <a href="http://images5.fanpop.com/image/photos/31800000/Iron-Man-iron-man-3-31868156-1440-900.jpg" target="_blank" rel="noopener">http://images5.fanpop.com/image/photos/31800000/Iron-Man-iron-man-3-31868156-1440-900.jpg</a> 图8 <a href="http://ehsaaan.com/wp-content/uploads/2014/08/Job-Hunting-With-Headhunters-Made-Easy.jpg" target="_blank" rel="noopener">http://ehsaaan.com/wp-content/uploads/2014/08/Job-Hunting-With-Headhunters-Made-Easy.jpg</a> 图9 <a href="http://www.mostinterestingfacts.com/wp-content/uploads/2010/06/most-popular-cats-in-the-world-the-exotic-cat.jpg" target="_blank" rel="noopener">http://www.mostinterestingfacts.com/wp-content/uploads/2010/06/most-popular-cats-in-the-world-the-exotic-cat.jpg</a></p>
 
+          
+        
       
     </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2015/09/15/the-cities-favored-by-talents/" data-id="ck6ni9ef2006pd16b8w9wbil0" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%8D%9A%E5%A3%AB%E8%AE%BA%E6%96%87/" rel="tag">博士论文</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%9F%8E%E5%B8%82%E7%94%9F%E6%B4%BB/" rel="tag">城市生活</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E7%A7%91%E6%8A%80%E5%9F%8E/" rel="tag">科技城</a></li></ul>
+    
+    
+    
 
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
     </footer>
   </div>
   
-</article>
+  
+  
+  </article>
 
+
+    
+      
 
   
-    <article id="post-internet-industry-investment-in-cities" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2015/08/27/internet-industry-investment-in-cities/" class="article-date">
-  <time datetime="2015-08-27T01:43:53.000Z" itemprop="datePublished">2015-08-27</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%E5%9F%8E%E5%B8%82%E6%80%9D%E8%80%83/">城市思考</a>
-  </div>
 
-  </div>
-  <div class="article-inner">
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://citiesheart.com/2015/08/27/internet-industry-investment-in-cities/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Xiaohui Yuan">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="城市的心弦">
+    </span>
+
     
-    
-      <header class="article-header">
+      <header class="post-header">
+
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/08/27/internet-industry-investment-in-cities/">互联网投资城市之战：北上杭深大PK</a>
-    </h1>
-  
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2015/08/27/internet-industry-investment-in-cities/" itemprop="url">互联网投资城市之战：北上杭深大PK</a></h1>
+        
 
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2015-08-27T09:43:53+08:00">
+                2015-08-27
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E5%9F%8E%E5%B8%82%E6%80%9D%E8%80%83/" itemprop="url" rel="index">
+                    <span itemprop="name">城市思考</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
       </header>
     
-    <div class="article-entry" itemprop="articleBody">
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
-        <p><a href="http://citiesheart.com/wp-content/uploads/2015/08/00题图.png" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2015/08/00%E9%A2%98%E5%9B%BE.png" alt="00题图"></a></p>
+      
+
+      
+        
+          
+            <p><a href="http://citiesheart.com/wp-content/uploads/2015/08/00题图.png" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2015/08/00%E9%A2%98%E5%9B%BE.png" alt="00题图"></a></p>
 <blockquote>
 <p>雷军说：选对了风口，母猪都能飞上天。 我们问：选对了城市，投资能否早拿到？</p>
 </blockquote>
@@ -965,216 +2235,336 @@
 </ul>
 <p>虽然本文分析了一大堆，但对上面这两个问题似乎并没有给出明确的答案。我们只能说，从已经发生的事实来看，互联网行业的创业者在北京会有更多的机会。但是（最怕但是！）别忘了，在北京的创业者的基数也很可能会2倍、3倍于上海，竞争的激烈程度也会更高的。 所以，要解答这个问题，我们还需要这些城市的创业者总量的数据，需要每个创业者亲身体验过的反馈，才能更深入地进行比较和判断。 更何况，已经发生的，不能确切地告诉我们未来将要到来的。创业也好，投资也罢，正是因为有了这些丰富多彩的不确定性，城市的未来才更加值得期待，也正如我们的人生吧~ <em>（本文首发于微信公众平台果说，由袁晓辉与董磊共同完成，转载请联系作者授权。）</em></p>
 
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2015/08/27/internet-industry-investment-in-cities/" data-id="ck6ni9ee7003jd16b2kb9dfhk" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%88%9B%E4%B8%9A/" rel="tag">创业</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE/" rel="tag">大数据</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%AE%9A%E9%87%8F%E7%A0%94%E7%A9%B6/" rel="tag">定量研究</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-coworking-space" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2015/08/18/coworking-space/" class="article-date">
-  <time datetime="2015-08-18T01:18:02.000Z" itemprop="datePublished">2015-08-18</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%E5%9F%8E%E5%B8%82%E6%80%9D%E8%80%83/">城市思考</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
+          
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/08/18/coworking-space/">联合办公：空间共享新业态</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p><a href="http://citiesheart.com/wp-content/uploads/2015/08/DeskUnion_Coworking_Glasgow.jpg" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2015/08/DeskUnion_Coworking_Glasgow.jpg" alt="DeskUnion_Coworking_Glasgow"></a>随着共享经济日趋火爆，一种新兴的办公业态开始走进我们的视线：联合办公。地产界的一些大佬也是借此概念纷纷扛起了引领地产行业转型的大旗，踏上了探索存量空间开发利用模式的道路。当然，这种新型办公空间模式也是响应了国家倡导『大众创业，万众创新』的号召，针对日益增长的创业者弹性化的办公需求，为他们提供成本更低廉、更有针对性的空间服务。 那么问题来了：</p>
-<ul>
-<li>联合办公空间是什么？</li>
-<li>它跟孵化器、加速器有什么不同？</li>
-<li>目前国内的联合办公空间发展的状态是怎样？</li>
-<li>它会是未来办公空间发展的趋势吗？</li>
-</ul>
-<p>我们借前两天去上海调研的机会，实地考察了四家联合办公空间，对这类办公空间有了直观上的认识。回来后，我们整理了关于联合办公空间发展的资料，录成了果说电台的一期音频节目<a href="http://www.lizhi.fm/share/23963/22210366065498758" target="_blank" rel="noopener">《联合办公上海行》</a>，受到不少朋友关注。应一些朋友要求，我们今天把这期节目的主要内容整理成图文并茂的文字版，方便大家查阅。</p>
-<h4 id="第一个问题：联合办公空间是什么？"><a href="#第一个问题：联合办公空间是什么？" class="headerlink" title="第一个问题：联合办公空间是什么？"></a><strong>第一个问题：联合办公空间是什么？</strong></h4><p>联合办公空间的英文是Coworking Space，在维基百科上也被翻译为共同工作空间，引用维基百科的定义：</p>
-<blockquote>
-<p>提供共同工作的空间，也是共同工作者的社群平台。与常规办公空间的差异在于，这些共同工作者多来自不同公司或组织，大部分是SHOHO族、旅行出差者或者小型工作团队。</p>
-</blockquote>
-<p>选择在联合办公空间中工作，一方面可以共享物理上的公共空间和设施，如WiFi、会议室、咖啡休息室、打印机、传真机等；另一方面，可以在日常工作间隙与不同个体或团队的互动中，得到思想的碰撞和灵感的激发，找到可以彼此支撑共同成长的伙伴。所以，理想的联合办公空间一定不仅仅是提供办公空间的场所，更是一个社群。</p>
-<h4 id="第二个问题：联合办公空间与孵化器、加速器有什么不同？"><a href="#第二个问题：联合办公空间与孵化器、加速器有什么不同？" class="headerlink" title="第二个问题：联合办公空间与孵化器、加速器有什么不同？"></a><strong>第二个问题：联合办公空间与孵化器、加速器有什么不同？</strong></h4><p>虽然国内的很多联合办公空间同时也具备孵化器属性，但严格意义上，联合办公空间与孵化器和加速器是有本质不同的。主要体现在面向对象、核心目的、提供的服务和盈利方式上。</p>
-<h4 id="第三个问题：联合办公空间是怎么发展起来的？"><a href="#第三个问题：联合办公空间是怎么发展起来的？" class="headerlink" title=" 第三个问题：联合办公空间是怎么发展起来的？"></a><a href="http://citiesheart.com/wp-content/uploads/2015/08/联合办公空间与孵化器和加速器.png" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2015/08/%E8%81%94%E5%90%88%E5%8A%9E%E5%85%AC%E7%A9%BA%E9%97%B4%E4%B8%8E%E5%AD%B5%E5%8C%96%E5%99%A8%E5%92%8C%E5%8A%A0%E9%80%9F%E5%99%A8.png" alt="联合办公空间与孵化器和加速器"></a> <strong>第三个问题：联合办公空间是怎么发展起来的？</strong></h4><p>继续引维基百科：</p>
-<blockquote>
-<p>联合办公空间最早出现在美国，Coworking一词最早由美国人Bernie DeKoven于1999年提出。2005年，Google的软件工程师Brad Neuberg在美国旧金山成立了一个叫Hat Factory的联合办公网站，随后将自己家里的仓库改造成休闲场所租给三名从事科技产业的工作者。自此，联合办公空间在世界各地逐渐流行起来。目前，美国已有超过700家联合办公空间。</p>
-</blockquote>
-<ul>
-<li>美国：旧金山是联合办公空间密度最高的城市；</li>
-</ul>
-<p><a href="http://citiesheart.com/wp-content/uploads/2015/08/800px-Citizen_Space_San_Francisco_CA.jpg" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2015/08/800px-Citizen_Space_San_Francisco_CA.jpg" alt="800px-Citizen_Space,_San_Francisco,_CA"></a> 位于旧金山的CitizenSpace，图片来源：维基百科</p>
-<ul>
-<li>欧洲：伦敦不仅联合办公空间多，而且发展出针对不同需求的多样化细分领域空间；</li>
-</ul>
-<p><a href="http://citiesheart.com/wp-content/uploads/2015/08/Screen-Shot-2015-08-17-at-11.12.12-PM.png" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2015/08/Screen-Shot-2015-08-17-at-11.12.12-PM.png" alt="Screen Shot 2015-08-17 at 11.12.12 PM"></a> 伦敦Secondhome联合办公空间，图片来源：网络</p>
-<ul>
-<li>中国：台湾从2011年起成立了多加联合办公空间，多以社群营造为核心；</li>
-<li>中国：北京科技寺、SOHO3Q；上海联合创业办公社；广州一起开工社区等联合办公空间出现。</li>
-</ul>
-<h4 id="第四个问题：上海的联合办公空间到底啥样？"><a href="#第四个问题：上海的联合办公空间到底啥样？" class="headerlink" title="第四个问题：上海的联合办公空间到底啥样？"></a>第四个问题：上海的联合办公空间到底啥样？</h4><p><strong>INNOSPACE:</strong> 地址：创智天地 定位：早期互联网创业项目孵化平台 本质：联合办公空间+孵化器 运营者：瑞安地产 空间模式：开放式的办公空间和独立的隔间兼有 盈利模式：开放办公空间700-900元/工位•月，独立隔间3元/平米•天 看到的企业：简书、游友移动等 <a href="http://citiesheart.com/wp-content/uploads/2015/08/上海INNOSPACE.png" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2015/08/%E4%B8%8A%E6%B5%B7INNOSPACE.png" alt="上海INNOSPACE"></a> <a href="http://citiesheart.com/wp-content/uploads/2015/08/上海INNOSPACE2.png" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2015/08/%E4%B8%8A%E6%B5%B7INNOSPACE2.png" alt="上海INNOSPACE2"></a> <strong>桔子空间：</strong> 地址：江湾体育场环廊（三家分店之一） 定位：创业孵化空间 本质：联合办公空间+孵化器 运营者：IT桔子 空间模式：开放式办公空间 盈利模式：800元/工位•月(返200元咖啡券)，3500元/桌•月 <a href="http://citiesheart.com/wp-content/uploads/2015/08/上海IT桔子空间1.png" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2015/08/%E4%B8%8A%E6%B5%B7IT%E6%A1%94%E5%AD%90%E7%A9%BA%E9%97%B41.png" alt="上海IT桔子空间1"></a> <a href="http://citiesheart.com/wp-content/uploads/2015/08/上海IT桔子空间2.png" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2015/08/%E4%B8%8A%E6%B5%B7IT%E6%A1%94%E5%AD%90%E7%A9%BA%E9%97%B42.png" alt="上海IT桔子空间2"></a> <strong>创新工场：</strong> 地址：国定路200号（上海分店） 运营者：创新工场 定位：创业孵化平台 本质：孵化器 空间模式：开放式办公空间 盈利模式：项目入股（主要是种子轮、天使轮和A轮，B轮跟投） 看到的企业：人人美剧，1905互动等 <a href="http://citiesheart.com/wp-content/uploads/2015/08/上海创新工场1.png" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2015/08/%E4%B8%8A%E6%B5%B7%E5%88%9B%E6%96%B0%E5%B7%A5%E5%9C%BA1.png" alt="上海创新工场1"></a> <a href="http://citiesheart.com/wp-content/uploads/2015/08/上海创新工场2.png" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2015/08/%E4%B8%8A%E6%B5%B7%E5%88%9B%E6%96%B0%E5%B7%A5%E5%9C%BA2.png" alt="上海创新工场2"></a> <strong>联合创业办公社：</strong> 地址：愚园东路东海广场上海创客中心（十家分店之一） 运营者：联合创业办公社 定位：国内最大的联合办公空间 本质：联合办公空间 空间模式：玻璃隔断的半开放空间 盈利模式：根据房间大小地段区位各有不同，约1200/人•月 看到的企业：足迹，新车间，Pozible <a href="http://citiesheart.com/wp-content/uploads/2015/08/上海联合创业办公社1.png" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2015/08/%E4%B8%8A%E6%B5%B7%E8%81%94%E5%90%88%E5%88%9B%E4%B8%9A%E5%8A%9E%E5%85%AC%E7%A4%BE1.png" alt="上海联合创业办公社1"></a> <a href="http://citiesheart.com/wp-content/uploads/2015/08/上海联合创业办公社2.png" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2015/08/%E4%B8%8A%E6%B5%B7%E8%81%94%E5%90%88%E5%88%9B%E4%B8%9A%E5%8A%9E%E5%85%AC%E7%A4%BE2.png" alt="上海联合创业办公社2"></a></p>
-<h4 id="第五个问题：为什么越来越多的人正在远离传统办公环境？"><a href="#第五个问题：为什么越来越多的人正在远离传统办公环境？" class="headerlink" title="第五个问题：为什么越来越多的人正在远离传统办公环境？"></a><strong>第五个问题：为什么越来越多的人正在远离传统办公环境？</strong></h4><p>引用之前看到的一个制作精美的联合办公空间调查数据，我们简单翻译了一下：</p>
-<h4 id=""><a href="#" class="headerlink" title="          "></a><a href="http://citiesheart.com/wp-content/uploads/2015/08/逃离传统办公环境1.png" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2015/08/%E9%80%83%E7%A6%BB%E4%BC%A0%E7%BB%9F%E5%8A%9E%E5%85%AC%E7%8E%AF%E5%A2%831.png" alt="逃离传统办公环境1"></a> <a href="http://citiesheart.com/wp-content/uploads/2015/08/逃离传统办公环境2.png" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2015/08/%E9%80%83%E7%A6%BB%E4%BC%A0%E7%BB%9F%E5%8A%9E%E5%85%AC%E7%8E%AF%E5%A2%832.png" alt="逃离传统办公环境2"></a> <a href="http://citiesheart.com/wp-content/uploads/2015/08/逃离传统办公环境3.png" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2015/08/%E9%80%83%E7%A6%BB%E4%BC%A0%E7%BB%9F%E5%8A%9E%E5%85%AC%E7%8E%AF%E5%A2%833.png" alt="逃离传统办公环境3"></a> <a href="http://citiesheart.com/wp-content/uploads/2015/08/逃离传统办公环境4.png" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2015/08/%E9%80%83%E7%A6%BB%E4%BC%A0%E7%BB%9F%E5%8A%9E%E5%85%AC%E7%8E%AF%E5%A2%834.png" alt="逃离传统办公环境4"></a> <a href="http://citiesheart.com/wp-content/uploads/2015/08/逃离传统办公环境5.png" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2015/08/%E9%80%83%E7%A6%BB%E4%BC%A0%E7%BB%9F%E5%8A%9E%E5%85%AC%E7%8E%AF%E5%A2%835.png" alt="逃离传统办公环境5"></a> <a href="http://citiesheart.com/wp-content/uploads/2015/08/逃离传统办公环境6.png" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2015/08/%E9%80%83%E7%A6%BB%E4%BC%A0%E7%BB%9F%E5%8A%9E%E5%85%AC%E7%8E%AF%E5%A2%836.png" alt="逃离传统办公环境6"></a> <a href="http://citiesheart.com/wp-content/uploads/2015/08/逃离传统办公环境7.png" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2015/08/%E9%80%83%E7%A6%BB%E4%BC%A0%E7%BB%9F%E5%8A%9E%E5%85%AC%E7%8E%AF%E5%A2%837.png" alt="逃离传统办公环境7"></a> <a href="http://citiesheart.com/wp-content/uploads/2015/08/逃离传统办公环境8.png" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2015/08/%E9%80%83%E7%A6%BB%E4%BC%A0%E7%BB%9F%E5%8A%9E%E5%85%AC%E7%8E%AF%E5%A2%838.png" alt="逃离传统办公环境8"></a> <a href="http://citiesheart.com/wp-content/uploads/2015/08/逃离传统办公环境9.png" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2015/08/%E9%80%83%E7%A6%BB%E4%BC%A0%E7%BB%9F%E5%8A%9E%E5%85%AC%E7%8E%AF%E5%A2%839.png" alt="逃离传统办公环境9"></a> <a href="http://citiesheart.com/wp-content/uploads/2015/08/逃离传统办公环境10.png" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2015/08/%E9%80%83%E7%A6%BB%E4%BC%A0%E7%BB%9F%E5%8A%9E%E5%85%AC%E7%8E%AF%E5%A2%8310.png" alt="逃离传统办公环境10"></a> <a href="http://citiesheart.com/wp-content/uploads/2015/08/逃离传统办公环境11.png" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2015/08/%E9%80%83%E7%A6%BB%E4%BC%A0%E7%BB%9F%E5%8A%9E%E5%85%AC%E7%8E%AF%E5%A2%8311.png" alt="逃离传统办公环境11"></a></h4><h4 id="最后的问题：咱们一起思考"><a href="#最后的问题：咱们一起思考" class="headerlink" title="最后的问题：咱们一起思考~"></a>最后的问题：咱们一起思考~</h4><p><strong>联合办公空间的兴起会为建筑师规划师的转型提供机遇吗？</strong> <strong><a href="http://citiesheart.com/wp-content/uploads/2015/08/La_Maquinita_Co_-_Cowork_Argentina.jpg" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2015/08/La_Maquinita_Co_-_Cowork_Argentina.jpg" alt="La_Maquinita_Co_-_Cowork_Argentina"></a> <a href="http://citiesheart.com/wp-content/uploads/2015/08/Zonaspace-coworking-atmosphere.jpg" target="_blank" rel="noopener"></a> 未来的你会愿意选择在联合办公空间中办公吗？</strong> <img src="http://citiesheart.com/wp-content/uploads/2015/08/Zonaspace-coworking-atmosphere.jpg" alt="Zonaspace-coworking-atmosphere"> <em>本文首发于微信公众平台果说，由袁晓辉与董磊共同完成，转载请联系作者授权。</em></p>
-
       
     </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2015/08/18/coworking-space/" data-id="ck6ni9edb000yd16b3lzeaj0j" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%88%9B%E4%B8%9A/" rel="tag">创业</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%AD%B5%E5%8C%96%E5%99%A8/" rel="tag">孵化器</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E8%A7%84%E5%88%92%E8%BD%AC%E5%9E%8B/" rel="tag">规划转型</a></li></ul>
+    
+    
+    
 
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
     </footer>
   </div>
   
-</article>
+  
+  
+  </article>
 
+
+    
+  </section>
 
   
-
-
-  <nav id="page-nav">
-    
-    <a class="extend prev" rel="prev" href="/">&amp;laquo; Prev</a><a class="page-number" href="/">1</a><span class="page-number current">2</span><a class="page-number" href="/page/3/">3</a><a class="page-number" href="/page/4/">4</a><span class="space">&hellip;</span><a class="page-number" href="/page/11/">11</a><a class="extend next" rel="next" href="/page/3/">Next &amp;raquo;</a>
+  <nav class="pagination">
+    <a class="extend prev" rel="prev" href="/">&lt;i class&#x3D;&quot;fa fa-angle-left&quot;&gt;&lt;&#x2F;i&gt;</a><a class="page-number" href="/">1</a><span class="page-number current">2</span><a class="page-number" href="/page/3/">3</a><span class="space">&hellip;</span><a class="page-number" href="/page/11/">11</a><a class="extend next" rel="next" href="/page/3/">&lt;i class&#x3D;&quot;fa fa-angle-right&quot;&gt;&lt;&#x2F;i&gt;</a>
   </nav>
 
-</section>
+
+
+          </div>
+          
+
+
+          
+
+        </div>
         
-          <aside id="sidebar">
+          
   
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Categories</h3>
-    <div class="widget">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%9F%8E%E5%B8%82%E6%80%9D%E8%80%83/">城市思考</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%9F%8E%E5%B8%82%E6%80%9D%E8%80%83/%E5%AD%A6%E6%9C%AF%E4%BA%A4%E6%B5%81/">学术交流</a></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%AD%A6%E6%9C%AF%E4%BA%A4%E6%B5%81/">学术交流</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%AD%A6%E6%9C%AF%E4%BA%A4%E6%B5%81/%E6%88%90%E9%95%BF%E6%84%9F%E6%82%9F/">成长感悟</a></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%88%90%E9%95%BF%E6%84%9F%E6%82%9F/">成长感悟</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E8%AF%BB%E4%B9%A6%E5%BF%83%E5%BE%97/">读书心得</a></li></ul>
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
     </div>
   </div>
 
-
-  
+  <aside id="sidebar" class="sidebar">
     
-  <div class="widget-wrap">
-    <h3 class="widget-title">Tags</h3>
-    <div class="widget">
-      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%B8%8D%E7%A1%AE%E5%AE%9A%E6%80%A7/" rel="tag">不确定性</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%B8%93%E6%B3%A8%E5%8A%9B/" rel="tag">专注力</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%B8%AA%E4%BA%BA%E7%AE%A1%E7%90%86/" rel="tag">个人管理</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%B8%AA%E4%BA%BA%E9%80%89%E6%8B%A9/" rel="tag">个人选择</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%B8%AD%E8%A5%BF%E5%8C%BB/" rel="tag">中西医</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%BA%A4%E9%80%9A/" rel="tag">交通</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%BA%BA%E7%94%9F%E6%84%8F%E4%B9%89/" rel="tag">人生意义</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%BB%B7%E5%80%BC%E8%A7%82/" rel="tag">价值观</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%BC%81%E4%B8%9A%E5%AE%B6/" rel="tag">企业家</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%BC%81%E4%B8%9A%E8%BF%90%E8%90%A5/" rel="tag">企业运营</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%BC%97%E5%88%9B%E7%A9%BA%E9%97%B4/" rel="tag">众创空间</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%BC%A0%E7%BB%9F%E6%96%87%E5%8C%96/" rel="tag">传统文化</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%81%A5%E5%BA%B7/" rel="tag">健康</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%85%AC%E7%9B%8A%E5%88%9B%E4%B8%9A/" rel="tag">公益创业</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%85%BB%E8%80%81%E8%A7%84%E5%88%92/" rel="tag">养老规划</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%88%9B%E4%B8%9A/" rel="tag">创业</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%88%9B%E6%96%B0/" rel="tag">创新</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%88%B6%E5%BA%A6%E5%88%9B%E6%96%B0/" rel="tag">制度创新</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%8D%9A%E5%A3%AB%E8%AE%BA%E6%96%87/" rel="tag">博士论文</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%90%88%E4%BD%9C/" rel="tag">合作</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%9B%9E%E5%BF%86/" rel="tag">回忆</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%9F%8E%E5%B8%82%E4%BA%BA/" rel="tag">城市人</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%9F%8E%E5%B8%82%E7%94%9F%E6%B4%BB/" rel="tag">城市生活</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%9F%8E%E5%B8%82%E7%A0%94%E7%A9%B6/" rel="tag">城市研究</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE/" rel="tag">大数据</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%AD%B5%E5%8C%96%E5%99%A8/" rel="tag">孵化器</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%AE%9A%E9%87%8F%E7%A0%94%E7%A9%B6/" rel="tag">定量研究</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%B7%A5%E5%85%B7/" rel="tag">工具</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%8B%96%E5%BB%B6%E7%97%87/" rel="tag">拖延症</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/" rel="tag">数据分析</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%96%87%E7%8C%AE%E6%A3%80%E7%B4%A2/" rel="tag">文献检索</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%96%B9%E6%B3%95%E8%AE%BA/" rel="tag">方法论</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%97%B6%E7%A9%BA%E8%A7%82/" rel="tag">时空观</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%9C%89%E6%84%8F%E6%80%9D/" rel="tag">有意思</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%9C%AA%E6%9D%A5/" rel="tag">未来</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%A2%A6%E6%83%B3/" rel="tag">梦想</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%AF%95%E4%B8%9A/" rel="tag">毕业</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%86%B5/" rel="tag">熵</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%8B%AC%E8%A7%92%E5%85%BD/" rel="tag">独角兽</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%94%B5%E5%95%86%E7%89%A9%E6%B5%81/" rel="tag">电商物流</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%9F%A5%E8%AF%86%E5%9F%8E%E5%B8%82/" rel="tag">知识城市</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86/" rel="tag">知识管理</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%A4%BE%E4%BC%9A%E7%89%A9%E7%90%86/" rel="tag">社会物理</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%A4%BE%E4%BC%9A%E7%89%A9%E7%90%86%E5%AD%A6/" rel="tag">社会物理学</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%A4%BE%E4%BC%9A%E7%BB%93%E6%9E%84/" rel="tag">社会结构</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%A7%91%E5%AD%A6%E5%9F%8E/" rel="tag">科学城</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%A7%91%E5%B9%BB/" rel="tag">科幻</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%A7%91%E6%8A%80%E5%9F%8E/" rel="tag">科技城</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%A9%BA%E9%97%B4%E7%94%9F%E4%BA%A7/" rel="tag">空间生产</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%BC%96%E7%A8%8B/" rel="tag">编程</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%99%9A%E6%8B%9F%E7%8E%B0%E5%AE%9E/" rel="tag">虚拟现实</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%A7%84%E5%88%92%E5%B8%88/" rel="tag">规划师</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%A7%84%E5%88%92%E7%90%86%E8%AE%BA/" rel="tag">规划理论</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%A7%84%E5%88%92%E8%BD%AC%E5%9E%8B/" rel="tag">规划转型</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%B4%B9%E6%9B%BC/" rel="tag">费曼</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%B5%84%E6%9C%AC%E9%80%BB%E8%BE%91/" rel="tag">资本逻辑</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%9F%B3%E4%B9%90/" rel="tag">音乐</a></li></ul>
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">Xiaohui Yuan</p>
+              <p class="site-description motion-element" itemprop="description"></p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/%20%7C%7C%20archive">
+              
+                  <span class="site-state-item-count">104</span>
+                  <span class="site-state-item-name">posts</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                
+                  <span class="site-state-item-count">6</span>
+                  <span class="site-state-item-name">categories</span>
+                
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                
+                  <span class="site-state-item-count">57</span>
+                  <span class="site-state-item-name">tags</span>
+                
+              </div>
+            
+
+          </nav>
+
+          
+
+          
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+
+      
+
     </div>
-  </div>
+  </aside>
 
 
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Tag Cloud</h3>
-    <div class="widget tagcloud">
-      <a href="/tags/%E4%B8%8D%E7%A1%AE%E5%AE%9A%E6%80%A7/" style="font-size: 15.38px;">不确定性</a> <a href="/tags/%E4%B8%93%E6%B3%A8%E5%8A%9B/" style="font-size: 13.08px;">专注力</a> <a href="/tags/%E4%B8%AA%E4%BA%BA%E7%AE%A1%E7%90%86/" style="font-size: 18.46px;">个人管理</a> <a href="/tags/%E4%B8%AA%E4%BA%BA%E9%80%89%E6%8B%A9/" style="font-size: 19.23px;">个人选择</a> <a href="/tags/%E4%B8%AD%E8%A5%BF%E5%8C%BB/" style="font-size: 10.77px;">中西医</a> <a href="/tags/%E4%BA%A4%E9%80%9A/" style="font-size: 11.54px;">交通</a> <a href="/tags/%E4%BA%BA%E7%94%9F%E6%84%8F%E4%B9%89/" style="font-size: 16.92px;">人生意义</a> <a href="/tags/%E4%BB%B7%E5%80%BC%E8%A7%82/" style="font-size: 15.38px;">价值观</a> <a href="/tags/%E4%BC%81%E4%B8%9A%E5%AE%B6/" style="font-size: 12.31px;">企业家</a> <a href="/tags/%E4%BC%81%E4%B8%9A%E8%BF%90%E8%90%A5/" style="font-size: 12.31px;">企业运营</a> <a href="/tags/%E4%BC%97%E5%88%9B%E7%A9%BA%E9%97%B4/" style="font-size: 10px;">众创空间</a> <a href="/tags/%E4%BC%A0%E7%BB%9F%E6%96%87%E5%8C%96/" style="font-size: 11.54px;">传统文化</a> <a href="/tags/%E5%81%A5%E5%BA%B7/" style="font-size: 10.77px;">健康</a> <a href="/tags/%E5%85%AC%E7%9B%8A%E5%88%9B%E4%B8%9A/" style="font-size: 10px;">公益创业</a> <a href="/tags/%E5%85%BB%E8%80%81%E8%A7%84%E5%88%92/" style="font-size: 10px;">养老规划</a> <a href="/tags/%E5%88%9B%E4%B8%9A/" style="font-size: 16.15px;">创业</a> <a href="/tags/%E5%88%9B%E6%96%B0/" style="font-size: 18.46px;">创新</a> <a href="/tags/%E5%88%B6%E5%BA%A6%E5%88%9B%E6%96%B0/" style="font-size: 10px;">制度创新</a> <a href="/tags/%E5%8D%9A%E5%A3%AB%E8%AE%BA%E6%96%87/" style="font-size: 15.38px;">博士论文</a> <a href="/tags/%E5%90%88%E4%BD%9C/" style="font-size: 10px;">合作</a> <a href="/tags/%E5%9B%9E%E5%BF%86/" style="font-size: 13.85px;">回忆</a> <a href="/tags/%E5%9F%8E%E5%B8%82%E4%BA%BA/" style="font-size: 10px;">城市人</a> <a href="/tags/%E5%9F%8E%E5%B8%82%E7%94%9F%E6%B4%BB/" style="font-size: 11.54px;">城市生活</a> <a href="/tags/%E5%9F%8E%E5%B8%82%E7%A0%94%E7%A9%B6/" style="font-size: 20px;">城市研究</a> <a href="/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE/" style="font-size: 14.62px;">大数据</a> <a href="/tags/%E5%AD%B5%E5%8C%96%E5%99%A8/" style="font-size: 11.54px;">孵化器</a> <a href="/tags/%E5%AE%9A%E9%87%8F%E7%A0%94%E7%A9%B6/" style="font-size: 14.62px;">定量研究</a> <a href="/tags/%E5%B7%A5%E5%85%B7/" style="font-size: 10px;">工具</a> <a href="/tags/%E6%8B%96%E5%BB%B6%E7%97%87/" style="font-size: 10.77px;">拖延症</a> <a href="/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/" style="font-size: 11.54px;">数据分析</a> <a href="/tags/%E6%96%87%E7%8C%AE%E6%A3%80%E7%B4%A2/" style="font-size: 10px;">文献检索</a> <a href="/tags/%E6%96%B9%E6%B3%95%E8%AE%BA/" style="font-size: 17.69px;">方法论</a> <a href="/tags/%E6%97%B6%E7%A9%BA%E8%A7%82/" style="font-size: 10.77px;">时空观</a> <a href="/tags/%E6%9C%89%E6%84%8F%E6%80%9D/" style="font-size: 10.77px;">有意思</a> <a href="/tags/%E6%9C%AA%E6%9D%A5/" style="font-size: 16.92px;">未来</a> <a href="/tags/%E6%A2%A6%E6%83%B3/" style="font-size: 13.08px;">梦想</a> <a href="/tags/%E6%AF%95%E4%B8%9A/" style="font-size: 10px;">毕业</a> <a href="/tags/%E7%86%B5/" style="font-size: 10.77px;">熵</a> <a href="/tags/%E7%8B%AC%E8%A7%92%E5%85%BD/" style="font-size: 11.54px;">独角兽</a> <a href="/tags/%E7%94%B5%E5%95%86%E7%89%A9%E6%B5%81/" style="font-size: 10px;">电商物流</a> <a href="/tags/%E7%9F%A5%E8%AF%86%E5%9F%8E%E5%B8%82/" style="font-size: 11.54px;">知识城市</a> <a href="/tags/%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86/" style="font-size: 10.77px;">知识管理</a> <a href="/tags/%E7%A4%BE%E4%BC%9A%E7%89%A9%E7%90%86/" style="font-size: 10px;">社会物理</a> <a href="/tags/%E7%A4%BE%E4%BC%9A%E7%89%A9%E7%90%86%E5%AD%A6/" style="font-size: 11.54px;">社会物理学</a> <a href="/tags/%E7%A4%BE%E4%BC%9A%E7%BB%93%E6%9E%84/" style="font-size: 10px;">社会结构</a> <a href="/tags/%E7%A7%91%E5%AD%A6%E5%9F%8E/" style="font-size: 10px;">科学城</a> <a href="/tags/%E7%A7%91%E5%B9%BB/" style="font-size: 10px;">科幻</a> <a href="/tags/%E7%A7%91%E6%8A%80%E5%9F%8E/" style="font-size: 13.08px;">科技城</a> <a href="/tags/%E7%A9%BA%E9%97%B4%E7%94%9F%E4%BA%A7/" style="font-size: 10px;">空间生产</a> <a href="/tags/%E7%BC%96%E7%A8%8B/" style="font-size: 10px;">编程</a> <a href="/tags/%E8%99%9A%E6%8B%9F%E7%8E%B0%E5%AE%9E/" style="font-size: 10px;">虚拟现实</a> <a href="/tags/%E8%A7%84%E5%88%92%E5%B8%88/" style="font-size: 13.08px;">规划师</a> <a href="/tags/%E8%A7%84%E5%88%92%E7%90%86%E8%AE%BA/" style="font-size: 14.62px;">规划理论</a> <a href="/tags/%E8%A7%84%E5%88%92%E8%BD%AC%E5%9E%8B/" style="font-size: 13.08px;">规划转型</a> <a href="/tags/%E8%B4%B9%E6%9B%BC/" style="font-size: 10.77px;">费曼</a> <a href="/tags/%E8%B5%84%E6%9C%AC%E9%80%BB%E8%BE%91/" style="font-size: 11.54px;">资本逻辑</a> <a href="/tags/%E9%9F%B3%E4%B9%90/" style="font-size: 10px;">音乐</a>
-    </div>
-  </div>
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/02/">February 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/07/">July 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/06/">June 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/05/">May 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/04/">April 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/03/">March 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/01/">January 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/12/">December 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/11/">November 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/09/">September 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/08/">August 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/04/">April 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/02/">February 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/01/">January 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/12/">December 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/11/">November 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/10/">October 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/09/">September 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/08/">August 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/07/">July 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/06/">June 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/05/">May 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/04/">April 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/03/">March 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/01/">January 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/12/">December 2013</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/10/">October 2013</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/09/">September 2013</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/08/">August 2013</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/07/">July 2013</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/06/">June 2013</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/05/">May 2013</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/04/">April 2013</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/03/">March 2013</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/02/">February 2013</a></li></ul>
-    </div>
-  </div>
-
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
-    <div class="widget">
-      <ul>
-        
-          <li>
-            <a href="/2018/02/08/science-cities-in-beijing/">北京三大科学城发展策略</a>
-          </li>
-        
-          <li>
-            <a href="/2018/02/08/global-innovation-city/">全球创新中心城市发展水平比较</a>
-          </li>
-        
-          <li>
-            <a href="/2018/02/08/global-science-city/">全球科学城的类型、特征与发展趋势</a>
-          </li>
-        
-          <li>
-            <a href="/2016/07/04/founders-of-top-50-unicorns/">全球估值Top50独角兽创始人画像</a>
-          </li>
-        
-          <li>
-            <a href="/2016/06/20/cities-and-unicorn/">哪些城市孕育了独角兽？</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-
-  
-</aside>
         
       </div>
-      <footer id="footer">
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Xiaohui Yuan</span>
+
   
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      &copy; 2020 John Doe<br>
-      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
-    </div>
-  </div>
-</footer>
-    </div>
-    <nav id="mobile-nav">
-  
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-</nav>
+</div>
+
+
+  <div class="powered-by">Powered by <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a></div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Pisces</a> v5.1.4</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
     
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-
-
-  
-<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
-
-  
-<script src="/fancybox/jquery.fancybox.pack.js"></script>
-
-
-
-
-<script src="/js/script.js"></script>
-
-
-
+    
 
   </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
+
+  
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
 </body>
 </html>

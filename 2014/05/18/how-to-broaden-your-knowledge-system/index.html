@@ -1,17 +1,89 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  
+
+
 
   
-  <title>果说|如何拓展个人的可用知识体系？ | Hexo</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="信息爆炸时代，随处可见的信息充斥整个网络，我们每天都在获取大量信息，可能都已超过有限注意力可承载的能力。很多信息我们阅后即忘，再也没有机会用到；也有些我们记录下来，希望在未来某一天能用上。在知识管理（Knowledge Management）理论中，数据、信息、知识和智慧处于知识管理金字塔的不同层级，信息只有通过实践应用，才能转化为知识，知识经过多次实践检验，才能转化为智慧。网络的触手可及拓展了">
+
+
+<html class="theme-next pisces use-motion" lang="en">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="个人管理,知识管理," />
+
+
+
+
+
+
+
+
+
+
+<meta name="description" content="信息爆炸时代，随处可见的信息充斥整个网络，我们每天都在获取大量信息，可能都已超过有限注意力可承载的能力。很多信息我们阅后即忘，再也没有机会用到；也有些我们记录下来，希望在未来某一天能用上。在知识管理（Knowledge Management）理论中，数据、信息、知识和智慧处于知识管理金字塔的不同层级，信息只有通过实践应用，才能转化为知识，知识经过多次实践检验，才能转化为智慧。网络的触手可及拓展了">
 <meta property="og:type" content="article">
 <meta property="og:title" content="果说|如何拓展个人的可用知识体系？">
-<meta property="og:url" content="http://yoursite.com/2014/05/18/how-to-broaden-your-knowledge-system/index.html">
-<meta property="og:site_name" content="Hexo">
+<meta property="og:url" content="https://citiesheart.com/2014/05/18/how-to-broaden-your-knowledge-system/index.html">
+<meta property="og:site_name" content="城市的心弦">
 <meta property="og:description" content="信息爆炸时代，随处可见的信息充斥整个网络，我们每天都在获取大量信息，可能都已超过有限注意力可承载的能力。很多信息我们阅后即忘，再也没有机会用到；也有些我们记录下来，希望在未来某一天能用上。在知识管理（Knowledge Management）理论中，数据、信息、知识和智慧处于知识管理金字塔的不同层级，信息只有通过实践应用，才能转化为知识，知识经过多次实践检验，才能转化为智慧。网络的触手可及拓展了">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="http://citiesheart.com/wp-content/uploads/2014/05/knowledge-management-1024x605.jpg">
@@ -19,234 +91,605 @@
 <meta property="og:image" content="http://citiesheart.com/wp-content/uploads/2014/05/guoshuo.jpg">
 <meta property="article:published_time" content="2014-05-18T09:04:36.000Z">
 <meta property="article:modified_time" content="2020-02-15T10:11:21.877Z">
-<meta property="article:author" content="John Doe">
+<meta property="article:author" content="Xiaohui Yuan">
 <meta property="article:tag" content="个人管理">
 <meta property="article:tag" content="知识管理">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="http://citiesheart.com/wp-content/uploads/2014/05/knowledge-management-1024x605.jpg">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: 'Author'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="https://citiesheart.com/2014/05/18/how-to-broaden-your-knowledge-system/"/>
+
+
+
+
+
+  <title>果说|如何拓展个人的可用知识体系？ | 城市的心弦</title>
   
-    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
-  
-  
-    <link rel="icon" href="/favicon.png">
-  
-  
-    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  
-  
-<link rel="stylesheet" href="/css/style.css">
+
+
+
+
+
+
+
 
 <meta name="generator" content="Hexo 4.2.0"></head>
 
-<body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">Hexo</a>
-      </h1>
+<body itemscope itemtype="http://schema.org/WebPage" lang="en">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">城市的心弦</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
       
-    </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"></a>
-        
-          <a class="main-nav-link" href="/">Home</a>
-        
-          <a class="main-nav-link" href="/archives">Archives</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
-        
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
-      </div>
-    </div>
-  </div>
-</header>
-      <div class="outer">
-        <section id="main"><article id="post-how-to-broaden-your-knowledge-system" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2014/05/18/how-to-broaden-your-knowledge-system/" class="article-date">
-  <time datetime="2014-05-18T09:04:36.000Z" itemprop="datePublished">2014-05-18</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%E6%88%90%E9%95%BF%E6%84%9F%E6%82%9F/">成长感悟</a>
+        <p class="site-subtitle"></p>
+      
   </div>
 
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
   </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 class="article-title" itemprop="name">
-      果说|如何拓展个人的可用知识体系？
-    </h1>
+</div>
+
+<nav class="site-nav">
   
 
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/%20" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            Home
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/%20" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            Archives
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://citiesheart.com/2014/05/18/how-to-broaden-your-knowledge-system/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Xiaohui Yuan">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="城市的心弦">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">果说|如何拓展个人的可用知识体系？</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2014-05-18T17:04:36+08:00">
+                2014-05-18
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E6%88%90%E9%95%BF%E6%84%9F%E6%82%9F/" itemprop="url" rel="index">
+                    <span itemprop="name">成长感悟</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
       </header>
     
-    <div class="article-entry" itemprop="articleBody">
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
       
         <p><a href="http://citiesheart.com/wp-content/uploads/2014/05/knowledge-management.jpg" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2014/05/knowledge-management-1024x605.jpg" alt="knowledge management"></a> 信息爆炸时代，随处可见的信息充斥整个网络，我们每天都在获取大量信息，可能都已超过有限注意力可承载的能力。很多信息我们阅后即忘，再也没有机会用到；也有些我们记录下来，希望在未来某一天能用上。<strong>在知识管理（Knowledge Management）理论中，数据、信息、知识和智慧处于知识管理金字塔的不同层级，信息只有通过实践应用，才能转化为知识，知识经过多次实践检验，才能转化为智慧。</strong>网络的触手可及拓展了我们对数据和信息的接触边界和规模，但遗憾的是，我们的知识体系似乎更加碎片化了。越来越多的人成为什么都知道一点的杂家，而无法将接触到的信息应用到实际问题的处理中，也就是我们的知识体系并没有扩大，下一个实际问题出现时，我们应用知识处理问题的能力依然原地踏步。这种情况该如何应对？<strong>我们该如何持续拓展自己可用的知识体系？</strong> 严格来讲，学校教育教给我们的是先积累后应用的知识体系拓展路径。在外界信息源刺激下，我们按照信息输入、知识梳理、知识准备、实践应用、知识累积的顺序，从一大堆信息储备中，挑出能用的知识，辅助实践的开展。这条路径在知识积累初期十分必要，因为那时我们尚未形成自己认知世界和理解世界的方法体系，只能在记忆和吸收的基础上，进行反思和实践。而在成长后期，当我们具备了一定认知和判断能力，也需要在大量实践的开展中应用知识时，就出现了另一条更为有效的获取知识的路径，即在实践需要的激励下，开始已有知识梳理、实践应用、知识补充、再次实践引用、完成知识积累。这是一条从实践出发，由知识和实践的多次交互形成的知识拓展路线。对比前一种，目的性更强，而且由于有了实践的驱动和快速检验，知识反馈和获取的周期更短，也更利于新知识与原有知识更紧密地结合。 <a href="http://citiesheart.com/wp-content/uploads/2014/05/two-paths-of-knowledge-accumulation.jpg" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2014/05/two-paths-of-knowledge-accumulation-1024x269.jpg" alt="two paths of knowledge accumulation"></a>    概括来说，两种路径，<strong>一种是先积累后应用，另一种是先应用后积累，前一种需要积累时的反思和筛选，后一种需要应用时的判断和检验。</strong>可以看出，有效的知识积累过程，并不是知识堆积的过程，而是需要突出我们自身的主体作用，运用自己的思考与判断，去筛选和检验知识的可靠性和可实践性。这本身也是让我们自身的“元知识”不断进行实践的过程。我理解的<strong>元知识是我们在长期学习和实践中不断形成的思考问题和解决问题的方法框架</strong>，是教我们如何获取知识的知识，教我们如何在很多选择面前做出判断的知识，简单来说，就是我们的方法论。可能有些朋友感觉自己没什么方法论，做事时就是按部就班，跟着感觉走，没有抽象的原则指导。实际上，不管是否已经意识到或总结出来，我们每个人都有自己思考问题的框架，在遇到问题时，大都遵循特定的思考过程和行为逻辑。如果能够通过反思，将其明确地提炼和总结出来，在下一次实践中有意识地观察自己是如何应用的，那么我们就可以对比实践结果，去修正和改进元知识。在实践中循环往复，不断自我纠偏，这些元知识会越来越清晰明确，帮我们更加“正确地”做事。 在知识管理中我们可以用到怎样的元知识？我刚总结了三个词，是我目前想到的框架，也会在之后的实践中验证或修正：<strong>反思、关联、实践</strong>。对应三个问题<strong>ask Why，explain What，explore How</strong>。 <strong>反思（ask Why）：反思知识的可靠性，反思自己需要这条知识的动机；</strong> <strong>关联（explain What）：界定知识，尽可能找到与已有知识体系的关联；</strong> <strong>实践（explore How）：思考如何在实践中应用并创造实践机会进行检验。</strong> 来看看如何将其运用于前文提到的两条知识获取路径中。 <strong>第一条路径：信息-**</strong>知识-<strong><strong>实践-</strong></strong>知识** （1）<strong>反思（ask Why）</strong>：我为什么需要这条知识，我为什么会对这条知识感兴趣？是长期以来的困惑，还是受外界引导产生兴趣？这条知识跟我有什么关系？它在多大程度上可靠？ （2）<strong>关联（explain What）</strong>：这条知识的确切含义是什么？跟我已有知识体系的关联是什么？可以放在个人已有知识体系的什么位置？ （3）<strong>实践（explore How）</strong>：这条知识在未来有可能在哪里用到，会对实践产生怎样的影响？ <strong>第二条路径：实践-**</strong>信息-<strong><strong>实践-</strong></strong>知识-<strong>**实践</strong> （1）<strong>反思（ask why）</strong>：为什么我需要寻找特定类型的知识，对于解决我当前遇到的实践问题有什么帮助？为什么原有知识体系不足以支撑实践？ （2）<strong>关联（explain what）</strong>：我还需要什么类型的知识？它们与原有知识体系如何关联？它们与新的实践如何关联？ （3）<strong>实践（explore how）</strong>：该如何运用新知识与旧知识的组合来解决实践中的问题？ 在知识管理中，有了<strong>在元知识指导下的反思追问、关联梳理和消化吸收</strong>，我们的知识体系可能会从原先分散的面状云团或散点，转变成为围绕一个核心的相互关联的知识树。有了元知识作为主干支撑，我们拓展可用知识体系的尝试，可能会更加有序而高效。 试试看，概括下自己认可的元知识框架？ 有句话，<strong>实践比知识重要；提问和反思比实践重要。</strong>   <em>图片来源：作者绘制，部分信息来自：</em> <em><a href="http://zh.wikipedia.org/wiki/%E7%9F%A5%E8%AF%86" target="_blank" rel="noopener">http://zh.wikipedia.org/wiki/%E7%9F%A5%E8%AF%86</a></em> <em><a href="http://blog.sciencenet.cn/blog-39263-703361.html" target="_blank" rel="noopener">http://blog.sciencenet.cn/blog-39263-703361.html</a></em> <em><strong>版权说明：</strong>文章为果说作者所有，转载请注明出处。</em> <em><strong>微信公众号：</strong>【果说】榨取知识，贩卖快乐。欢迎关注！</em> <a href="http://citiesheart.com/wp-content/uploads/2014/05/guoshuo.jpg" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2014/05/guoshuo.jpg" alt="guoshuo"></a></p>
 
       
     </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2014/05/18/how-to-broaden-your-knowledge-system/" data-id="ck6ni9ee1002zd16b99c50na7" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E4%B8%AA%E4%BA%BA%E7%AE%A1%E7%90%86/" rel="tag">个人管理</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86/" rel="tag">知识管理</a></li></ul>
+    
+    
+    
 
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/%E4%B8%AA%E4%BA%BA%E7%AE%A1%E7%90%86/" rel="tag"># 个人管理</a>
+          
+            <a href="/tags/%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86/" rel="tag"># 知识管理</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2014/05/14/implementation-evaluation-of-evernote-arrangement-plan/" rel="next" title="果说|印象笔记整理计划执行评估">
+                <i class="fa fa-chevron-left"></i> 果说|印象笔记整理计划执行评估
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2014/05/23/record-for-production-of-space-forum/" rel="prev" title="空间的生产沙龙小记">
+                空间的生产沙龙小记 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
     </footer>
   </div>
   
-    
-<nav id="article-nav">
   
-    <a href="/2014/05/23/record-for-production-of-space-forum/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Newer</strong>
-      <div class="article-nav-title">
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+
+
+
+        </div>
         
-          空间的生产沙龙小记
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">Xiaohui Yuan</p>
+              <p class="site-description motion-element" itemprop="description"></p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/%20%7C%7C%20archive">
+              
+                  <span class="site-state-item-count">104</span>
+                  <span class="site-state-item-name">posts</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                
+                  <span class="site-state-item-count">6</span>
+                  <span class="site-state-item-name">categories</span>
+                
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                
+                  <span class="site-state-item-count">57</span>
+                  <span class="site-state-item-name">tags</span>
+                
+              </div>
+            
+
+          </nav>
+
+          
+
+          
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+
+      
+
+    </div>
+  </aside>
+
+
         
       </div>
-    </a>
-  
-  
-    <a href="/2014/05/14/implementation-evaluation-of-evernote-arrangement-plan/" id="article-nav-older" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Older</strong>
-      <div class="article-nav-title">果说|印象笔记整理计划执行评估</div>
-    </a>
-  
-</nav>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Xiaohui Yuan</span>
 
   
-</article>
+</div>
 
-</section>
+
+  <div class="powered-by">Powered by <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a></div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Pisces</a> v5.1.4</div>
+
+
+
+
         
-          <aside id="sidebar">
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Categories</h3>
-    <div class="widget">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%9F%8E%E5%B8%82%E6%80%9D%E8%80%83/">城市思考</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%9F%8E%E5%B8%82%E6%80%9D%E8%80%83/%E5%AD%A6%E6%9C%AF%E4%BA%A4%E6%B5%81/">学术交流</a></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%AD%A6%E6%9C%AF%E4%BA%A4%E6%B5%81/">学术交流</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%AD%A6%E6%9C%AF%E4%BA%A4%E6%B5%81/%E6%88%90%E9%95%BF%E6%84%9F%E6%82%9F/">成长感悟</a></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%88%90%E9%95%BF%E6%84%9F%E6%82%9F/">成长感悟</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E8%AF%BB%E4%B9%A6%E5%BF%83%E5%BE%97/">读书心得</a></li></ul>
-    </div>
-  </div>
 
 
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Tags</h3>
-    <div class="widget">
-      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%B8%8D%E7%A1%AE%E5%AE%9A%E6%80%A7/" rel="tag">不确定性</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%B8%93%E6%B3%A8%E5%8A%9B/" rel="tag">专注力</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%B8%AA%E4%BA%BA%E7%AE%A1%E7%90%86/" rel="tag">个人管理</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%B8%AA%E4%BA%BA%E9%80%89%E6%8B%A9/" rel="tag">个人选择</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%B8%AD%E8%A5%BF%E5%8C%BB/" rel="tag">中西医</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%BA%A4%E9%80%9A/" rel="tag">交通</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%BA%BA%E7%94%9F%E6%84%8F%E4%B9%89/" rel="tag">人生意义</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%BB%B7%E5%80%BC%E8%A7%82/" rel="tag">价值观</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%BC%81%E4%B8%9A%E5%AE%B6/" rel="tag">企业家</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%BC%81%E4%B8%9A%E8%BF%90%E8%90%A5/" rel="tag">企业运营</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%BC%97%E5%88%9B%E7%A9%BA%E9%97%B4/" rel="tag">众创空间</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%BC%A0%E7%BB%9F%E6%96%87%E5%8C%96/" rel="tag">传统文化</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%81%A5%E5%BA%B7/" rel="tag">健康</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%85%AC%E7%9B%8A%E5%88%9B%E4%B8%9A/" rel="tag">公益创业</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%85%BB%E8%80%81%E8%A7%84%E5%88%92/" rel="tag">养老规划</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%88%9B%E4%B8%9A/" rel="tag">创业</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%88%9B%E6%96%B0/" rel="tag">创新</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%88%B6%E5%BA%A6%E5%88%9B%E6%96%B0/" rel="tag">制度创新</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%8D%9A%E5%A3%AB%E8%AE%BA%E6%96%87/" rel="tag">博士论文</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%90%88%E4%BD%9C/" rel="tag">合作</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%9B%9E%E5%BF%86/" rel="tag">回忆</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%9F%8E%E5%B8%82%E4%BA%BA/" rel="tag">城市人</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%9F%8E%E5%B8%82%E7%94%9F%E6%B4%BB/" rel="tag">城市生活</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%9F%8E%E5%B8%82%E7%A0%94%E7%A9%B6/" rel="tag">城市研究</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE/" rel="tag">大数据</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%AD%B5%E5%8C%96%E5%99%A8/" rel="tag">孵化器</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%AE%9A%E9%87%8F%E7%A0%94%E7%A9%B6/" rel="tag">定量研究</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%B7%A5%E5%85%B7/" rel="tag">工具</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%8B%96%E5%BB%B6%E7%97%87/" rel="tag">拖延症</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/" rel="tag">数据分析</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%96%87%E7%8C%AE%E6%A3%80%E7%B4%A2/" rel="tag">文献检索</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%96%B9%E6%B3%95%E8%AE%BA/" rel="tag">方法论</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%97%B6%E7%A9%BA%E8%A7%82/" rel="tag">时空观</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%9C%89%E6%84%8F%E6%80%9D/" rel="tag">有意思</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%9C%AA%E6%9D%A5/" rel="tag">未来</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%A2%A6%E6%83%B3/" rel="tag">梦想</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%AF%95%E4%B8%9A/" rel="tag">毕业</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%86%B5/" rel="tag">熵</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%8B%AC%E8%A7%92%E5%85%BD/" rel="tag">独角兽</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%94%B5%E5%95%86%E7%89%A9%E6%B5%81/" rel="tag">电商物流</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%9F%A5%E8%AF%86%E5%9F%8E%E5%B8%82/" rel="tag">知识城市</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86/" rel="tag">知识管理</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%A4%BE%E4%BC%9A%E7%89%A9%E7%90%86/" rel="tag">社会物理</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%A4%BE%E4%BC%9A%E7%89%A9%E7%90%86%E5%AD%A6/" rel="tag">社会物理学</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%A4%BE%E4%BC%9A%E7%BB%93%E6%9E%84/" rel="tag">社会结构</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%A7%91%E5%AD%A6%E5%9F%8E/" rel="tag">科学城</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%A7%91%E5%B9%BB/" rel="tag">科幻</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%A7%91%E6%8A%80%E5%9F%8E/" rel="tag">科技城</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%A9%BA%E9%97%B4%E7%94%9F%E4%BA%A7/" rel="tag">空间生产</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%BC%96%E7%A8%8B/" rel="tag">编程</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%99%9A%E6%8B%9F%E7%8E%B0%E5%AE%9E/" rel="tag">虚拟现实</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%A7%84%E5%88%92%E5%B8%88/" rel="tag">规划师</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%A7%84%E5%88%92%E7%90%86%E8%AE%BA/" rel="tag">规划理论</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%A7%84%E5%88%92%E8%BD%AC%E5%9E%8B/" rel="tag">规划转型</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%B4%B9%E6%9B%BC/" rel="tag">费曼</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%B5%84%E6%9C%AC%E9%80%BB%E8%BE%91/" rel="tag">资本逻辑</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%9F%B3%E4%B9%90/" rel="tag">音乐</a></li></ul>
-    </div>
-  </div>
 
 
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Tag Cloud</h3>
-    <div class="widget tagcloud">
-      <a href="/tags/%E4%B8%8D%E7%A1%AE%E5%AE%9A%E6%80%A7/" style="font-size: 15.38px;">不确定性</a> <a href="/tags/%E4%B8%93%E6%B3%A8%E5%8A%9B/" style="font-size: 13.08px;">专注力</a> <a href="/tags/%E4%B8%AA%E4%BA%BA%E7%AE%A1%E7%90%86/" style="font-size: 18.46px;">个人管理</a> <a href="/tags/%E4%B8%AA%E4%BA%BA%E9%80%89%E6%8B%A9/" style="font-size: 19.23px;">个人选择</a> <a href="/tags/%E4%B8%AD%E8%A5%BF%E5%8C%BB/" style="font-size: 10.77px;">中西医</a> <a href="/tags/%E4%BA%A4%E9%80%9A/" style="font-size: 11.54px;">交通</a> <a href="/tags/%E4%BA%BA%E7%94%9F%E6%84%8F%E4%B9%89/" style="font-size: 16.92px;">人生意义</a> <a href="/tags/%E4%BB%B7%E5%80%BC%E8%A7%82/" style="font-size: 15.38px;">价值观</a> <a href="/tags/%E4%BC%81%E4%B8%9A%E5%AE%B6/" style="font-size: 12.31px;">企业家</a> <a href="/tags/%E4%BC%81%E4%B8%9A%E8%BF%90%E8%90%A5/" style="font-size: 12.31px;">企业运营</a> <a href="/tags/%E4%BC%97%E5%88%9B%E7%A9%BA%E9%97%B4/" style="font-size: 10px;">众创空间</a> <a href="/tags/%E4%BC%A0%E7%BB%9F%E6%96%87%E5%8C%96/" style="font-size: 11.54px;">传统文化</a> <a href="/tags/%E5%81%A5%E5%BA%B7/" style="font-size: 10.77px;">健康</a> <a href="/tags/%E5%85%AC%E7%9B%8A%E5%88%9B%E4%B8%9A/" style="font-size: 10px;">公益创业</a> <a href="/tags/%E5%85%BB%E8%80%81%E8%A7%84%E5%88%92/" style="font-size: 10px;">养老规划</a> <a href="/tags/%E5%88%9B%E4%B8%9A/" style="font-size: 16.15px;">创业</a> <a href="/tags/%E5%88%9B%E6%96%B0/" style="font-size: 18.46px;">创新</a> <a href="/tags/%E5%88%B6%E5%BA%A6%E5%88%9B%E6%96%B0/" style="font-size: 10px;">制度创新</a> <a href="/tags/%E5%8D%9A%E5%A3%AB%E8%AE%BA%E6%96%87/" style="font-size: 15.38px;">博士论文</a> <a href="/tags/%E5%90%88%E4%BD%9C/" style="font-size: 10px;">合作</a> <a href="/tags/%E5%9B%9E%E5%BF%86/" style="font-size: 13.85px;">回忆</a> <a href="/tags/%E5%9F%8E%E5%B8%82%E4%BA%BA/" style="font-size: 10px;">城市人</a> <a href="/tags/%E5%9F%8E%E5%B8%82%E7%94%9F%E6%B4%BB/" style="font-size: 11.54px;">城市生活</a> <a href="/tags/%E5%9F%8E%E5%B8%82%E7%A0%94%E7%A9%B6/" style="font-size: 20px;">城市研究</a> <a href="/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE/" style="font-size: 14.62px;">大数据</a> <a href="/tags/%E5%AD%B5%E5%8C%96%E5%99%A8/" style="font-size: 11.54px;">孵化器</a> <a href="/tags/%E5%AE%9A%E9%87%8F%E7%A0%94%E7%A9%B6/" style="font-size: 14.62px;">定量研究</a> <a href="/tags/%E5%B7%A5%E5%85%B7/" style="font-size: 10px;">工具</a> <a href="/tags/%E6%8B%96%E5%BB%B6%E7%97%87/" style="font-size: 10.77px;">拖延症</a> <a href="/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/" style="font-size: 11.54px;">数据分析</a> <a href="/tags/%E6%96%87%E7%8C%AE%E6%A3%80%E7%B4%A2/" style="font-size: 10px;">文献检索</a> <a href="/tags/%E6%96%B9%E6%B3%95%E8%AE%BA/" style="font-size: 17.69px;">方法论</a> <a href="/tags/%E6%97%B6%E7%A9%BA%E8%A7%82/" style="font-size: 10.77px;">时空观</a> <a href="/tags/%E6%9C%89%E6%84%8F%E6%80%9D/" style="font-size: 10.77px;">有意思</a> <a href="/tags/%E6%9C%AA%E6%9D%A5/" style="font-size: 16.92px;">未来</a> <a href="/tags/%E6%A2%A6%E6%83%B3/" style="font-size: 13.08px;">梦想</a> <a href="/tags/%E6%AF%95%E4%B8%9A/" style="font-size: 10px;">毕业</a> <a href="/tags/%E7%86%B5/" style="font-size: 10.77px;">熵</a> <a href="/tags/%E7%8B%AC%E8%A7%92%E5%85%BD/" style="font-size: 11.54px;">独角兽</a> <a href="/tags/%E7%94%B5%E5%95%86%E7%89%A9%E6%B5%81/" style="font-size: 10px;">电商物流</a> <a href="/tags/%E7%9F%A5%E8%AF%86%E5%9F%8E%E5%B8%82/" style="font-size: 11.54px;">知识城市</a> <a href="/tags/%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86/" style="font-size: 10.77px;">知识管理</a> <a href="/tags/%E7%A4%BE%E4%BC%9A%E7%89%A9%E7%90%86/" style="font-size: 10px;">社会物理</a> <a href="/tags/%E7%A4%BE%E4%BC%9A%E7%89%A9%E7%90%86%E5%AD%A6/" style="font-size: 11.54px;">社会物理学</a> <a href="/tags/%E7%A4%BE%E4%BC%9A%E7%BB%93%E6%9E%84/" style="font-size: 10px;">社会结构</a> <a href="/tags/%E7%A7%91%E5%AD%A6%E5%9F%8E/" style="font-size: 10px;">科学城</a> <a href="/tags/%E7%A7%91%E5%B9%BB/" style="font-size: 10px;">科幻</a> <a href="/tags/%E7%A7%91%E6%8A%80%E5%9F%8E/" style="font-size: 13.08px;">科技城</a> <a href="/tags/%E7%A9%BA%E9%97%B4%E7%94%9F%E4%BA%A7/" style="font-size: 10px;">空间生产</a> <a href="/tags/%E7%BC%96%E7%A8%8B/" style="font-size: 10px;">编程</a> <a href="/tags/%E8%99%9A%E6%8B%9F%E7%8E%B0%E5%AE%9E/" style="font-size: 10px;">虚拟现实</a> <a href="/tags/%E8%A7%84%E5%88%92%E5%B8%88/" style="font-size: 13.08px;">规划师</a> <a href="/tags/%E8%A7%84%E5%88%92%E7%90%86%E8%AE%BA/" style="font-size: 14.62px;">规划理论</a> <a href="/tags/%E8%A7%84%E5%88%92%E8%BD%AC%E5%9E%8B/" style="font-size: 13.08px;">规划转型</a> <a href="/tags/%E8%B4%B9%E6%9B%BC/" style="font-size: 10.77px;">费曼</a> <a href="/tags/%E8%B5%84%E6%9C%AC%E9%80%BB%E8%BE%91/" style="font-size: 11.54px;">资本逻辑</a> <a href="/tags/%E9%9F%B3%E4%B9%90/" style="font-size: 10px;">音乐</a>
-    </div>
-  </div>
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/02/">February 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/07/">July 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/06/">June 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/05/">May 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/04/">April 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/03/">March 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/01/">January 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/12/">December 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/11/">November 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/09/">September 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/08/">August 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/04/">April 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/02/">February 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/01/">January 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/12/">December 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/11/">November 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/10/">October 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/09/">September 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/08/">August 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/07/">July 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/06/">June 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/05/">May 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/04/">April 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/03/">March 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/01/">January 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/12/">December 2013</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/10/">October 2013</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/09/">September 2013</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/08/">August 2013</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/07/">July 2013</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/06/">June 2013</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/05/">May 2013</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/04/">April 2013</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/03/">March 2013</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/02/">February 2013</a></li></ul>
-    </div>
-  </div>
 
 
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
-    <div class="widget">
-      <ul>
-        
-          <li>
-            <a href="/2018/02/08/science-cities-in-beijing/">北京三大科学城发展策略</a>
-          </li>
-        
-          <li>
-            <a href="/2018/02/08/global-innovation-city/">全球创新中心城市发展水平比较</a>
-          </li>
-        
-          <li>
-            <a href="/2018/02/08/global-science-city/">全球科学城的类型、特征与发展趋势</a>
-          </li>
-        
-          <li>
-            <a href="/2016/07/04/founders-of-top-50-unicorns/">全球估值Top50独角兽创始人画像</a>
-          </li>
-        
-          <li>
-            <a href="/2016/06/20/cities-and-unicorn/">哪些城市孕育了独角兽？</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
 
-  
-</aside>
         
       </div>
-      <footer id="footer">
-  
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      &copy; 2020 John Doe<br>
-      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
-    </div>
-  </div>
-</footer>
-    </div>
-    <nav id="mobile-nav">
-  
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-</nav>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
     
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-
-
-  
-<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
-
-  
-<script src="/fancybox/jquery.fancybox.pack.js"></script>
-
-
-
-
-<script src="/js/script.js"></script>
-
-
-
+    
 
   </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
 </body>
 </html>

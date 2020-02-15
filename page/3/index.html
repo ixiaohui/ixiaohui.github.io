@@ -1,96 +1,502 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  
+
+
 
   
-  <title>Hexo</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/page/3/index.html">
-<meta property="og:site_name" content="Hexo">
+
+
+<html class="theme-next pisces use-motion" lang="en">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="Hexo, NexT" />
+
+
+
+
+
+
+
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="城市的心弦">
+<meta property="og:url" content="https://citiesheart.com/page/3/index.html">
+<meta property="og:site_name" content="城市的心弦">
 <meta property="og:locale" content="en_US">
-<meta property="article:author" content="John Doe">
+<meta property="article:author" content="Xiaohui Yuan">
 <meta name="twitter:card" content="summary">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: 'Author'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="https://citiesheart.com/page/3/"/>
+
+
+
+
+
+  <title>城市的心弦</title>
   
-    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
-  
-  
-    <link rel="icon" href="/favicon.png">
-  
-  
-    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  
-  
-<link rel="stylesheet" href="/css/style.css">
+
+
+
+
+
+
+
 
 <meta name="generator" content="Hexo 4.2.0"></head>
 
-<body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">Hexo</a>
-      </h1>
+<body itemscope itemtype="http://schema.org/WebPage" lang="en">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left 
+  page-home">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">城市的心弦</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
       
-    </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"></a>
-        
-          <a class="main-nav-link" href="/">Home</a>
-        
-          <a class="main-nav-link" href="/archives">Archives</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
-        
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
-      </div>
-    </div>
-  </div>
-</header>
-      <div class="outer">
-        <section id="main">
-  
-    <article id="post-when-we-grow-old" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2015/04/25/when-we-grow-old/" class="article-date">
-  <time datetime="2015-04-25T01:04:31.000Z" itemprop="datePublished">2015-04-25</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%E5%AD%A6%E6%9C%AF%E4%BA%A4%E6%B5%81/">学术交流</a>
+        <p class="site-subtitle"></p>
+      
   </div>
 
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
   </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/04/25/when-we-grow-old/">当我老了，有什么愿望？——记2015清华养老产业高端论坛</a>
-    </h1>
+</div>
+
+<nav class="site-nav">
   
 
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/%20" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            Home
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/%20" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            Archives
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+  <section id="posts" class="posts-expand">
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://citiesheart.com/2015/08/18/coworking-space/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Xiaohui Yuan">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="城市的心弦">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2015/08/18/coworking-space/" itemprop="url">联合办公：空间共享新业态</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2015-08-18T09:18:02+08:00">
+                2015-08-18
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E5%9F%8E%E5%B8%82%E6%80%9D%E8%80%83/" itemprop="url" rel="index">
+                    <span itemprop="name">城市思考</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
       </header>
     
-    <div class="article-entry" itemprop="articleBody">
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
-        <p><a href="http://citiesheart.com/wp-content/uploads/2015/04/happy-old.jpg" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2015/04/happy-old.jpg" alt="happy old"></a>老爸一直是<a href="http://www.lizhi.fm/#/23963" target="_blank" rel="noopener">果说电台</a>的忠实粉丝，基本上每期节目都会仔细听。前一阵子在我生日那天发来一条微信，说：</p>
+      
+
+      
+        
+          
+            <p><a href="http://citiesheart.com/wp-content/uploads/2015/08/DeskUnion_Coworking_Glasgow.jpg" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2015/08/DeskUnion_Coworking_Glasgow.jpg" alt="DeskUnion_Coworking_Glasgow"></a>随着共享经济日趋火爆，一种新兴的办公业态开始走进我们的视线：联合办公。地产界的一些大佬也是借此概念纷纷扛起了引领地产行业转型的大旗，踏上了探索存量空间开发利用模式的道路。当然，这种新型办公空间模式也是响应了国家倡导『大众创业，万众创新』的号召，针对日益增长的创业者弹性化的办公需求，为他们提供成本更低廉、更有针对性的空间服务。 那么问题来了：</p>
+<ul>
+<li>联合办公空间是什么？</li>
+<li>它跟孵化器、加速器有什么不同？</li>
+<li>目前国内的联合办公空间发展的状态是怎样？</li>
+<li>它会是未来办公空间发展的趋势吗？</li>
+</ul>
+<p>我们借前两天去上海调研的机会，实地考察了四家联合办公空间，对这类办公空间有了直观上的认识。回来后，我们整理了关于联合办公空间发展的资料，录成了果说电台的一期音频节目<a href="http://www.lizhi.fm/share/23963/22210366065498758" target="_blank" rel="noopener">《联合办公上海行》</a>，受到不少朋友关注。应一些朋友要求，我们今天把这期节目的主要内容整理成图文并茂的文字版，方便大家查阅。</p>
+<h4 id="第一个问题：联合办公空间是什么？"><a href="#第一个问题：联合办公空间是什么？" class="headerlink" title="第一个问题：联合办公空间是什么？"></a><strong>第一个问题：联合办公空间是什么？</strong></h4><p>联合办公空间的英文是Coworking Space，在维基百科上也被翻译为共同工作空间，引用维基百科的定义：</p>
+<blockquote>
+<p>提供共同工作的空间，也是共同工作者的社群平台。与常规办公空间的差异在于，这些共同工作者多来自不同公司或组织，大部分是SHOHO族、旅行出差者或者小型工作团队。</p>
+</blockquote>
+<p>选择在联合办公空间中工作，一方面可以共享物理上的公共空间和设施，如WiFi、会议室、咖啡休息室、打印机、传真机等；另一方面，可以在日常工作间隙与不同个体或团队的互动中，得到思想的碰撞和灵感的激发，找到可以彼此支撑共同成长的伙伴。所以，理想的联合办公空间一定不仅仅是提供办公空间的场所，更是一个社群。</p>
+<h4 id="第二个问题：联合办公空间与孵化器、加速器有什么不同？"><a href="#第二个问题：联合办公空间与孵化器、加速器有什么不同？" class="headerlink" title="第二个问题：联合办公空间与孵化器、加速器有什么不同？"></a><strong>第二个问题：联合办公空间与孵化器、加速器有什么不同？</strong></h4><p>虽然国内的很多联合办公空间同时也具备孵化器属性，但严格意义上，联合办公空间与孵化器和加速器是有本质不同的。主要体现在面向对象、核心目的、提供的服务和盈利方式上。</p>
+<h4 id="第三个问题：联合办公空间是怎么发展起来的？"><a href="#第三个问题：联合办公空间是怎么发展起来的？" class="headerlink" title=" 第三个问题：联合办公空间是怎么发展起来的？"></a><a href="http://citiesheart.com/wp-content/uploads/2015/08/联合办公空间与孵化器和加速器.png" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2015/08/%E8%81%94%E5%90%88%E5%8A%9E%E5%85%AC%E7%A9%BA%E9%97%B4%E4%B8%8E%E5%AD%B5%E5%8C%96%E5%99%A8%E5%92%8C%E5%8A%A0%E9%80%9F%E5%99%A8.png" alt="联合办公空间与孵化器和加速器"></a> <strong>第三个问题：联合办公空间是怎么发展起来的？</strong></h4><p>继续引维基百科：</p>
+<blockquote>
+<p>联合办公空间最早出现在美国，Coworking一词最早由美国人Bernie DeKoven于1999年提出。2005年，Google的软件工程师Brad Neuberg在美国旧金山成立了一个叫Hat Factory的联合办公网站，随后将自己家里的仓库改造成休闲场所租给三名从事科技产业的工作者。自此，联合办公空间在世界各地逐渐流行起来。目前，美国已有超过700家联合办公空间。</p>
+</blockquote>
+<ul>
+<li>美国：旧金山是联合办公空间密度最高的城市；</li>
+</ul>
+<p><a href="http://citiesheart.com/wp-content/uploads/2015/08/800px-Citizen_Space_San_Francisco_CA.jpg" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2015/08/800px-Citizen_Space_San_Francisco_CA.jpg" alt="800px-Citizen_Space,_San_Francisco,_CA"></a> 位于旧金山的CitizenSpace，图片来源：维基百科</p>
+<ul>
+<li>欧洲：伦敦不仅联合办公空间多，而且发展出针对不同需求的多样化细分领域空间；</li>
+</ul>
+<p><a href="http://citiesheart.com/wp-content/uploads/2015/08/Screen-Shot-2015-08-17-at-11.12.12-PM.png" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2015/08/Screen-Shot-2015-08-17-at-11.12.12-PM.png" alt="Screen Shot 2015-08-17 at 11.12.12 PM"></a> 伦敦Secondhome联合办公空间，图片来源：网络</p>
+<ul>
+<li>中国：台湾从2011年起成立了多加联合办公空间，多以社群营造为核心；</li>
+<li>中国：北京科技寺、SOHO3Q；上海联合创业办公社；广州一起开工社区等联合办公空间出现。</li>
+</ul>
+<h4 id="第四个问题：上海的联合办公空间到底啥样？"><a href="#第四个问题：上海的联合办公空间到底啥样？" class="headerlink" title="第四个问题：上海的联合办公空间到底啥样？"></a>第四个问题：上海的联合办公空间到底啥样？</h4><p><strong>INNOSPACE:</strong> 地址：创智天地 定位：早期互联网创业项目孵化平台 本质：联合办公空间+孵化器 运营者：瑞安地产 空间模式：开放式的办公空间和独立的隔间兼有 盈利模式：开放办公空间700-900元/工位•月，独立隔间3元/平米•天 看到的企业：简书、游友移动等 <a href="http://citiesheart.com/wp-content/uploads/2015/08/上海INNOSPACE.png" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2015/08/%E4%B8%8A%E6%B5%B7INNOSPACE.png" alt="上海INNOSPACE"></a> <a href="http://citiesheart.com/wp-content/uploads/2015/08/上海INNOSPACE2.png" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2015/08/%E4%B8%8A%E6%B5%B7INNOSPACE2.png" alt="上海INNOSPACE2"></a> <strong>桔子空间：</strong> 地址：江湾体育场环廊（三家分店之一） 定位：创业孵化空间 本质：联合办公空间+孵化器 运营者：IT桔子 空间模式：开放式办公空间 盈利模式：800元/工位•月(返200元咖啡券)，3500元/桌•月 <a href="http://citiesheart.com/wp-content/uploads/2015/08/上海IT桔子空间1.png" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2015/08/%E4%B8%8A%E6%B5%B7IT%E6%A1%94%E5%AD%90%E7%A9%BA%E9%97%B41.png" alt="上海IT桔子空间1"></a> <a href="http://citiesheart.com/wp-content/uploads/2015/08/上海IT桔子空间2.png" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2015/08/%E4%B8%8A%E6%B5%B7IT%E6%A1%94%E5%AD%90%E7%A9%BA%E9%97%B42.png" alt="上海IT桔子空间2"></a> <strong>创新工场：</strong> 地址：国定路200号（上海分店） 运营者：创新工场 定位：创业孵化平台 本质：孵化器 空间模式：开放式办公空间 盈利模式：项目入股（主要是种子轮、天使轮和A轮，B轮跟投） 看到的企业：人人美剧，1905互动等 <a href="http://citiesheart.com/wp-content/uploads/2015/08/上海创新工场1.png" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2015/08/%E4%B8%8A%E6%B5%B7%E5%88%9B%E6%96%B0%E5%B7%A5%E5%9C%BA1.png" alt="上海创新工场1"></a> <a href="http://citiesheart.com/wp-content/uploads/2015/08/上海创新工场2.png" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2015/08/%E4%B8%8A%E6%B5%B7%E5%88%9B%E6%96%B0%E5%B7%A5%E5%9C%BA2.png" alt="上海创新工场2"></a> <strong>联合创业办公社：</strong> 地址：愚园东路东海广场上海创客中心（十家分店之一） 运营者：联合创业办公社 定位：国内最大的联合办公空间 本质：联合办公空间 空间模式：玻璃隔断的半开放空间 盈利模式：根据房间大小地段区位各有不同，约1200/人•月 看到的企业：足迹，新车间，Pozible <a href="http://citiesheart.com/wp-content/uploads/2015/08/上海联合创业办公社1.png" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2015/08/%E4%B8%8A%E6%B5%B7%E8%81%94%E5%90%88%E5%88%9B%E4%B8%9A%E5%8A%9E%E5%85%AC%E7%A4%BE1.png" alt="上海联合创业办公社1"></a> <a href="http://citiesheart.com/wp-content/uploads/2015/08/上海联合创业办公社2.png" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2015/08/%E4%B8%8A%E6%B5%B7%E8%81%94%E5%90%88%E5%88%9B%E4%B8%9A%E5%8A%9E%E5%85%AC%E7%A4%BE2.png" alt="上海联合创业办公社2"></a></p>
+<h4 id="第五个问题：为什么越来越多的人正在远离传统办公环境？"><a href="#第五个问题：为什么越来越多的人正在远离传统办公环境？" class="headerlink" title="第五个问题：为什么越来越多的人正在远离传统办公环境？"></a><strong>第五个问题：为什么越来越多的人正在远离传统办公环境？</strong></h4><p>引用之前看到的一个制作精美的联合办公空间调查数据，我们简单翻译了一下：</p>
+<h4 id=""><a href="#" class="headerlink" title="          "></a><a href="http://citiesheart.com/wp-content/uploads/2015/08/逃离传统办公环境1.png" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2015/08/%E9%80%83%E7%A6%BB%E4%BC%A0%E7%BB%9F%E5%8A%9E%E5%85%AC%E7%8E%AF%E5%A2%831.png" alt="逃离传统办公环境1"></a> <a href="http://citiesheart.com/wp-content/uploads/2015/08/逃离传统办公环境2.png" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2015/08/%E9%80%83%E7%A6%BB%E4%BC%A0%E7%BB%9F%E5%8A%9E%E5%85%AC%E7%8E%AF%E5%A2%832.png" alt="逃离传统办公环境2"></a> <a href="http://citiesheart.com/wp-content/uploads/2015/08/逃离传统办公环境3.png" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2015/08/%E9%80%83%E7%A6%BB%E4%BC%A0%E7%BB%9F%E5%8A%9E%E5%85%AC%E7%8E%AF%E5%A2%833.png" alt="逃离传统办公环境3"></a> <a href="http://citiesheart.com/wp-content/uploads/2015/08/逃离传统办公环境4.png" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2015/08/%E9%80%83%E7%A6%BB%E4%BC%A0%E7%BB%9F%E5%8A%9E%E5%85%AC%E7%8E%AF%E5%A2%834.png" alt="逃离传统办公环境4"></a> <a href="http://citiesheart.com/wp-content/uploads/2015/08/逃离传统办公环境5.png" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2015/08/%E9%80%83%E7%A6%BB%E4%BC%A0%E7%BB%9F%E5%8A%9E%E5%85%AC%E7%8E%AF%E5%A2%835.png" alt="逃离传统办公环境5"></a> <a href="http://citiesheart.com/wp-content/uploads/2015/08/逃离传统办公环境6.png" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2015/08/%E9%80%83%E7%A6%BB%E4%BC%A0%E7%BB%9F%E5%8A%9E%E5%85%AC%E7%8E%AF%E5%A2%836.png" alt="逃离传统办公环境6"></a> <a href="http://citiesheart.com/wp-content/uploads/2015/08/逃离传统办公环境7.png" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2015/08/%E9%80%83%E7%A6%BB%E4%BC%A0%E7%BB%9F%E5%8A%9E%E5%85%AC%E7%8E%AF%E5%A2%837.png" alt="逃离传统办公环境7"></a> <a href="http://citiesheart.com/wp-content/uploads/2015/08/逃离传统办公环境8.png" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2015/08/%E9%80%83%E7%A6%BB%E4%BC%A0%E7%BB%9F%E5%8A%9E%E5%85%AC%E7%8E%AF%E5%A2%838.png" alt="逃离传统办公环境8"></a> <a href="http://citiesheart.com/wp-content/uploads/2015/08/逃离传统办公环境9.png" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2015/08/%E9%80%83%E7%A6%BB%E4%BC%A0%E7%BB%9F%E5%8A%9E%E5%85%AC%E7%8E%AF%E5%A2%839.png" alt="逃离传统办公环境9"></a> <a href="http://citiesheart.com/wp-content/uploads/2015/08/逃离传统办公环境10.png" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2015/08/%E9%80%83%E7%A6%BB%E4%BC%A0%E7%BB%9F%E5%8A%9E%E5%85%AC%E7%8E%AF%E5%A2%8310.png" alt="逃离传统办公环境10"></a> <a href="http://citiesheart.com/wp-content/uploads/2015/08/逃离传统办公环境11.png" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2015/08/%E9%80%83%E7%A6%BB%E4%BC%A0%E7%BB%9F%E5%8A%9E%E5%85%AC%E7%8E%AF%E5%A2%8311.png" alt="逃离传统办公环境11"></a></h4><h4 id="最后的问题：咱们一起思考"><a href="#最后的问题：咱们一起思考" class="headerlink" title="最后的问题：咱们一起思考~"></a>最后的问题：咱们一起思考~</h4><p><strong>联合办公空间的兴起会为建筑师规划师的转型提供机遇吗？</strong> <strong><a href="http://citiesheart.com/wp-content/uploads/2015/08/La_Maquinita_Co_-_Cowork_Argentina.jpg" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2015/08/La_Maquinita_Co_-_Cowork_Argentina.jpg" alt="La_Maquinita_Co_-_Cowork_Argentina"></a> <a href="http://citiesheart.com/wp-content/uploads/2015/08/Zonaspace-coworking-atmosphere.jpg" target="_blank" rel="noopener"></a> 未来的你会愿意选择在联合办公空间中办公吗？</strong> <img src="http://citiesheart.com/wp-content/uploads/2015/08/Zonaspace-coworking-atmosphere.jpg" alt="Zonaspace-coworking-atmosphere"> <em>本文首发于微信公众平台果说，由袁晓辉与董磊共同完成，转载请联系作者授权。</em></p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://citiesheart.com/2015/04/25/when-we-grow-old/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Xiaohui Yuan">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="城市的心弦">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2015/04/25/when-we-grow-old/" itemprop="url">当我老了，有什么愿望？——记2015清华养老产业高端论坛</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2015-04-25T09:04:31+08:00">
+                2015-04-25
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E5%AD%A6%E6%9C%AF%E4%BA%A4%E6%B5%81/" itemprop="url" rel="index">
+                    <span itemprop="name">学术交流</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p><a href="http://citiesheart.com/wp-content/uploads/2015/04/happy-old.jpg" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2015/04/happy-old.jpg" alt="happy old"></a>老爸一直是<a href="http://www.lizhi.fm/#/23963" target="_blank" rel="noopener">果说电台</a>的忠实粉丝，基本上每期节目都会仔细听。前一阵子在我生日那天发来一条微信，说：</p>
 <blockquote>
 <p>希望能在以后的果说电台中听到有关中国人口老龄化，空巢老人，以及对常回家看看的相关理解，祝火龙果同学生日快乐。</p>
 </blockquote>
@@ -279,48 +685,147 @@
 </blockquote>
 <p>只愿当我们老了， 纵使子女不在身侧， 我们依然能自由随心地温暖生活。 <em>(果说作者：火龙果|袁晓辉，牛油果|毕波。本文由果说作者根据聆听演讲笔记整理，未经演讲者审阅，转载请联系果说和作者授权)</em> <em>题图来源：<a href="http://niutuku.com/hd/182803.shtml" target="_blank" rel="noopener">http://niutuku.com/hd/182803.shtml</a></em></p>
 
+          
+        
       
     </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2015/04/25/when-we-grow-old/" data-id="ck6ni9efo008xd16bhuemgc1w" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%85%BB%E8%80%81%E8%A7%84%E5%88%92/" rel="tag">养老规划</a></li></ul>
+    
+    
+    
 
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
     </footer>
   </div>
   
-</article>
+  
+  
+  </article>
 
+
+    
+      
 
   
-    <article id="post-why-and-how-to-use-markdown" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2015/02/07/why-and-how-to-use-markdown/" class="article-date">
-  <time datetime="2015-02-06T16:23:03.000Z" itemprop="datePublished">2015-02-07</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%E6%88%90%E9%95%BF%E6%84%9F%E6%82%9F/">成长感悟</a>
-  </div>
 
-  </div>
-  <div class="article-inner">
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://citiesheart.com/2015/02/07/why-and-how-to-use-markdown/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Xiaohui Yuan">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="城市的心弦">
+    </span>
+
     
-    
-      <header class="article-header">
+      <header class="post-header">
+
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/02/07/why-and-how-to-use-markdown/">从此爱上写作——半小时即可学会的Markdown使用指南</a>
-    </h1>
-  
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2015/02/07/why-and-how-to-use-markdown/" itemprop="url">从此爱上写作——半小时即可学会的Markdown使用指南</a></h1>
+        
 
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2015-02-07T00:23:03+08:00">
+                2015-02-07
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E6%88%90%E9%95%BF%E6%84%9F%E6%82%9F/" itemprop="url" rel="index">
+                    <span itemprop="name">成长感悟</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
       </header>
     
-    <div class="article-entry" itemprop="articleBody">
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
-        <p><a href="http://citiesheart.com/wp-content/uploads/2015/02/markdown.jpg" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2015/02/markdown.jpg" alt="markdown"></a> 2015学会的第一个新技能：<strong>用Markdown语言写作</strong>。从此，写东西成为一件值得期待的事。今天愿在此跟大家分享一下学习使用Markdown的一点心得。</p>
+      
+
+      
+        
+          
+            <p><a href="http://citiesheart.com/wp-content/uploads/2015/02/markdown.jpg" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2015/02/markdown.jpg" alt="markdown"></a> 2015学会的第一个新技能：<strong>用Markdown语言写作</strong>。从此，写东西成为一件值得期待的事。今天愿在此跟大家分享一下学习使用Markdown的一点心得。</p>
 <h4 id="酷炫风吸引的技术小白"><a href="#酷炫风吸引的技术小白" class="headerlink" title="酷炫风吸引的技术小白"></a>酷炫风吸引的技术小白</h4><p>某次听讲座，看到前排的江浩博士拿出电脑记笔记，打开了一个一半是黑色，一般是白色的软件。在左边黑色的区域内打字，打字的过程中加几个简单的符号，所在行的文字立马变成了明快的彩色。更神奇的是，在右侧白色区域中呈现出大小标题十分清晰的结构化文字。当时心想，这也太酷炫了吧。</p>
 <blockquote>
 <p>啥时候我也要这么酷炫地记笔记！</p>
@@ -398,48 +903,147 @@
 </ol>
 <p>题图来源：<a href="http://www.lifehacker.com.au/" target="_blank" rel="noopener">http://www.lifehacker.com.au/</a> <strong>果说：让生活更多维。欢迎关注微信公众号ifruitalk。</strong></p>
 
+          
+        
       
     </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2015/02/07/why-and-how-to-use-markdown/" data-id="ck6ni9eft009bd16bgo8s52rx" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%B7%A5%E5%85%B7/" rel="tag">工具</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86/" rel="tag">知识管理</a></li></ul>
+    
+    
+    
 
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
     </footer>
   </div>
   
-</article>
+  
+  
+  </article>
 
+
+    
+      
 
   
-    <article id="post-the-completion-of-my-graduation-speech" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2015/02/02/the-completion-of-my-graduation-speech/" class="article-date">
-  <time datetime="2015-02-02T10:39:57.000Z" itemprop="datePublished">2015-02-02</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%E6%88%90%E9%95%BF%E6%84%9F%E6%82%9F/">成长感悟</a>
-  </div>
 
-  </div>
-  <div class="article-inner">
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://citiesheart.com/2015/02/02/the-completion-of-my-graduation-speech/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Xiaohui Yuan">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="城市的心弦">
+    </span>
+
     
-    
-      <header class="article-header">
+      <header class="post-header">
+
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/02/02/the-completion-of-my-graduation-speech/">那些年我们不屑一顾的演讲</a>
-    </h1>
-  
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2015/02/02/the-completion-of-my-graduation-speech/" itemprop="url">那些年我们不屑一顾的演讲</a></h1>
+        
 
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2015-02-02T18:39:57+08:00">
+                2015-02-02
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E6%88%90%E9%95%BF%E6%84%9F%E6%82%9F/" itemprop="url" rel="index">
+                    <span itemprop="name">成长感悟</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
       </header>
     
-    <div class="article-entry" itemprop="articleBody">
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
-        <p><a href="http://citiesheart.com/wp-content/uploads/2015/02/graduation.jpg" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2015/02/graduation-1024x697.jpg" alt="graduation"></a> <a href="http://citiesheart.com/wp-content/uploads/2015/02/graduation.jpg" target="_blank" rel="noopener"></a><a href="http://citiesheart.com/wp-content/uploads/2015/02/graduation2.jpg" target="_blank" rel="noopener"></a> 2015年1月27日，对于我来说，是个值得一辈子铭记的日子，这一天我带上了博士帽，还在毕业典礼上作为清华大学2015年春季毕业的全体研究生代表发表了毕业感言。能有这个发言机会，实在是在意料之外，感觉无比地幸运。 那天发言完，我跟来参加观礼的爸妈开玩笑说：『这可能也算我的人生巅峰了』。老爸皱皱眉：『你还有更重要的事要做，人生还长呢』。我嬉皮笑脸地朝他们挤了挤眼睛。那一天，北京的天特别蓝，阳光温暖地照在每一个身着学位服在二校门前合影留念的同学身上。零下一度，有风，却一点都不冷。 毕业典礼结束后的这几天，忙着整理书，整理衣服，寄东西，搬宿舍，办理离校手续。毕业前就说要好好总结一下这一次宝贵的演讲经历，直到今天，到了果说每周一期音频推送的Deadline，才让自己坐在了电脑前，去记录下毕业季准备毕业演讲的这段经历和感受。 </p>
+      
+
+      
+        
+          
+            <p><a href="http://citiesheart.com/wp-content/uploads/2015/02/graduation.jpg" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2015/02/graduation-1024x697.jpg" alt="graduation"></a> <a href="http://citiesheart.com/wp-content/uploads/2015/02/graduation.jpg" target="_blank" rel="noopener"></a><a href="http://citiesheart.com/wp-content/uploads/2015/02/graduation2.jpg" target="_blank" rel="noopener"></a> 2015年1月27日，对于我来说，是个值得一辈子铭记的日子，这一天我带上了博士帽，还在毕业典礼上作为清华大学2015年春季毕业的全体研究生代表发表了毕业感言。能有这个发言机会，实在是在意料之外，感觉无比地幸运。 那天发言完，我跟来参加观礼的爸妈开玩笑说：『这可能也算我的人生巅峰了』。老爸皱皱眉：『你还有更重要的事要做，人生还长呢』。我嬉皮笑脸地朝他们挤了挤眼睛。那一天，北京的天特别蓝，阳光温暖地照在每一个身着学位服在二校门前合影留念的同学身上。零下一度，有风，却一点都不冷。 毕业典礼结束后的这几天，忙着整理书，整理衣服，寄东西，搬宿舍，办理离校手续。毕业前就说要好好总结一下这一次宝贵的演讲经历，直到今天，到了果说每周一期音频推送的Deadline，才让自己坐在了电脑前，去记录下毕业季准备毕业演讲的这段经历和感受。 </p>
 <h4 id="为啥选我做代表？"><a href="#为啥选我做代表？" class="headerlink" title="为啥选我做代表？"></a>为啥选我做代表？</h4><p>一些比较熟悉的朋友问我这个问题，我说我也不知道，可能是运气好吧。我清高手如云，毕业生中做科研做到国际前沿的，志在服务祖国基层的，乐观坚强笑对人生的，技术创业有声有色的，拥有一技之长才华横溢的，都有理由被选为毕业生代表来发言。 客观来说，我没有特别突出的亮点，属于综合能力还算可以，读博期间比较认真勤奋，在各方面都折腾过、尝试过的毕业生。当时研工部老师跟我说我被选为毕业典礼毕业生代表的候选人之一，让试着写篇发言稿，我还着实惊讶了一下。这毕业生代表到底是怎么选出来的呢？ 经历过一遍才知道，毕业生代表的确定，经历了院系推荐、研工部综合评定、五个候选人写稿，五进二，二进一的过程，一方面要通过评估候选人的学习工作经历和毕业去向衡量他（她）的代表性，另一方面要看演讲稿的主题和写作水平是不是与国家和学校最近的一些发展思路契合，再有就是看这位同学的表达能力和演讲水平是否适合毕业典礼这个场合了。 所以我的幸运在于院系研工组的老师给了我机会，在于五年半的读博经历给予我的点滴感受，在于一直以来的诸多困惑可能正好也是很多同学在思考的问题。说白了，我觉得这次能最终入选毕业生代表，跟选择变与不变这个题目来写演讲稿有很大关系。</p>
 <h4 id="为什么选这个题？"><a href="#为什么选这个题？" class="headerlink" title="为什么选这个题？"></a>为什么选这个题？</h4><p>第一轮准备的时候，我查阅了这几年毕业生代表的演讲稿，基本内容都包括对这些年清华读书经历的回顾、学到的东西、对老师和学校的感谢、对今后道路的展望等。真挚的感情都蕴含其中，风格各有不同。有的诗词穿插，有的简洁有力，有的笑点频出，有的平实真切，都代表了每位作者的风格。我该写什么？怎么写？提笔方知落笔难。特别是毕业季很多情绪冲撞到一起，更不知该从何说起。 本来压力很大，觉得这个宝贵的机会要抓住，不能辜负老师们的信任。但压力越大，越不知如何下手。后来我跟自己说，能成为候选人，已经是个意外的收获了，既然选上的可能性微乎其微，那就给即将毕业的自己写点东西吧，把毕业季能回忆起的经历，在思考的问题，在纠结的选择，都写出来。就当是毕业季，写给自己的一封信好了。 于是，我把一直在琢磨的『我们这个时代的不确定性是不是比以往更大？』这个问题提出来，问自己：在一个不确定性很强的时代，确定的究竟是什么？技术的快速发展和信息的快速交互带来不确定性，不确定性引起国际国内形势的变化，人们心态的变化，在这个过程中，到底什么才是不变的？这些不变的东西也许能在我日后迷茫时给予我指引。 于是『我们这个时代的变与不变』成为了演讲稿的主题。</p>
 <h4 id="如何成文？"><a href="#如何成文？" class="headerlink" title="如何成文？"></a>如何成文？</h4><p>有主题固然重要，但如何成文？如何把自己作为一个毕业生的复杂情绪理清楚，表达出来，还是需要行文的思路。 我想到去年四月份曾经一时兴起做过一个关于清华园日常的视频，那正好是我每天在园子里穿行时能看到的、体验到的这个园子，是我舍不得这个园子的情绪的萌芽，作为开头吧。于是写下了以下这段：</p>
@@ -454,91 +1058,289 @@
 <h4 id="现场演讲的感受如何？"><a href="#现场演讲的感受如何？" class="headerlink" title="现场演讲的感受如何？"></a>现场演讲的感受如何？</h4><p>毕业典礼现场，我拿着稿子坐在第一排，激动而忐忑，嗓子发紧，还有点咳嗦。在学校学位评定委员会的老师宣读完学位授予情况和毕业情况后，就轮到我上场发言了。前后鞠了躬，站到讲台上，调好了话筒架的高低，开始念稿子。 真的，与其说是毕业演讲，不如说是毕业念稿子啊。没有想象中昂首抬头演讲的状态，大部分时间一直是在低着头看稿子朗诵。虽然也有抑扬顿挫，也有情绪起伏，但还是缺乏了跟一同毕业的兄弟姐妹的眼神交流和现场互动。 我想，如果正式演说之前能再多练习几遍，能像一同发言的陈校长和童学长那样，把自己从低头念稿的状态中解放出来，更加自如地表达，就好了。这也算是个遗憾吧。台上的一分一秒，确实需要台下的长期积累做支撑呢。 从现场同学们的反应来看，这篇稿子的笑点可能确实少了，气氛略深沉，从头到尾只在两处现场出现了一些交流的声音，其余时间都很安静。我安慰自己：说明大家都听进去了，都在一同思考: P 虽然在尝试以一种不徐不及的语调让自己显得沉稳一些，但当在台上念到那些回忆，那些不舍和那些思考时，还是很难抑制内心的激动，非常感慨。就要作为一名清华毕业生离开母校了，心情五味杂陈。而毕业典礼的气氛，放大了对这个园子的不舍情绪，放大了感谢的心情，放大了对未来的美好期许。所以，内心根本没有表面看起来那么淡定，支撑每一句的，都是那颗激动不已的小心脏。 讲完感谢大家，在大家的掌声中回到座位，发现已经满头是汗。 我对自己说，终于可以跟同学们一样去放空一切，单纯体会毕业这一刻的所有美好了。</p>
 <h4 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h4><p>在毕业季的忙碌中，我完成了这次毕业演讲。演讲稿虽有遗憾，却都是我在毕业这个时刻，最想说的话，最真实的心情写照，和最真诚的思考。 它是一个结束，更是一个开始。 它会留在记忆中永恒的位置，提醒我要铭记这个园子给我的成长，铭记老师家人朋友的帮助，不辜负那份幸运，不辜负那份期待。 现场演讲录音也分享给朋友们，收听请点击：<a href="http://www.lizhi.fm/#/23963/17578538042226310" target="_blank" rel="noopener">我们这个时代的变与不变</a>，时长7分钟。</p>
 
+          
+        
       
     </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2015/02/02/the-completion-of-my-graduation-speech/" data-id="ck6ni9ef4006vd16b8eaa74yi" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E4%B8%8D%E7%A1%AE%E5%AE%9A%E6%80%A7/" rel="tag">不确定性</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%9F%8E%E5%B8%82%E7%94%9F%E6%B4%BB/" rel="tag">城市生活</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%AF%95%E4%B8%9A/" rel="tag">毕业</a></li></ul>
+    
+    
+    
 
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
     </footer>
   </div>
   
-</article>
+  
+  
+  </article>
 
+
+    
+      
 
   
-    <article id="post-the-changeable-and-unchangeable-things-in-our-time" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2015/01/27/the-changeable-and-unchangeable-things-in-our-time/" class="article-date">
-  <time datetime="2015-01-27T09:25:45.000Z" itemprop="datePublished">2015-01-27</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%E6%88%90%E9%95%BF%E6%84%9F%E6%82%9F/">成长感悟</a>
-  </div>
 
-  </div>
-  <div class="article-inner">
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://citiesheart.com/2015/01/27/the-changeable-and-unchangeable-things-in-our-time/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Xiaohui Yuan">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="城市的心弦">
+    </span>
+
     
-    
-      <header class="article-header">
+      <header class="post-header">
+
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/01/27/the-changeable-and-unchangeable-things-in-our-time/">我们这个时代的变与不变——在清华大学2015年第一次研究生毕业典礼上的发言</a>
-    </h1>
-  
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2015/01/27/the-changeable-and-unchangeable-things-in-our-time/" itemprop="url">我们这个时代的变与不变——在清华大学2015年第一次研究生毕业典礼上的发言</a></h1>
+        
 
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2015-01-27T17:25:45+08:00">
+                2015-01-27
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E6%88%90%E9%95%BF%E6%84%9F%E6%82%9F/" itemprop="url" rel="index">
+                    <span itemprop="name">成长感悟</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
       </header>
     
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p><a href="http://citiesheart.com/wp-content/uploads/2015/02/fayan1.jpg" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2015/02/fayan1.jpg" alt="fayan1"></a> 尊敬的各位老师，亲爱的同学们： 大家好！ 我是来自建筑学院的博士毕业生袁晓辉，很荣幸有机会作为本届毕业生代表在此分享毕业之际的一点感悟。 <strong>站在毕业的节点，回首五年半的读博时光，感觉时间过得很快又很慢。</strong>当为选题不够聚焦而发愁，当为文献读不明白而心忧，当调研被拒之门外而挠头，当论文写不下去而独上高楼，当看到导师不满意的神情而浑身发抖，真的好希望时间能赶快跳到博士论文完成之时；而当投稿的截止时间临近，当图书馆的闭馆音乐响起，当参赛论文在专业会议上得到了专家肯定，当博士论文写到最后才渐入佳境领悟到了新的层次，当离别的钟声即将敲响，又好希望时间能够慢一点，再慢一点。  我常常会幻想通过博士论文答辩时那笑开花的神情，然而，当这一天真的到来，真的听到那句“建议授予该同学工学博士学位”时，心情却很平静，而且竟体会到一种莫名的空虚。我想，以后可能再也没有机会，如此长时间专注而集中地研究一个问题，再也没有机会忐忑地站在导师身后，看他逐字逐句地帮我修改论文。不禁伤感，我真的就要告别这五年多有笑有泪的时光？告别这个朝夕相伴的园子了吗？ 我们早已习惯了这个园子的模样，习惯了她的每一栋建筑，每一条道路和每一次的日落，直到毕业回首，才发现她也一直在用无声的方式在变化中陪伴我们一同成长。不知何时起，图书馆的窗外已能看到扩建部分的轮廓，曾经的东区浴室已悄然变身拔地而起的苏世民学院，以包子而闻名遐迩的清芬园正在孕育新的吃货天堂。能不能让我们再停留一段时间，让我们把这个园子的过去再次回忆，把她的变化一同记在心间？ 带着这些不舍，我们即将开始新的征程，独自仗剑走天涯。我一遍又一遍地问自己，我真的准备好了吗？面对一个快速变革的时代，面对未来的种种不确定性，面对肩上陡然增加的作为一名清华毕业生的责任感，我真的准备好了吗？ <strong>在这个变革的时代，信息快速交互产生的时空压缩让变化来得比以往更加剧烈。</strong>无论是世界格局的重新调整，还是中国踏上全面深化改革的征程；无论是创新驱动的行业发展，还是我们被新技术重塑的生活，都显示出变革为这个时代带来的巨大活力，带给我们的机遇和挑战。 我们随时随地都有可能被朋友们分享的成功故事所冲击，隔天就会听到谁谁年纪轻轻创业了，谁谁当上CEO了，谁谁嫁给高富帅了，谁谁迎娶白富美了，谁谁成为最年轻的教授，已然人生赢家了。我们会担心错过了机遇，会担心跑不过时间，会担心做错了选择，会犹豫到底该成为变化的一部分，打破传统的束缚，在不确定中寻找新的可能性？还是该冷眼旁观，巩固自己曾经学到的一切，向纵深发展？ <strong>在这个快速变革的时代，不变的究竟是什么？</strong>哪些东西是我们在这个园子中学到的立身之本？哪些东西虽历经时间的考验，却永不褪色？ 我想，<strong>不变的会是我们的初心。</strong>最开始时心中坚信的方向，对这个世界的好奇心，与人为善的态度，多为他人考虑的热情，让祖国和世界变得更好的期待。或者，还有心底中珍藏多年的奇奇怪怪的梦想，它们都不会变。那是我们之所以成为我们的最最宝贵的东西，会是未来在迷茫时帮助我们做出选择的锦囊。 <strong>不变的会是学习的态度。</strong>我们将在工作中面对愈发丰富的知识，面对日新月异的技术，面对思想的跨界融合，要想在竞争中坚持初心，坚持更多地为人类进步做贡献，就尤其需要持续学习的态度。也许，这颗不变的学习的心，会让我们晚一点听到子女的这句话：妈妈，你out了。 <strong>不变的会是对独立精神自由思想的追求。</strong>人云亦云之时，经受考验之时，我们是该随波逐流，随缘顺势，还是该顶住压力，坚持信念，都需要独立精神和自由思想的指引。明辨是非，坚持真理，在权威与诱惑面前依然固守真我，不会是一件容易的事，但那会是值得我们一生追寻的方向。 <strong>不变的还会是这个园子所赋予我们的一切。</strong>那些读过的文献，做过的实验，挥洒的汗水，流过的眼泪，都将成为支撑我们前行的不变基石；那听涛的油泼面、紫荆的麻辣香锅、桃李的夜宵、小桥的烧烤都将成为记忆中永恒的味道；那一二九的红脸蛋儿、阳光彩跑中的快乐坚持都定格成为记忆中的经典图画；那一句“行胜于言”将成为我们一生受用的品质；那自强不息、厚德载物的精神将永久地成为与我们密不可分的一部分。 <strong>在这个变革的时代，我们会用不变的初心来回报母校的培育。</strong>让她能够看到更多的儿女在中华大地挥洒才情，追求卓越；让她看到我们在变与不变的选择中为小家，为大家，为世界文明做出贡献；让她在送走一届又一届的毕业生之时，还能够想起，曾经有我们这样一群人，在最好的年华遇到她，也在毕业后的每一个日子用实际行动回报她，感激她。 最后衷心祝福我们亲爱的老师快乐健康；祝福一同踏上新征程的兄弟姐妹永葆初心；祝福我们的亲友生活幸福；祝福我们永远深爱的清华园青春永驻！ 我的发言完毕，再次感谢大家！</p>
 
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p><a href="http://citiesheart.com/wp-content/uploads/2015/02/fayan1.jpg" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2015/02/fayan1.jpg" alt="fayan1"></a> 尊敬的各位老师，亲爱的同学们： 大家好！ 我是来自建筑学院的博士毕业生袁晓辉，很荣幸有机会作为本届毕业生代表在此分享毕业之际的一点感悟。 <strong>站在毕业的节点，回首五年半的读博时光，感觉时间过得很快又很慢。</strong>当为选题不够聚焦而发愁，当为文献读不明白而心忧，当调研被拒之门外而挠头，当论文写不下去而独上高楼，当看到导师不满意的神情而浑身发抖，真的好希望时间能赶快跳到博士论文完成之时；而当投稿的截止时间临近，当图书馆的闭馆音乐响起，当参赛论文在专业会议上得到了专家肯定，当博士论文写到最后才渐入佳境领悟到了新的层次，当离别的钟声即将敲响，又好希望时间能够慢一点，再慢一点。  我常常会幻想通过博士论文答辩时那笑开花的神情，然而，当这一天真的到来，真的听到那句“建议授予该同学工学博士学位”时，心情却很平静，而且竟体会到一种莫名的空虚。我想，以后可能再也没有机会，如此长时间专注而集中地研究一个问题，再也没有机会忐忑地站在导师身后，看他逐字逐句地帮我修改论文。不禁伤感，我真的就要告别这五年多有笑有泪的时光？告别这个朝夕相伴的园子了吗？ 我们早已习惯了这个园子的模样，习惯了她的每一栋建筑，每一条道路和每一次的日落，直到毕业回首，才发现她也一直在用无声的方式在变化中陪伴我们一同成长。不知何时起，图书馆的窗外已能看到扩建部分的轮廓，曾经的东区浴室已悄然变身拔地而起的苏世民学院，以包子而闻名遐迩的清芬园正在孕育新的吃货天堂。能不能让我们再停留一段时间，让我们把这个园子的过去再次回忆，把她的变化一同记在心间？ 带着这些不舍，我们即将开始新的征程，独自仗剑走天涯。我一遍又一遍地问自己，我真的准备好了吗？面对一个快速变革的时代，面对未来的种种不确定性，面对肩上陡然增加的作为一名清华毕业生的责任感，我真的准备好了吗？ <strong>在这个变革的时代，信息快速交互产生的时空压缩让变化来得比以往更加剧烈。</strong>无论是世界格局的重新调整，还是中国踏上全面深化改革的征程；无论是创新驱动的行业发展，还是我们被新技术重塑的生活，都显示出变革为这个时代带来的巨大活力，带给我们的机遇和挑战。 我们随时随地都有可能被朋友们分享的成功故事所冲击，隔天就会听到谁谁年纪轻轻创业了，谁谁当上CEO了，谁谁嫁给高富帅了，谁谁迎娶白富美了，谁谁成为最年轻的教授，已然人生赢家了。我们会担心错过了机遇，会担心跑不过时间，会担心做错了选择，会犹豫到底该成为变化的一部分，打破传统的束缚，在不确定中寻找新的可能性？还是该冷眼旁观，巩固自己曾经学到的一切，向纵深发展？ <strong>在这个快速变革的时代，不变的究竟是什么？</strong>哪些东西是我们在这个园子中学到的立身之本？哪些东西虽历经时间的考验，却永不褪色？ 我想，<strong>不变的会是我们的初心。</strong>最开始时心中坚信的方向，对这个世界的好奇心，与人为善的态度，多为他人考虑的热情，让祖国和世界变得更好的期待。或者，还有心底中珍藏多年的奇奇怪怪的梦想，它们都不会变。那是我们之所以成为我们的最最宝贵的东西，会是未来在迷茫时帮助我们做出选择的锦囊。 <strong>不变的会是学习的态度。</strong>我们将在工作中面对愈发丰富的知识，面对日新月异的技术，面对思想的跨界融合，要想在竞争中坚持初心，坚持更多地为人类进步做贡献，就尤其需要持续学习的态度。也许，这颗不变的学习的心，会让我们晚一点听到子女的这句话：妈妈，你out了。 <strong>不变的会是对独立精神自由思想的追求。</strong>人云亦云之时，经受考验之时，我们是该随波逐流，随缘顺势，还是该顶住压力，坚持信念，都需要独立精神和自由思想的指引。明辨是非，坚持真理，在权威与诱惑面前依然固守真我，不会是一件容易的事，但那会是值得我们一生追寻的方向。 <strong>不变的还会是这个园子所赋予我们的一切。</strong>那些读过的文献，做过的实验，挥洒的汗水，流过的眼泪，都将成为支撑我们前行的不变基石；那听涛的油泼面、紫荆的麻辣香锅、桃李的夜宵、小桥的烧烤都将成为记忆中永恒的味道；那一二九的红脸蛋儿、阳光彩跑中的快乐坚持都定格成为记忆中的经典图画；那一句“行胜于言”将成为我们一生受用的品质；那自强不息、厚德载物的精神将永久地成为与我们密不可分的一部分。 <strong>在这个变革的时代，我们会用不变的初心来回报母校的培育。</strong>让她能够看到更多的儿女在中华大地挥洒才情，追求卓越；让她看到我们在变与不变的选择中为小家，为大家，为世界文明做出贡献；让她在送走一届又一届的毕业生之时，还能够想起，曾经有我们这样一群人，在最好的年华遇到她，也在毕业后的每一个日子用实际行动回报她，感激她。 最后衷心祝福我们亲爱的老师快乐健康；祝福一同踏上新征程的兄弟姐妹永葆初心；祝福我们的亲友生活幸福；祝福我们永远深爱的清华园青春永驻！ 我的发言完毕，再次感谢大家！</p>
+
+          
+        
       
     </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2015/01/27/the-changeable-and-unchangeable-things-in-our-time/" data-id="ck6ni9ef1006id16bel2s33fa" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%9B%9E%E5%BF%86/" rel="tag">回忆</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%9C%AA%E6%9D%A5/" rel="tag">未来</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%A2%A6%E6%83%B3/" rel="tag">梦想</a></li></ul>
+    
+    
+    
 
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
     </footer>
   </div>
   
-</article>
+  
+  
+  </article>
 
+
+    
+      
 
   
-    <article id="post-present-of-2014" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2015/01/06/present-of-2014/" class="article-date">
-  <time datetime="2015-01-06T08:47:06.000Z" itemprop="datePublished">2015-01-06</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%E6%88%90%E9%95%BF%E6%84%9F%E6%82%9F/">成长感悟</a>
-  </div>
 
-  </div>
-  <div class="article-inner">
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://citiesheart.com/2015/01/06/present-of-2014/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Xiaohui Yuan">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="城市的心弦">
+    </span>
+
     
-    
-      <header class="article-header">
+      <header class="post-header">
+
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/01/06/present-of-2014/">2014的礼物</a>
-    </h1>
-  
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2015/01/06/present-of-2014/" itemprop="url">2014的礼物</a></h1>
+        
 
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2015-01-06T16:47:06+08:00">
+                2015-01-06
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E6%88%90%E9%95%BF%E6%84%9F%E6%82%9F/" itemprop="url" rel="index">
+                    <span itemprop="name">成长感悟</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
       </header>
     
-    <div class="article-entry" itemprop="articleBody">
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
-        <p><a href="http://citiesheart.com/wp-content/uploads/2015/01/present.png" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2015/01/present.png" alt="present"></a> <strong>年终总结总是要写的，不一定写在一年的最后一天。——拖延症患者的自我解嘲</strong></p>
+      
+
+      
+        
+          
+            <p><a href="http://citiesheart.com/wp-content/uploads/2015/01/present.png" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2015/01/present.png" alt="present"></a> <strong>年终总结总是要写的，不一定写在一年的最后一天。——拖延症患者的自我解嘲</strong></p>
 <pre><code>拖延者说：拖延不是病，是为了选择更好的姿态来开启一项计划。每当我们拖延时，只要惦记着这件事，誓在deadline之前完成这件事，那么小宇宙的力量会保证我们完成，而且因为有了动手之前在潜意识中的思考与发酵，甚至有可能会完成得更好。
 唯一的问题是，我们的时间有限，有不完成就dead的约束时，拖延一点也许不会有大碍，顶多烧一烧最后一段时间的大脑CPU；但如果没有约束，那么就很有可能因为其他事情优先级的冲击，让我们放弃了本该完成的这件事，让生命多了一点点遗憾。所以说到底，手拿小皮鞭的时间女神，咱得好好供着，不可太拖拉。
 出来混，年终总结，总是要还的。</code></pre><h4 id="一本记事本"><a href="#一本记事本" class="headerlink" title="一本记事本"></a>一本记事本</h4><p>2014年初，君哲推荐了<strong>《记事本圆梦计划》</strong>给我，这本书讲了一位日本企业家熊古正寿每年用一本记事本规划生活，实现梦想的故事。看着人家对生活强大的掌控力，不禁心痒痒，要学习，要让梦想变现实。于是也买了这么一本笔记本，前半部分是计划部分，包括生涯规划、年度计划、每月计划、每日计划；后半部分是每日记录部分，每天一页，365页，有精确到小时的时间轴。 一年下来，回顾记录情况，发现前半部分的计划只在刚开始的几天列了一次，后来就再没列过，而且生涯规划和5年、10年计划在当时就没怎么想清楚，所以写得有些抽象，完全不是熊古先生那种清晰规划的风格。让我想起了之前跟朋友聊天时一时兴起总结的两类人。我想当前的我仍然属于后一类，不知道未来在摸索中找到了自己坚信的人生方向时会不会改变。</p>
@@ -575,356 +1377,904 @@
 <h4 id="年初的计划，2014的遗憾。"><a href="#年初的计划，2014的遗憾。" class="headerlink" title="年初的计划，2014的遗憾。"></a>年初的计划，2014的遗憾。</h4><p>2014年初在<a href="http://citiesheart.com/2014/01/hello-2014/" target="_blank" rel="noopener">《你好，2014》</a>中曾经列过几个年度愿望，大多数都实现了，还有2个2014没有实现，只能留给2015了：写2篇自己满意的文章，至少出国一趟。 之前怕发表小论文会影响博士论文查重，所以博士论文相关的小论文一直没有发。当然也是自己觉得研究还有很多不完善的地方，怕露怯，达不到自己满意的状态，不想投出去。这也算自己的一个瓶颈吧。既然博士论文都答辩了，而且老师们的评价还不错的，再没有理由不好好写小论文发表了。这两个月一定要完成，补欠帐。 出国这事算是我的另一个瓶颈。之前种种原因没有交换成，十分遗憾。毕业这段时间本想联系国外的博后，一是没有找到跟我研究兴趣特别契合的位置，二是有点信心不足，就还是没有动手。关于舒适区要不要打破，要不要跟自己较劲这件事，我想了很久。年轻的时候，到底该顺应心性，顺其自然，与自己愉快地相处；还是应该挑战自己，打破惯性，跟自己死磕？我倾向于以前者随缘的方式快乐生活，却深知后者是让生命变得更加圆满的功课。这两种选择，能不能调和在一个框架中呢？ 很多时候，决定我们未来方向的，都是一念之间的取舍。在不确定性面前，我们需要做的，是在机会未来之时沉潜，为机会来临时的起舞做好准备。可换个角度，我们是不是该去主动迎接，主动创造起舞的机会呢？  </p>
 <h4 id="2015的期待"><a href="#2015的期待" class="headerlink" title="2015的期待"></a>2015的期待</h4><p>2014是承前启后的一年，22年上学生涯的终点。 2015是毕业后新生活的元年，是更多可能与惊喜等待我的一年。 2015，结合自己随性的特点，又购入一个新的记事本，减少了前面计划部分的页数，以每天的安排与记录为重点。愿在心中大的方向指引下，在不确定性带给我的惊喜中，认真地做好手头的事，认真体会与铭记生命带给我的每一点感动。 2015，愿前行中有价值的思想能不断积累发酵，愿行动力能陪伴身边，愿勇气让我不怕失败不断尝试，愿创业精神指引我的研究与实践。 愿2015的日子，有趣，有意义。 愿2015年结束的时候，依然有梦。</p>
 
+          
+        
       
     </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2015/01/06/present-of-2014/" data-id="ck6ni9eep0059d16b8ythdmk6" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%9B%9E%E5%BF%86/" rel="tag">回忆</a></li></ul>
+    
+    
+    
 
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
     </footer>
   </div>
   
-</article>
+  
+  
+  </article>
 
+
+    
+      
 
   
-    <article id="post-transiton-of-china-urban-planning-system-from-the-perspective-of-beijing-comprehensive-planning-implementation" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2014/12/02/transiton-of-china-urban-planning-system-from-the-perspective-of-beijing-comprehensive-planning-implementation/" class="article-date">
-  <time datetime="2014-12-02T13:52:35.000Z" itemprop="datePublished">2014-12-02</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%E5%AD%A6%E6%9C%AF%E4%BA%A4%E6%B5%81/">学术交流</a>
-  </div>
 
-  </div>
-  <div class="article-inner">
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://citiesheart.com/2014/12/02/transiton-of-china-urban-planning-system-from-the-perspective-of-beijing-comprehensive-planning-implementation/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Xiaohui Yuan">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="城市的心弦">
+    </span>
+
     
-    
-      <header class="article-header">
+      <header class="post-header">
+
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2014/12/02/transiton-of-china-urban-planning-system-from-the-perspective-of-beijing-comprehensive-planning-implementation/">北京城市总体规划实施的转向——记石晓冬教授清华演讲</a>
-    </h1>
-  
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2014/12/02/transiton-of-china-urban-planning-system-from-the-perspective-of-beijing-comprehensive-planning-implementation/" itemprop="url">北京城市总体规划实施的转向——记石晓冬教授清华演讲</a></h1>
+        
 
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2014-12-02T21:52:35+08:00">
+                2014-12-02
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E5%AD%A6%E6%9C%AF%E4%BA%A4%E6%B5%81/" itemprop="url" rel="index">
+                    <span itemprop="name">学术交流</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
       </header>
     
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p><a href="http://citiesheart.com/wp-content/uploads/2014/12/implementation1.jpg" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2014/12/implementation1.jpg" alt="implementation"></a> 在2014年10月18日召开的清华大学建筑学院主办的中日法城市规划体系比较研究国际研讨会上，北京市城市规划设计研究院副总规划师石晓冬老师作了题为《以北京城市总体规划实施看中国城乡规划体系转型》的报告。对于长期呆在学校中进行理论学习的同学，石老师的演讲为我们打开了一扇现实的窗户，可以让我们看到规划师苦心孤诣编制出来的规划，在实施中会涉及哪些重要机制，面临哪些问题，以及今后的城市总体规划实施应该何去何从，有没有路径机制可以保障规划的顺利实施。 石老师的报告主要探讨了以下四个方面的问题：（1）北京城市总体规划实施机制；（2）总体规划的实施缺位；（3）总体规划实施的转向；（4）总体规划实施的路径机制。    <strong>第一，北京城市总体规划实施机制。</strong> 也就是保证北京城市总体规划实施得以开展的制度框架，即通过怎样的制度抓手规划才得以开展呢？涉及： （1）<strong>法律授权</strong>：遵循《中华人民共和国城乡规划法》，由国务院对《北京城市总体规划》进行批复。 （2）<strong>机构和职能</strong>：由市、区、乡镇政府，首都规划委员会，市、区规划管理部门，负责北京城市总体规划实施和管理，遵守城乡规划法律法规及监督检查。 （3）<strong>许可制度</strong>：一书两证制度。 （4）<strong>监督检查</strong>：包括对建设活动监督检查，立法机构的监督检查，社会监督，查处违法用地和违法建设。   有了制度框架，还需要有具体的实施路径，即总体规划实施是如何落到一项项可操作的计划中呢？有三条路径： （1）<strong>路径一：城市总体规划——控制性详细规划（法定图则）路径</strong>。主要基于城市规划的技术性，将城市总体规划按空间分解。这条路径存在时间最久，法律依据最清楚，体系相对最完善。 （2）<strong>路径二：城市总体规划——近期建设规划——年度实施计划路径。</strong>通过这一路径与年度国民经济和社会发展规划、国民经济和社会发展年度计划、土地供应计划相衔接，将规划、计划、建设三者进行了统一。 （3）<strong>路径三：城市总体规划——专项规划实施路径。</strong>基于城市规划的事权，将城市总体规划按专业分解，由于与政府各职能部门发展规划结合紧密，规划体系层级少，运作效率高，获得相当政府职能部门的欢迎。   <strong>第二，总体规划的实施缺位。</strong> 作为人类试图通过理性引导城市发展的尝试，规划本身因为涉及到制定目标和涉及实现目标的路径，难免会存在不完善之处。以往我们探讨的更多的是规划编制的不完善，事实上在具体的规划实施中也存在很多问题。这些问题的存在一方面由规划先天的本质属性决定，另一方面也与制度体系的动态变化过程有关。 总体上的实施问题主要体现在：总规实施缺乏法律机制；总规实施决策不统一；公众参与总规实施存在障碍；总规的整体性与实施的分散性矛盾；缺乏常效评估反馈机制。   总规实施的路径缺陷体现在以下几点： （1）<strong>实施路径的相互关系不明确。</strong>总规-近期-年度计划、总规-控规、总规-专项三条实施路径并行，涉及规划类型多，使规划体系过于复杂，规划实施难以保持一致，降低规划的效力。 （2）<strong>规划实施的边界太多太乱。</strong>城乡规划实施面临的边界包括：权属单位边界、行政区划边界、绿隔实施边界、专项规划边界、中心城、新城规划建设用地边界等，导致规划实施边界管理很难控制。 （3）<strong>规划实施的责任无监督无法则。</strong>城乡规划实施面临的责任有：代征道路、代征市政设施、代建公共配套设施、实施公共绿化、拆除违章建筑、腾退公共空间用地等。而规划实施管理的事权在于“一书两证”管理，没有形成对开发实施主体的所承担的公共实施责任进行监督管理，《城乡规划法》上也没有针对实施的法律授权依据。同时，农村规划实施管理更是城乡规划的监控管理盲点。   <strong>第三，总体规划实施的转向。</strong> 在城市发展转型和规划体系转型的背景下，城市总体规划实施也面临着转向，主要包括： （1）由远期规划目标转向<strong>近期行动计划</strong>； （2）由用地布局规划转向<strong>项目实施建设规划</strong>； （3）由空间形态规划转向<strong>空间实施政策规划</strong>； （4）由规划文本条例转向<strong>规划立法制定</strong>； （5）由重视规划成果转向重视<strong>规划实施过程</strong>； （6）由空间法定化监督转向<strong>目标契约化协商</strong>。   <strong>第四，把握总体规划实施的路径机制。</strong> 总规实施主要分为强制性政策机制、引导性政策机制和限制性政策机制以及区县城乡规划实施的“考核机制”四类。   <strong>强制性政策机制</strong>，<strong>是形成以三规合一为核心，以政府为主导，促进总体规划实施的“协同契约”机制。</strong>遵循以下原则： （1）<strong>原则统一</strong>：从单一目标和条块思维转换为经济-社会-环境多目标均衡和供给-需求-空间多元素均衡。 （2）<strong>空间合一</strong>：形成同一个规划平台，将经济和人口影响下的土地需求分析模型与环境、社会和文化影响下的土地供给模型对接，整合在空间分配模型中，作为提供城市基础设施和城市交通的依据。 （3）<strong>步调一致</strong>：城市规划必须在编制内容、实施机制方面融入政府日常操作体系，才能从单纯的技术工具演变为政府公共政策。在内容控制上，形成城市总体规划—分区规划—控制性详细规划—修建性详细规划构成的控制体系；在时序上，形成城市总体规划—近期建设规划—年度实施方案—建设项目的空间布局和土地安排，在各层级中协调国民经济与社会发展五年计划指导下的年度经济与社会发展方案、年度政府投资项目和年度预算（草案）等。 （4）<strong>程序优化</strong>：实现“三个一”实施机制目标，形成一套实施平台、一套实施管理机制、一套图纸机制，完成北京城市总体规划实施确定的各项社会服务发展目标。 其中，在规划编制实施方面，建立对应首都城乡规划各层级的近期建设规划项目库；规划管理实施方面，建立预申报制度，上报规划国土发改部门，建立预选址和用地核查制度，核查规划、权属、项目筛选入库，建立双平台制度，耦合资金和项目；规划监督实施方面，建立首都城乡规划总督察，区县规划督察，乡镇规划监察员，建立首都规划监察制度与议会制度；实施三规合一机制，三规形成一张图，建立跨部门统筹联动机制，建立跨部门协作权力清单。   <strong>引导性政策机制，是建立规划实施单元政策平台。</strong>具体包括： （1）<strong>建立首都城乡规划实施单元的实施路径</strong>，以市场配置为抓手，以城市总体规划—空间政策管控—实施单元规划—实施规划书（法定文本）为规划编制和管理为实施路径。 （2）<strong>确定以首都城乡规划实施单元为平台的空间政策分区</strong>，划定首都空间增长边界，划定生态控制线，建立以首都城乡总体规划建设实施为核心的多层次的，规划实施单元法定规划一张图。 （3）<strong>建立保障首都城乡规划实施单元的空间体制机制</strong>，以首都空间规划实施单元一张图的实施情况，为政府考核评价体系，建立首都城乡规划实施的空间一张图的立法管控和绩效实施评估机制。 （4）<strong>规划实施单元的实施</strong>，通过建立规划实施书（法定文本）实施机制，确定规划实施书的实施内容，公共参与方式、规划督察内容和实施评估绩效。   <strong>限制性政策机制，即分事权的空间统筹实施。</strong>具体包括： （1）<strong>建立专项规划实施目标</strong>，以北京城市总体规划实施目标位核心，以各事权专项规划实施目标位内容，建立以城市三大基础服务设施为核心的、多层次、多目标城市发展支撑结构和体系。 （2）<strong>建立专项规划实施路径</strong>，以限制政策为抓手，以城市总体规划—专项规划编制和管理—空间政策实施室—控制性详细规划为实施路径。 （3）<strong>确定专项规划实施机制</strong>，由各专项部门编制本部门专项规划和实施规划，由首都规划委员会，经空间政策实验室统筹协调后进行审批，由社会专门机构组织开展专项规划的公共参与、专项规划实施评估、专项规划实施监督。   <strong>建立区县城乡规划实施“考核机制”。</strong>落实首都功能定位，分类指导不同区域和区县的功能定位和发展策略。科学制定区县综合考核评价指标体系，加强人口调控、生态效益、资源消耗等指标权重。按照区域功能定位，优化空间布局，统筹协调区域产业与城镇发展、生态环境保护与建设、公共服务和基础设施配置。   我想，从注重规划编制到注重规划实施，从目标导向的规划愿景到行动导向的具体计划，从注重规划文本条例到注重规划立法，城市总体规划的有效实施正成为北京城市发展控制与管理中的一个着力点。未来的北京城市总体规划实施将更加注重行动实施、政策、立法保障和公众参与，让规划能够真正起到作用，落到实处。当然，前提是规划编制的科学性与合理性。 设立制度框架，不是为了限制和管控，而是为了达成一个各方认可的共识，在此基础上，让大家都能在制度的保护中按照自己的心愿翩然起舞。从这个角度来看，无论是规划的编制还是实施，都需要持续反思，哪些是该管的，哪些是不该管的，管好改管的，放开不该管的，做好分内的事，让规划的编制和实施真正为城市的美好明天做出贡献。   <em>题图来源：<a href="http://www.crmsolutioncomparison.com/wp-content/uploads/2010/12/AGS-Screenshot1513.jpg" target="_blank" rel="noopener">http://www.crmsolutioncomparison.com/wp-content/uploads/2010/12/AGS-Screenshot1513.jpg</a></em> <em>（本文经作者授权发布，未经允许，不得转载）</em></p>
 
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p><a href="http://citiesheart.com/wp-content/uploads/2014/12/implementation1.jpg" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2014/12/implementation1.jpg" alt="implementation"></a> 在2014年10月18日召开的清华大学建筑学院主办的中日法城市规划体系比较研究国际研讨会上，北京市城市规划设计研究院副总规划师石晓冬老师作了题为《以北京城市总体规划实施看中国城乡规划体系转型》的报告。对于长期呆在学校中进行理论学习的同学，石老师的演讲为我们打开了一扇现实的窗户，可以让我们看到规划师苦心孤诣编制出来的规划，在实施中会涉及哪些重要机制，面临哪些问题，以及今后的城市总体规划实施应该何去何从，有没有路径机制可以保障规划的顺利实施。 石老师的报告主要探讨了以下四个方面的问题：（1）北京城市总体规划实施机制；（2）总体规划的实施缺位；（3）总体规划实施的转向；（4）总体规划实施的路径机制。    <strong>第一，北京城市总体规划实施机制。</strong> 也就是保证北京城市总体规划实施得以开展的制度框架，即通过怎样的制度抓手规划才得以开展呢？涉及： （1）<strong>法律授权</strong>：遵循《中华人民共和国城乡规划法》，由国务院对《北京城市总体规划》进行批复。 （2）<strong>机构和职能</strong>：由市、区、乡镇政府，首都规划委员会，市、区规划管理部门，负责北京城市总体规划实施和管理，遵守城乡规划法律法规及监督检查。 （3）<strong>许可制度</strong>：一书两证制度。 （4）<strong>监督检查</strong>：包括对建设活动监督检查，立法机构的监督检查，社会监督，查处违法用地和违法建设。   有了制度框架，还需要有具体的实施路径，即总体规划实施是如何落到一项项可操作的计划中呢？有三条路径： （1）<strong>路径一：城市总体规划——控制性详细规划（法定图则）路径</strong>。主要基于城市规划的技术性，将城市总体规划按空间分解。这条路径存在时间最久，法律依据最清楚，体系相对最完善。 （2）<strong>路径二：城市总体规划——近期建设规划——年度实施计划路径。</strong>通过这一路径与年度国民经济和社会发展规划、国民经济和社会发展年度计划、土地供应计划相衔接，将规划、计划、建设三者进行了统一。 （3）<strong>路径三：城市总体规划——专项规划实施路径。</strong>基于城市规划的事权，将城市总体规划按专业分解，由于与政府各职能部门发展规划结合紧密，规划体系层级少，运作效率高，获得相当政府职能部门的欢迎。   <strong>第二，总体规划的实施缺位。</strong> 作为人类试图通过理性引导城市发展的尝试，规划本身因为涉及到制定目标和涉及实现目标的路径，难免会存在不完善之处。以往我们探讨的更多的是规划编制的不完善，事实上在具体的规划实施中也存在很多问题。这些问题的存在一方面由规划先天的本质属性决定，另一方面也与制度体系的动态变化过程有关。 总体上的实施问题主要体现在：总规实施缺乏法律机制；总规实施决策不统一；公众参与总规实施存在障碍；总规的整体性与实施的分散性矛盾；缺乏常效评估反馈机制。   总规实施的路径缺陷体现在以下几点： （1）<strong>实施路径的相互关系不明确。</strong>总规-近期-年度计划、总规-控规、总规-专项三条实施路径并行，涉及规划类型多，使规划体系过于复杂，规划实施难以保持一致，降低规划的效力。 （2）<strong>规划实施的边界太多太乱。</strong>城乡规划实施面临的边界包括：权属单位边界、行政区划边界、绿隔实施边界、专项规划边界、中心城、新城规划建设用地边界等，导致规划实施边界管理很难控制。 （3）<strong>规划实施的责任无监督无法则。</strong>城乡规划实施面临的责任有：代征道路、代征市政设施、代建公共配套设施、实施公共绿化、拆除违章建筑、腾退公共空间用地等。而规划实施管理的事权在于“一书两证”管理，没有形成对开发实施主体的所承担的公共实施责任进行监督管理，《城乡规划法》上也没有针对实施的法律授权依据。同时，农村规划实施管理更是城乡规划的监控管理盲点。   <strong>第三，总体规划实施的转向。</strong> 在城市发展转型和规划体系转型的背景下，城市总体规划实施也面临着转向，主要包括： （1）由远期规划目标转向<strong>近期行动计划</strong>； （2）由用地布局规划转向<strong>项目实施建设规划</strong>； （3）由空间形态规划转向<strong>空间实施政策规划</strong>； （4）由规划文本条例转向<strong>规划立法制定</strong>； （5）由重视规划成果转向重视<strong>规划实施过程</strong>； （6）由空间法定化监督转向<strong>目标契约化协商</strong>。   <strong>第四，把握总体规划实施的路径机制。</strong> 总规实施主要分为强制性政策机制、引导性政策机制和限制性政策机制以及区县城乡规划实施的“考核机制”四类。   <strong>强制性政策机制</strong>，<strong>是形成以三规合一为核心，以政府为主导，促进总体规划实施的“协同契约”机制。</strong>遵循以下原则： （1）<strong>原则统一</strong>：从单一目标和条块思维转换为经济-社会-环境多目标均衡和供给-需求-空间多元素均衡。 （2）<strong>空间合一</strong>：形成同一个规划平台，将经济和人口影响下的土地需求分析模型与环境、社会和文化影响下的土地供给模型对接，整合在空间分配模型中，作为提供城市基础设施和城市交通的依据。 （3）<strong>步调一致</strong>：城市规划必须在编制内容、实施机制方面融入政府日常操作体系，才能从单纯的技术工具演变为政府公共政策。在内容控制上，形成城市总体规划—分区规划—控制性详细规划—修建性详细规划构成的控制体系；在时序上，形成城市总体规划—近期建设规划—年度实施方案—建设项目的空间布局和土地安排，在各层级中协调国民经济与社会发展五年计划指导下的年度经济与社会发展方案、年度政府投资项目和年度预算（草案）等。 （4）<strong>程序优化</strong>：实现“三个一”实施机制目标，形成一套实施平台、一套实施管理机制、一套图纸机制，完成北京城市总体规划实施确定的各项社会服务发展目标。 其中，在规划编制实施方面，建立对应首都城乡规划各层级的近期建设规划项目库；规划管理实施方面，建立预申报制度，上报规划国土发改部门，建立预选址和用地核查制度，核查规划、权属、项目筛选入库，建立双平台制度，耦合资金和项目；规划监督实施方面，建立首都城乡规划总督察，区县规划督察，乡镇规划监察员，建立首都规划监察制度与议会制度；实施三规合一机制，三规形成一张图，建立跨部门统筹联动机制，建立跨部门协作权力清单。   <strong>引导性政策机制，是建立规划实施单元政策平台。</strong>具体包括： （1）<strong>建立首都城乡规划实施单元的实施路径</strong>，以市场配置为抓手，以城市总体规划—空间政策管控—实施单元规划—实施规划书（法定文本）为规划编制和管理为实施路径。 （2）<strong>确定以首都城乡规划实施单元为平台的空间政策分区</strong>，划定首都空间增长边界，划定生态控制线，建立以首都城乡总体规划建设实施为核心的多层次的，规划实施单元法定规划一张图。 （3）<strong>建立保障首都城乡规划实施单元的空间体制机制</strong>，以首都空间规划实施单元一张图的实施情况，为政府考核评价体系，建立首都城乡规划实施的空间一张图的立法管控和绩效实施评估机制。 （4）<strong>规划实施单元的实施</strong>，通过建立规划实施书（法定文本）实施机制，确定规划实施书的实施内容，公共参与方式、规划督察内容和实施评估绩效。   <strong>限制性政策机制，即分事权的空间统筹实施。</strong>具体包括： （1）<strong>建立专项规划实施目标</strong>，以北京城市总体规划实施目标位核心，以各事权专项规划实施目标位内容，建立以城市三大基础服务设施为核心的、多层次、多目标城市发展支撑结构和体系。 （2）<strong>建立专项规划实施路径</strong>，以限制政策为抓手，以城市总体规划—专项规划编制和管理—空间政策实施室—控制性详细规划为实施路径。 （3）<strong>确定专项规划实施机制</strong>，由各专项部门编制本部门专项规划和实施规划，由首都规划委员会，经空间政策实验室统筹协调后进行审批，由社会专门机构组织开展专项规划的公共参与、专项规划实施评估、专项规划实施监督。   <strong>建立区县城乡规划实施“考核机制”。</strong>落实首都功能定位，分类指导不同区域和区县的功能定位和发展策略。科学制定区县综合考核评价指标体系，加强人口调控、生态效益、资源消耗等指标权重。按照区域功能定位，优化空间布局，统筹协调区域产业与城镇发展、生态环境保护与建设、公共服务和基础设施配置。   我想，从注重规划编制到注重规划实施，从目标导向的规划愿景到行动导向的具体计划，从注重规划文本条例到注重规划立法，城市总体规划的有效实施正成为北京城市发展控制与管理中的一个着力点。未来的北京城市总体规划实施将更加注重行动实施、政策、立法保障和公众参与，让规划能够真正起到作用，落到实处。当然，前提是规划编制的科学性与合理性。 设立制度框架，不是为了限制和管控，而是为了达成一个各方认可的共识，在此基础上，让大家都能在制度的保护中按照自己的心愿翩然起舞。从这个角度来看，无论是规划的编制还是实施，都需要持续反思，哪些是该管的，哪些是不该管的，管好改管的，放开不该管的，做好分内的事，让规划的编制和实施真正为城市的美好明天做出贡献。   <em>题图来源：<a href="http://www.crmsolutioncomparison.com/wp-content/uploads/2010/12/AGS-Screenshot1513.jpg" target="_blank" rel="noopener">http://www.crmsolutioncomparison.com/wp-content/uploads/2010/12/AGS-Screenshot1513.jpg</a></em> <em>（本文经作者授权发布，未经允许，不得转载）</em></p>
+
+          
+        
       
     </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2014/12/02/transiton-of-china-urban-planning-system-from-the-perspective-of-beijing-comprehensive-planning-implementation/" data-id="ck6ni9efg0086d16b7keedpnl" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E8%A7%84%E5%88%92%E8%BD%AC%E5%9E%8B/" rel="tag">规划转型</a></li></ul>
+    
+    
+    
 
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
     </footer>
   </div>
   
-</article>
+  
+  
+  </article>
 
+
+    
+      
 
   
-    <article id="post-who-cares" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2014/11/26/who-cares/" class="article-date">
-  <time datetime="2014-11-26T10:26:40.000Z" itemprop="datePublished">2014-11-26</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%E6%88%90%E9%95%BF%E6%84%9F%E6%82%9F/">成长感悟</a>
-  </div>
 
-  </div>
-  <div class="article-inner">
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://citiesheart.com/2014/11/26/who-cares/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Xiaohui Yuan">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="城市的心弦">
+    </span>
+
     
-    
-      <header class="article-header">
+      <header class="post-header">
+
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2014/11/26/who-cares/">这个世界有没有你，差别没多大</a>
-    </h1>
-  
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2014/11/26/who-cares/" itemprop="url">这个世界有没有你，差别没多大</a></h1>
+        
 
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2014-11-26T18:26:40+08:00">
+                2014-11-26
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E6%88%90%E9%95%BF%E6%84%9F%E6%82%9F/" itemprop="url" rel="index">
+                    <span itemprop="name">成长感悟</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
       </header>
     
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p><a href="http://citiesheart.com/wp-content/uploads/2014/11/thinking-about-life.jpg" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2014/11/thinking-about-life.jpg" alt="thinking about life"></a> 今天中午看完超级课程表那个90后CEO的演讲，有触动。感慨自己在教育体系中呆了这么久，在获得知识和能力的同时，也丢失掉了很多宝贵的东西。有种深深的被压抑的感觉。 一个个曾经鲜活的个体，在标准化的培养模式下，走上了大致相同的上学、毕业、找工作、结婚、生子的道路。   从生态学角度来说，社会运行的每个生态位上都会有很多人占据，除了少量十分出众的人能够占据非常稀缺的生态位以外，芸芸众生，多一个人少一个人对这个世界的影响并不大。 那么，我作为历史长河和广袤宇宙中的一个个体，在这一时，这一刻，这一地点的出现，对于人类的演进，对于世界的演进来说，可能真的微不足道。 那么我存在的价值和意义是什么？（又来了…）    这短暂的无限宝贵的生命赋予我的去生活，去体验的能力和流走就不会再有的单向度的时间配额就是支撑我去追寻生命意义的仅有资源。我要把这有限能力用在何处，我要把宝贵的时间配额用在何处？ 什么才是我真正想要的生活？真的有答案吗？我怎么知道我想要的就真是我想要的，而不是别人给我洗脑的结果，不是社会强加给我的让我去相信的价值观？ 我作为独立个体的自主性体现在何处？   要自己陷到体制带给我们的虚假安全感里，去为生存赢得一杯羹，变得越来越无法接受。 当把一切体制的束缚都抛开时，我真的能够独立生存下来吗？能生存地如想象般自由吗？ 这个社会是不是需要每个人都依靠自己的能力去独立生存？寄生状态是否是可耻的？   可是作为一个贪图安逸，好吃懒做，还有生儿育女责任的个体来说，拥有体制的保护给我们更多的空间去做一些探索，不更有保障吗？ 况且，体制不也是人类社会建立的，试图让其良好运转，让每个人分工合作、各尽其能的框架吗？   为什么会害怕？为什么会不甘心？到底是在害怕和不甘些什么？不甘心自己的才华被体制的框框磨得失去棱角？ 自己真的有才华吗？能把自己置于一个很低很低的位置吗？能坚持在各种可能失败的境遇中吃苦吗？   生命只有一次，今天的时间过完就没有了，死亡的导火索烧不了多少年就烧到了尽头，哪些想做的事还没做呢？ 当终极的生命意义没找到的时候，手上的事要先做好吗？还是应该放下没那么热爱的一切，去义无反顾地全力寻找？   没有人不是生活在各种各样的限制中，如何于限制中寻找自由，并突破限制，追寻更大的自由呢？ 自我设限是不是最大的受限？追求自由的过程是顺应内心的过程，还是跟心中的限制斗争的过程？ 如何既聆听自己内心的声音，做想做的事，又能突破内心的设限，去追逐自由？ 怎么说着说着，就把自己说分裂了呢？:P   这个世界可能真的多我一个不多，少我一个不少。但对于我来说，我才是世界存在的意义和价值。 也许，找寻自己的意义和价值，该向内求索，问问自己相信什么，想做什么，然后就开始做。 做的过程中，再不断地问自己是不是走上了自己想走的该走的路。试错嘛。   得少想点了，想太多的结果就是把自己想分裂了，小心翼翼战战兢兢哆哆嗦嗦地犹豫来犹豫去，真不如豁出去了开干。 让自己脱离被安全感包围的状态，才有可能激发生命的活力，激发生存的斗志吧。   踏上一条少有人走的路，也许喜欢，也许不喜欢，可不试试又怎么会知道呢？ 世界有没有你，差别有多大？不试试，又怎么会知道呢？   <em>题图来源：<a href="http://www.ewallpapers.eu/w_show/thinking-about-you-1920-1080-6919.jpg" target="_blank" rel="noopener">http://www.ewallpapers.eu/w_show/thinking-about-you-1920-1080-6919.jpg</a></em></p>
 
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p><a href="http://citiesheart.com/wp-content/uploads/2014/11/thinking-about-life.jpg" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2014/11/thinking-about-life.jpg" alt="thinking about life"></a> 今天中午看完超级课程表那个90后CEO的演讲，有触动。感慨自己在教育体系中呆了这么久，在获得知识和能力的同时，也丢失掉了很多宝贵的东西。有种深深的被压抑的感觉。 一个个曾经鲜活的个体，在标准化的培养模式下，走上了大致相同的上学、毕业、找工作、结婚、生子的道路。   从生态学角度来说，社会运行的每个生态位上都会有很多人占据，除了少量十分出众的人能够占据非常稀缺的生态位以外，芸芸众生，多一个人少一个人对这个世界的影响并不大。 那么，我作为历史长河和广袤宇宙中的一个个体，在这一时，这一刻，这一地点的出现，对于人类的演进，对于世界的演进来说，可能真的微不足道。 那么我存在的价值和意义是什么？（又来了…）    这短暂的无限宝贵的生命赋予我的去生活，去体验的能力和流走就不会再有的单向度的时间配额就是支撑我去追寻生命意义的仅有资源。我要把这有限能力用在何处，我要把宝贵的时间配额用在何处？ 什么才是我真正想要的生活？真的有答案吗？我怎么知道我想要的就真是我想要的，而不是别人给我洗脑的结果，不是社会强加给我的让我去相信的价值观？ 我作为独立个体的自主性体现在何处？   要自己陷到体制带给我们的虚假安全感里，去为生存赢得一杯羹，变得越来越无法接受。 当把一切体制的束缚都抛开时，我真的能够独立生存下来吗？能生存地如想象般自由吗？ 这个社会是不是需要每个人都依靠自己的能力去独立生存？寄生状态是否是可耻的？   可是作为一个贪图安逸，好吃懒做，还有生儿育女责任的个体来说，拥有体制的保护给我们更多的空间去做一些探索，不更有保障吗？ 况且，体制不也是人类社会建立的，试图让其良好运转，让每个人分工合作、各尽其能的框架吗？   为什么会害怕？为什么会不甘心？到底是在害怕和不甘些什么？不甘心自己的才华被体制的框框磨得失去棱角？ 自己真的有才华吗？能把自己置于一个很低很低的位置吗？能坚持在各种可能失败的境遇中吃苦吗？   生命只有一次，今天的时间过完就没有了，死亡的导火索烧不了多少年就烧到了尽头，哪些想做的事还没做呢？ 当终极的生命意义没找到的时候，手上的事要先做好吗？还是应该放下没那么热爱的一切，去义无反顾地全力寻找？   没有人不是生活在各种各样的限制中，如何于限制中寻找自由，并突破限制，追寻更大的自由呢？ 自我设限是不是最大的受限？追求自由的过程是顺应内心的过程，还是跟心中的限制斗争的过程？ 如何既聆听自己内心的声音，做想做的事，又能突破内心的设限，去追逐自由？ 怎么说着说着，就把自己说分裂了呢？:P   这个世界可能真的多我一个不多，少我一个不少。但对于我来说，我才是世界存在的意义和价值。 也许，找寻自己的意义和价值，该向内求索，问问自己相信什么，想做什么，然后就开始做。 做的过程中，再不断地问自己是不是走上了自己想走的该走的路。试错嘛。   得少想点了，想太多的结果就是把自己想分裂了，小心翼翼战战兢兢哆哆嗦嗦地犹豫来犹豫去，真不如豁出去了开干。 让自己脱离被安全感包围的状态，才有可能激发生命的活力，激发生存的斗志吧。   踏上一条少有人走的路，也许喜欢，也许不喜欢，可不试试又怎么会知道呢？ 世界有没有你，差别有多大？不试试，又怎么会知道呢？   <em>题图来源：<a href="http://www.ewallpapers.eu/w_show/thinking-about-you-1920-1080-6919.jpg" target="_blank" rel="noopener">http://www.ewallpapers.eu/w_show/thinking-about-you-1920-1080-6919.jpg</a></em></p>
+
+          
+        
       
     </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2014/11/26/who-cares/" data-id="ck6ni9efp0091d16b1we7fvxb" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E4%B8%AA%E4%BA%BA%E9%80%89%E6%8B%A9/" rel="tag">个人选择</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E4%BA%BA%E7%94%9F%E6%84%8F%E4%B9%89/" rel="tag">人生意义</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E4%BB%B7%E5%80%BC%E8%A7%82/" rel="tag">价值观</a></li></ul>
+    
+    
+    
 
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
     </footer>
   </div>
   
-</article>
+  
+  
+  </article>
 
+
+    
+      
 
   
-    <article id="post-what-is-geodesign" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2014/11/23/what-is-geodesign/" class="article-date">
-  <time datetime="2014-11-23T04:51:49.000Z" itemprop="datePublished">2014-11-23</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%E5%AD%A6%E6%9C%AF%E4%BA%A4%E6%B5%81/">学术交流</a>
-  </div>
 
-  </div>
-  <div class="article-inner">
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://citiesheart.com/2014/11/23/what-is-geodesign/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Xiaohui Yuan">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="城市的心弦">
+    </span>
+
     
-    
-      <header class="article-header">
+      <header class="post-header">
+
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2014/11/23/what-is-geodesign/">地理设计是什么——记“地理信息科学之父”Goodchild教授清华演讲</a>
-    </h1>
-  
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2014/11/23/what-is-geodesign/" itemprop="url">地理设计是什么——记“地理信息科学之父”Goodchild教授清华演讲</a></h1>
+        
 
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2014-11-23T12:51:49+08:00">
+                2014-11-23
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E5%AD%A6%E6%9C%AF%E4%BA%A4%E6%B5%81/" itemprop="url" rel="index">
+                    <span itemprop="name">学术交流</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
       </header>
     
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p><a href="http://citiesheart.com/wp-content/uploads/2014/11/geodesign.jpg" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2014/11/geodesign.jpg" alt="geodesign"></a> 2014年11月20日下午3:00-5:00，在清华大学FIT楼1-315报告厅，清华大学建筑学院和Esri中国信息技术有限公司联合邀请了美国加州大学圣巴巴拉分校地理系Michael F. Goodchild教授做了题为《GIS在规划中的应用》的演讲，活动由建筑学院党安荣老师主持。Goodchild教授是美国科学院地理信息科学院士，美国艺术与科学院院士，英国皇家学会外籍院士和加拿大皇家学会外籍院士，被誉为“地理信息科学”之父。他的主要研究领域涉及地理信息科学理论、空间分析、空间数据不确定性等。慕名前来学习，一是想从总体上了解一下GIS在规划中的应用有哪些新进展，二是想看看地位如此之高的传说中的大牛到底有哪些过人之处。 Goodchild教授的演讲时间不长，短短的1小时里向大家介绍了地理设计（GeoDesign）是什么、地理设计当前发展的机遇与新的数据、空间（Space）与场所（Place）的关系、GIS发展的新工具、地理设计的结构等问题。后续的1小时提问环节，又跟大家探讨了GIS与规划的关系、CyberGIS能做什么、对VGI（volunteer geographic information）的看法、GeoDesign与SketchUp的关系、公共健康研究中的空间转向，GIS与BIM的整合问题等。Goodchild教授用简单清晰的语言向听众描绘了一幅未来GIS应用的图景，如他所说，不仅仅是帮助人们认识世界，更是帮助人们改变世界，让我们赖以生存的家园变得更好。    <strong>地理设计是什么：当地理与设计相遇</strong> 当前是GIS和城市规划发展的重要时期，技术的快速变革，应用的日益广泛，都为人们整合二者追求更美好的城市提供了便利。地理设计在这样的背景下提出，代表着地理与设计的相遇。地理设计帮助人们干预到世界的运行中，以达到可欲的目标。谷教授说，在过去几十年的发展中，GIS界开发了很多应用，产业界赚了不少钱，但大都只起到“描绘世界”的作用，而地理设计将GIS的作用拓展到“改变世界”的领域，来让世界变得更好。哈佛大学Carl Steinitz教授认为，地理设计是通过设计来改变地理；谷教授认为GIS重点探讨是什么，GeoDesign重点探讨将要成为什么。这么来看，有点地理界向规划设计界进军的意思:P   <strong>当前机遇与新数据：我们站在一个怎样的时空节点</strong> 为什么是现在提出地理设计呢？谷教授认为有三点原因：一是我们日益意识到进行可持续的设计的重要性，它关系到环境、人类需求和文化遗产等；二是利用GIS，我们评估干预影响的能力越来越强，包括对人类健康、环境、水、空气质量、交流和经济的影响，都可以利用科学研究中较为成熟的模型来进行；三是在GIS体系中，我们拥有关于丰富的地理空间数据，可以作为宝贵的资源加以利用。 新兴数据源的出现也为城市地理设计的应用创造了契机，这些新兴数据源包括四类：3D数据，实时跟踪数据，社交媒体数据，人口地理统计特征数据（geodemographics）等。 第一类3D数据，包括建筑类的3D数据，如BIM平台在辅助设计的同时，也直接汇总了很多新建建筑的三维数据，有了这些数据，我们可以非常轻松地进行各类分析，投影、日照、风道等等，意味着我们有了在三维空间内开展分析和研究的条件； 第二类实时跟踪数据，比如CASA和UCL的学者对孩子的行动轨迹的分析，可以了解孩子在空间中的行为模式，以此为基础，改进儿童服务设施，或者是根据人们的活动轨迹，建立人们行为模式和个体健康之间的关系，设计出更健康的城市。ROMANSE提供的实时交通数据，可以清晰展现路况信息。利用Flickr上用户上传的大量照片信息，既可以通过辨识同一个人拍照的轨迹，分析他的行为路线；也可以根据用户拍照的时间，辨别到底是游客还是本地居民，前者拍照时间更为集中，后者比较平均；还有人曾分析照片中标签为埃菲尔铁塔的照片都是在什么位置拍摄的，也可以以此作为景观视线规划的根据；实时跟踪数据跟3D数据结合，我们可以了解人们在城市中的移动和交互方式，通过分析他们行动轨迹的叠合，了解人与人之间的交互的时间和地点。 第三类社交媒体数据由于带有地理位置属性，可以帮助研究者了解人们集聚的场所，比如在洛杉矶这个城市中，几个大学校园区域和好莱坞区域是大家转发twitter数量最多的地方，这种识别可以帮助规划师更有针对性地进行规划；还有研究者发起了定位城市中广告牌位置的众包项目，发动城市中的志愿者一同识别出这些广告牌或宣传板的位置，帮助理解现有位置分布，提出改进建议。 第四类人口地理统计特征数据的案例是，一位学生曾经将一个森林区域的传感器数据整合在一起，制作了区域72小时内的山火地图，结合区域人口的地理位置数据，可以为区域内的居民提供预警信息，曾经拯救了几十万人的生命。巴西圣保罗平民窟，过去人们很难深入调查了解区域的居民信息，现在通过某个手机应用的推广，可以获取注册用户的相关信息，了解区域中每个家庭的大致情况。   <strong>空间与场所的关系：关于空间的GIS**</strong>与生活在场所中的人** 谷教授在谈及空间与场所的关系时，说到人们都是生活在场所中，而GIS只是关于空间的，场所是被人类赋予了意义的空间，带有功能属性，可以被人类所感知。如果想让GIS发挥更大的价值，就需要将其转变为基于场所的GIS。对基于场所的GIS的理解可以从以下几个方面思考：人们往往通过场所联结，而不是空间；对名称敏感，而不是对坐标敏感；多使用图示化的概念图，而不是标准化的平面图；很多GIS功能对于人们使用来说没什么用，但同时这也为新功能的出现提供了空间。 这些也为人们理解位置精度提供了一个新的视角。谷教授举了一个地铁线路图的例子，一般的地铁线路图都是只显示人们所需要的信息，进行抽象化表达的结果，不一定在空间上精确。他曾经去东京，查阅了好多地图，没有发现一张在空间上准确的地图，都是根据人们的认知和使用需求调整过的。但这种调整也存在问题，地铁线路的抽象处理经常让人们在出了地铁站以后无法准确识别目的地和当前位置的关系，不得不重新掏出地图来看看怎么走，如果有个app既能整合地铁线路，也能让大家了解所处的真实空间位置就更方便了。   <strong>GIS**</strong>发展的新工具：支撑GIS<strong>**发展的技术</strong> 支撑GIS发展的技术主要来源于计算机等学科，模拟技术的成熟，高性能计算、分布式运算、微观模拟等技术支持下的Cyber GIS的出现，可交互性（interoperability）的增强，都为GIS发展出新工具提供了可能性。 在模拟方面，不仅可以进行城市增长模拟，而且可以模拟人群的集聚和互动，比如模拟人们到麦加朝圣时的情景，模拟火灾发生时人们的逃生路线，甚至当一座城市发生紧急情况需要疏散时，也可以模拟出针对所有居民的撤离路线。   <strong>地理设计的结构：设计师想要的不仅仅是地图</strong> 地理设计，有关两个相离甚远的议题：一边是对设计草图的记录，需要的是审美能力、人文意识；另一边是对地理数据的评估、分析、预测、修正和提升，需要的是科学评估和建模能力。地理设计的过程，将充分结合这两个议题，结合人文与科学，设计与评估。 在演讲中，谷教授提了一个很有意思的问题：设计师想要的不仅仅是地图，设计师还想要什么？在设计中最重要的是互动（interactive），是流（flow），如果设计师能够看到自己的设计所产生的效果，和使用后的反馈，根据这些再去调整设计，就能很好地为设计结果负责。比如规划师规划的是路网，而不是交通流，如果设计中无法了解路网设计对交通流的影响，就很难保证最后的设计结果对现实中的交通问题有合适的匹配。我想，从这个角度，地理设计如果真能整合设计师与较为科学的分析模拟，那么真的可以带来大的设计变革。 来看看地理设计的结构。大体包括空间数据模型—设计工具—方法框架—关键效果评估指标—反馈工具—分析结论—合作工具—可视化工具等内容，如上文所说，尝试将设计、评估、反馈等流程整合在一个科学平台上，促进更好的、更科学的地理设计产生。 空间数据模型包括了2D/3D/4D的环境，地理位置表层、以上、以下的环境都在其中；地理空间实体，物质的、临时的、概念的、综合的实体；地理空间属性，层数、表面、领域、事件、主体等。 设计工具包括：快速、直观、综合的绘图/草图工具，关注情境、内容和关系的修改工具，界定定义和代表性的特征模板，以及各类具备特征的推理引擎。 方法框架包括：由语义结构和关系构成的本体论，清晰的、直观的、可获得的用户交互，分类的特定领域的工作流程。 合作工具包括：促进公众创造、评估和分享的虚拟设计坊，分散在时空中的设计团队，拥有不同价值观且不断变化的利益主体，致力于德尔菲过程和冲突解决的基于团队的决策等。 综合来看，地理设计包含了传统规划的大多数要素，尝试在当前已有的大量数据和长期积累起来的科学技术分析方法的基础上，建立起规划师和设计师开展工作的平台，以面向未来人类居住环境的发展。   <strong>GIS**</strong>与规划的关系：未来大学的重新组织** 提问环节开始，有老师问及谷教授GIS与规划的关系，他从学科发展演变的角度进行了回答。看学科史可以了解，此处不再复述。其中很重要的一点是，在地理与规划学科发展过程中，一度将科学层面的内容与设计的、人文的内容二分，造成了二者的对立，当前我们的大学也是按照学科分类的模式进行组织，在促进学科纵深发展的同时，却忽略了学科之间的联系，特别是科学与人文的联系。而规划恰恰需要这二者的整合，因此，未来大学可能会出现一种全新的组织模式，以促进人文与科学的融合。   <strong>CyberGIS**</strong>能做什么：问一个好问题比解决问题更重要** 有计算机系的同学问到，CyberGIS可以做什么。谷教授的回答再次从问题解答上升到思想层面，他说计算机运行速度的提高，只能帮助我们更快更有效率地解决问题，但跟以往其实没有本质区别。重要的是，去思考哪些事是过去不能做，但现在可以做的，要尝试跳出既有的思维框架想问题（thinking outside the box）。提出一个好问题，比尝试去用更好的方法解答既有问题更重要，因为在我们的训练体系中，并不鼓励我们提出新问题（the new question is important, because we are trained to ask the same question）。所以，CyberGIS能做什么，要看我们是否能提出前人没有提过的问题。目前互联网、全球化为我们提供的一大新视角是：远距离的互动很重要（long distance interaction matters），启发我们去思考任何一个小环境的变化都有可能对世界的其他地区产生影响。这种广阔的视野很重要。   <strong>VGI**</strong>的发展：如果人们能了解分享地图的意义** 有同学问教授对于志愿者地理信息（VGI）的看法，比如Open Street Map等通过众包模式由志愿者上传分享的信息。教授说，人们目前还不知道分享地图的意义是什么，只有大家能够了解到分享的意义，才会更有主动性地去贡献力量。事实上，人们知道的场所名称，可能比人们认识的汉字还多，这些对场所的认知，构成了人们对城市的感知。我们需要去挖掘这些信息对人们的重要性，对人们生活的意义，再去开展一些有针对性的工作。   <strong>GeoDesign**</strong>与SketchUp<strong>**的关系：是更大的图景也是看到关联的思考方式</strong> 我问谷教授，地理设计与传统的辅助设计工具SketchUp的关系是怎样，地理设计是一种新的辅助设计的方法，还是一种新的思考方式。他说二者都是，跟SketchUp相比，地理设计能够为设计师提供更全局的视野，将设计建立在更真实的地理图景中，提醒设计师关注设计项目与周边区域的关系；同时通过对设计成果的模拟、评估和反馈，让设计师可以看到设计结果的反馈，而SketchUp还是更面向于单体的设计，细节的推敲，也缺乏动态性和交互性。同时，地理设计也作为大量数据的综合平台，将与城市运行相关的方方面面的功能都包括进来，为设计师，乃至参与到规划中的公众更好地理解城市，提供了很好的支持。除了工具层面以外，更重要的是地理设计所倡导的看到关联的思考方式。   <strong>GIS**</strong>与BIM<strong>**的整合：思考方向比行动更重要</strong> 有老师问及GIS与BIM的关系和整合的可能性，谷教授回答，首先，二者在精度上差异较大，GIS的应用一般到米就足够了，而BIM可能需要到毫米，还是由应用的需求决定；其次，一项针对美国人的行为空间的统计显示，美国人的室内活动占到87%，室外活动只占13%，足以看出室内空间对人们的重要意义。可见Indoor GIS未来还是有很大空间的。目前已经可以利用机器人帮助我们完成室内3D空间的数据化工作，但花费巨大，而且这些建筑内部的数据测出来以后，除了商家推送广告、紧急情况下的疏散、医院中医生的定位以外，还能做什么，都需要我们更加主动地去思考，以引导这些技术发展的方向。   本次讲座，最大的收获还是思想层面的启发，技术发展无法替代我们的思考，联系的视角非常重要。我们需要拓展对人文和艺术的追求，利用技术的支撑，去发现新的问题，去解决新的问题，为人们的生活变得更好，做些力所能及的事。   <em>题图来源：<a href="http://www-scf.usc.edu/~nnowak/geodesign.jpg" target="_blank" rel="noopener">http://www-scf.usc.edu/~nnowak/geodesign.jpg</a></em></p>
 
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p><a href="http://citiesheart.com/wp-content/uploads/2014/11/geodesign.jpg" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2014/11/geodesign.jpg" alt="geodesign"></a> 2014年11月20日下午3:00-5:00，在清华大学FIT楼1-315报告厅，清华大学建筑学院和Esri中国信息技术有限公司联合邀请了美国加州大学圣巴巴拉分校地理系Michael F. Goodchild教授做了题为《GIS在规划中的应用》的演讲，活动由建筑学院党安荣老师主持。Goodchild教授是美国科学院地理信息科学院士，美国艺术与科学院院士，英国皇家学会外籍院士和加拿大皇家学会外籍院士，被誉为“地理信息科学”之父。他的主要研究领域涉及地理信息科学理论、空间分析、空间数据不确定性等。慕名前来学习，一是想从总体上了解一下GIS在规划中的应用有哪些新进展，二是想看看地位如此之高的传说中的大牛到底有哪些过人之处。 Goodchild教授的演讲时间不长，短短的1小时里向大家介绍了地理设计（GeoDesign）是什么、地理设计当前发展的机遇与新的数据、空间（Space）与场所（Place）的关系、GIS发展的新工具、地理设计的结构等问题。后续的1小时提问环节，又跟大家探讨了GIS与规划的关系、CyberGIS能做什么、对VGI（volunteer geographic information）的看法、GeoDesign与SketchUp的关系、公共健康研究中的空间转向，GIS与BIM的整合问题等。Goodchild教授用简单清晰的语言向听众描绘了一幅未来GIS应用的图景，如他所说，不仅仅是帮助人们认识世界，更是帮助人们改变世界，让我们赖以生存的家园变得更好。    <strong>地理设计是什么：当地理与设计相遇</strong> 当前是GIS和城市规划发展的重要时期，技术的快速变革，应用的日益广泛，都为人们整合二者追求更美好的城市提供了便利。地理设计在这样的背景下提出，代表着地理与设计的相遇。地理设计帮助人们干预到世界的运行中，以达到可欲的目标。谷教授说，在过去几十年的发展中，GIS界开发了很多应用，产业界赚了不少钱，但大都只起到“描绘世界”的作用，而地理设计将GIS的作用拓展到“改变世界”的领域，来让世界变得更好。哈佛大学Carl Steinitz教授认为，地理设计是通过设计来改变地理；谷教授认为GIS重点探讨是什么，GeoDesign重点探讨将要成为什么。这么来看，有点地理界向规划设计界进军的意思:P   <strong>当前机遇与新数据：我们站在一个怎样的时空节点</strong> 为什么是现在提出地理设计呢？谷教授认为有三点原因：一是我们日益意识到进行可持续的设计的重要性，它关系到环境、人类需求和文化遗产等；二是利用GIS，我们评估干预影响的能力越来越强，包括对人类健康、环境、水、空气质量、交流和经济的影响，都可以利用科学研究中较为成熟的模型来进行；三是在GIS体系中，我们拥有关于丰富的地理空间数据，可以作为宝贵的资源加以利用。 新兴数据源的出现也为城市地理设计的应用创造了契机，这些新兴数据源包括四类：3D数据，实时跟踪数据，社交媒体数据，人口地理统计特征数据（geodemographics）等。 第一类3D数据，包括建筑类的3D数据，如BIM平台在辅助设计的同时，也直接汇总了很多新建建筑的三维数据，有了这些数据，我们可以非常轻松地进行各类分析，投影、日照、风道等等，意味着我们有了在三维空间内开展分析和研究的条件； 第二类实时跟踪数据，比如CASA和UCL的学者对孩子的行动轨迹的分析，可以了解孩子在空间中的行为模式，以此为基础，改进儿童服务设施，或者是根据人们的活动轨迹，建立人们行为模式和个体健康之间的关系，设计出更健康的城市。ROMANSE提供的实时交通数据，可以清晰展现路况信息。利用Flickr上用户上传的大量照片信息，既可以通过辨识同一个人拍照的轨迹，分析他的行为路线；也可以根据用户拍照的时间，辨别到底是游客还是本地居民，前者拍照时间更为集中，后者比较平均；还有人曾分析照片中标签为埃菲尔铁塔的照片都是在什么位置拍摄的，也可以以此作为景观视线规划的根据；实时跟踪数据跟3D数据结合，我们可以了解人们在城市中的移动和交互方式，通过分析他们行动轨迹的叠合，了解人与人之间的交互的时间和地点。 第三类社交媒体数据由于带有地理位置属性，可以帮助研究者了解人们集聚的场所，比如在洛杉矶这个城市中，几个大学校园区域和好莱坞区域是大家转发twitter数量最多的地方，这种识别可以帮助规划师更有针对性地进行规划；还有研究者发起了定位城市中广告牌位置的众包项目，发动城市中的志愿者一同识别出这些广告牌或宣传板的位置，帮助理解现有位置分布，提出改进建议。 第四类人口地理统计特征数据的案例是，一位学生曾经将一个森林区域的传感器数据整合在一起，制作了区域72小时内的山火地图，结合区域人口的地理位置数据，可以为区域内的居民提供预警信息，曾经拯救了几十万人的生命。巴西圣保罗平民窟，过去人们很难深入调查了解区域的居民信息，现在通过某个手机应用的推广，可以获取注册用户的相关信息，了解区域中每个家庭的大致情况。   <strong>空间与场所的关系：关于空间的GIS**</strong>与生活在场所中的人** 谷教授在谈及空间与场所的关系时，说到人们都是生活在场所中，而GIS只是关于空间的，场所是被人类赋予了意义的空间，带有功能属性，可以被人类所感知。如果想让GIS发挥更大的价值，就需要将其转变为基于场所的GIS。对基于场所的GIS的理解可以从以下几个方面思考：人们往往通过场所联结，而不是空间；对名称敏感，而不是对坐标敏感；多使用图示化的概念图，而不是标准化的平面图；很多GIS功能对于人们使用来说没什么用，但同时这也为新功能的出现提供了空间。 这些也为人们理解位置精度提供了一个新的视角。谷教授举了一个地铁线路图的例子，一般的地铁线路图都是只显示人们所需要的信息，进行抽象化表达的结果，不一定在空间上精确。他曾经去东京，查阅了好多地图，没有发现一张在空间上准确的地图，都是根据人们的认知和使用需求调整过的。但这种调整也存在问题，地铁线路的抽象处理经常让人们在出了地铁站以后无法准确识别目的地和当前位置的关系，不得不重新掏出地图来看看怎么走，如果有个app既能整合地铁线路，也能让大家了解所处的真实空间位置就更方便了。   <strong>GIS**</strong>发展的新工具：支撑GIS<strong>**发展的技术</strong> 支撑GIS发展的技术主要来源于计算机等学科，模拟技术的成熟，高性能计算、分布式运算、微观模拟等技术支持下的Cyber GIS的出现，可交互性（interoperability）的增强，都为GIS发展出新工具提供了可能性。 在模拟方面，不仅可以进行城市增长模拟，而且可以模拟人群的集聚和互动，比如模拟人们到麦加朝圣时的情景，模拟火灾发生时人们的逃生路线，甚至当一座城市发生紧急情况需要疏散时，也可以模拟出针对所有居民的撤离路线。   <strong>地理设计的结构：设计师想要的不仅仅是地图</strong> 地理设计，有关两个相离甚远的议题：一边是对设计草图的记录，需要的是审美能力、人文意识；另一边是对地理数据的评估、分析、预测、修正和提升，需要的是科学评估和建模能力。地理设计的过程，将充分结合这两个议题，结合人文与科学，设计与评估。 在演讲中，谷教授提了一个很有意思的问题：设计师想要的不仅仅是地图，设计师还想要什么？在设计中最重要的是互动（interactive），是流（flow），如果设计师能够看到自己的设计所产生的效果，和使用后的反馈，根据这些再去调整设计，就能很好地为设计结果负责。比如规划师规划的是路网，而不是交通流，如果设计中无法了解路网设计对交通流的影响，就很难保证最后的设计结果对现实中的交通问题有合适的匹配。我想，从这个角度，地理设计如果真能整合设计师与较为科学的分析模拟，那么真的可以带来大的设计变革。 来看看地理设计的结构。大体包括空间数据模型—设计工具—方法框架—关键效果评估指标—反馈工具—分析结论—合作工具—可视化工具等内容，如上文所说，尝试将设计、评估、反馈等流程整合在一个科学平台上，促进更好的、更科学的地理设计产生。 空间数据模型包括了2D/3D/4D的环境，地理位置表层、以上、以下的环境都在其中；地理空间实体，物质的、临时的、概念的、综合的实体；地理空间属性，层数、表面、领域、事件、主体等。 设计工具包括：快速、直观、综合的绘图/草图工具，关注情境、内容和关系的修改工具，界定定义和代表性的特征模板，以及各类具备特征的推理引擎。 方法框架包括：由语义结构和关系构成的本体论，清晰的、直观的、可获得的用户交互，分类的特定领域的工作流程。 合作工具包括：促进公众创造、评估和分享的虚拟设计坊，分散在时空中的设计团队，拥有不同价值观且不断变化的利益主体，致力于德尔菲过程和冲突解决的基于团队的决策等。 综合来看，地理设计包含了传统规划的大多数要素，尝试在当前已有的大量数据和长期积累起来的科学技术分析方法的基础上，建立起规划师和设计师开展工作的平台，以面向未来人类居住环境的发展。   <strong>GIS**</strong>与规划的关系：未来大学的重新组织** 提问环节开始，有老师问及谷教授GIS与规划的关系，他从学科发展演变的角度进行了回答。看学科史可以了解，此处不再复述。其中很重要的一点是，在地理与规划学科发展过程中，一度将科学层面的内容与设计的、人文的内容二分，造成了二者的对立，当前我们的大学也是按照学科分类的模式进行组织，在促进学科纵深发展的同时，却忽略了学科之间的联系，特别是科学与人文的联系。而规划恰恰需要这二者的整合，因此，未来大学可能会出现一种全新的组织模式，以促进人文与科学的融合。   <strong>CyberGIS**</strong>能做什么：问一个好问题比解决问题更重要** 有计算机系的同学问到，CyberGIS可以做什么。谷教授的回答再次从问题解答上升到思想层面，他说计算机运行速度的提高，只能帮助我们更快更有效率地解决问题，但跟以往其实没有本质区别。重要的是，去思考哪些事是过去不能做，但现在可以做的，要尝试跳出既有的思维框架想问题（thinking outside the box）。提出一个好问题，比尝试去用更好的方法解答既有问题更重要，因为在我们的训练体系中，并不鼓励我们提出新问题（the new question is important, because we are trained to ask the same question）。所以，CyberGIS能做什么，要看我们是否能提出前人没有提过的问题。目前互联网、全球化为我们提供的一大新视角是：远距离的互动很重要（long distance interaction matters），启发我们去思考任何一个小环境的变化都有可能对世界的其他地区产生影响。这种广阔的视野很重要。   <strong>VGI**</strong>的发展：如果人们能了解分享地图的意义** 有同学问教授对于志愿者地理信息（VGI）的看法，比如Open Street Map等通过众包模式由志愿者上传分享的信息。教授说，人们目前还不知道分享地图的意义是什么，只有大家能够了解到分享的意义，才会更有主动性地去贡献力量。事实上，人们知道的场所名称，可能比人们认识的汉字还多，这些对场所的认知，构成了人们对城市的感知。我们需要去挖掘这些信息对人们的重要性，对人们生活的意义，再去开展一些有针对性的工作。   <strong>GeoDesign**</strong>与SketchUp<strong>**的关系：是更大的图景也是看到关联的思考方式</strong> 我问谷教授，地理设计与传统的辅助设计工具SketchUp的关系是怎样，地理设计是一种新的辅助设计的方法，还是一种新的思考方式。他说二者都是，跟SketchUp相比，地理设计能够为设计师提供更全局的视野，将设计建立在更真实的地理图景中，提醒设计师关注设计项目与周边区域的关系；同时通过对设计成果的模拟、评估和反馈，让设计师可以看到设计结果的反馈，而SketchUp还是更面向于单体的设计，细节的推敲，也缺乏动态性和交互性。同时，地理设计也作为大量数据的综合平台，将与城市运行相关的方方面面的功能都包括进来，为设计师，乃至参与到规划中的公众更好地理解城市，提供了很好的支持。除了工具层面以外，更重要的是地理设计所倡导的看到关联的思考方式。   <strong>GIS**</strong>与BIM<strong>**的整合：思考方向比行动更重要</strong> 有老师问及GIS与BIM的关系和整合的可能性，谷教授回答，首先，二者在精度上差异较大，GIS的应用一般到米就足够了，而BIM可能需要到毫米，还是由应用的需求决定；其次，一项针对美国人的行为空间的统计显示，美国人的室内活动占到87%，室外活动只占13%，足以看出室内空间对人们的重要意义。可见Indoor GIS未来还是有很大空间的。目前已经可以利用机器人帮助我们完成室内3D空间的数据化工作，但花费巨大，而且这些建筑内部的数据测出来以后，除了商家推送广告、紧急情况下的疏散、医院中医生的定位以外，还能做什么，都需要我们更加主动地去思考，以引导这些技术发展的方向。   本次讲座，最大的收获还是思想层面的启发，技术发展无法替代我们的思考，联系的视角非常重要。我们需要拓展对人文和艺术的追求，利用技术的支撑，去发现新的问题，去解决新的问题，为人们的生活变得更好，做些力所能及的事。   <em>题图来源：<a href="http://www-scf.usc.edu/~nnowak/geodesign.jpg" target="_blank" rel="noopener">http://www-scf.usc.edu/~nnowak/geodesign.jpg</a></em></p>
+
+          
+        
       
     </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2014/11/23/what-is-geodesign/" data-id="ck6ni9efl008nd16bh3868eyg" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%9F%8E%E5%B8%82%E7%A0%94%E7%A9%B6/" rel="tag">城市研究</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE/" rel="tag">大数据</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%96%B9%E6%B3%95%E8%AE%BA/" rel="tag">方法论</a></li></ul>
+    
+    
+    
 
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
     </footer>
   </div>
   
-</article>
+  
+  
+  </article>
 
+
+    
+      
 
   
-    <article id="post-why-to-marry-an-urban-planner" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2014/11/11/why-to-marry-an-urban-planner/" class="article-date">
-  <time datetime="2014-11-10T16:43:35.000Z" itemprop="datePublished">2014-11-11</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%E6%88%90%E9%95%BF%E6%84%9F%E6%82%9F/">成长感悟</a>
-  </div>
 
-  </div>
-  <div class="article-inner">
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://citiesheart.com/2014/11/11/why-to-marry-an-urban-planner/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Xiaohui Yuan">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="城市的心弦">
+    </span>
+
     
-    
-      <header class="article-header">
+      <header class="post-header">
+
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2014/11/11/why-to-marry-an-urban-planner/">果说|嫁娶规划师的十大理由</a>
-    </h1>
-  
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2014/11/11/why-to-marry-an-urban-planner/" itemprop="url">果说|嫁娶规划师的十大理由</a></h1>
+        
 
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2014-11-11T00:43:35+08:00">
+                2014-11-11
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E6%88%90%E9%95%BF%E6%84%9F%E6%82%9F/" itemprop="url" rel="index">
+                    <span itemprop="name">成长感悟</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
       </header>
     
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p><a href="http://citiesheart.com/wp-content/uploads/2014/11/love.jpg" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2014/11/love.jpg" alt="love"></a> 前两天为代号为“幸福IIII”的规划圈征婚活动吹了把牛，细数了一下嫁娶规划师的十大理由，虽然有点夸张的成分，但还是基本上能够反应规划师的基本形象啦，再来回顾一下，欢迎吐槽。 为什么要跟规划师结婚呢？因为他们是： 城市认知活地图，约会无忧活力足。 功能分区分分钟，家中整洁尘无踪。 善解人意沟通王，柔情蜜意暖情郎。  艺术气质审美力，耐看养眼品味帝。 文科理科样样通，子女教育也轻松。 设计创意有灵气，浪漫惊喜甜蜜蜜。 利益协调小能手，婆婆媳妇手牵手。 走南闯北见识广，大气从容家人赏。 文能载道画载情，不疾不徐真性情。 城市生活梦想家，美好未来交给他(她)。   哈哈，有点浮夸了。规划师同学得好好努力，继续修炼啊。   <em>题图来源：<a href="http://www.bing.com/images/search?q=love&amp;FORM=HDRSC2#view=detail&amp;id=35A2A304B631E832724FA00A7ADD21C809713C02&amp;selectedIndex=27" target="_blank" rel="noopener">http://www.bing.com/images/search?q=love&amp;FORM=HDRSC2#view=detail&amp;id=35A2A304B631E832724FA00A7ADD21C809713C02&amp;selectedIndex=27</a></em></p>
 
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2014/11/11/why-to-marry-an-urban-planner/" data-id="ck6ni9efs0098d16b2hirb6j7" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E8%A7%84%E5%88%92%E5%B8%88/" rel="tag">规划师</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-urban-transition-and-planning-concern-towards-urban-life" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2014/11/10/urban-transition-and-planning-concern-towards-urban-life/" class="article-date">
-  <time datetime="2014-11-10T10:24:27.000Z" itemprop="datePublished">2014-11-10</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%E5%AD%A6%E6%9C%AF%E4%BA%A4%E6%B5%81/">学术交流</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
     
     
-      <header class="article-header">
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2014/11/10/urban-transition-and-planning-concern-towards-urban-life/">城市转型与规划对生活的关注——记张兵教授天津演讲</a>
-    </h1>
-  
+          
+            <p><a href="http://citiesheart.com/wp-content/uploads/2014/11/love.jpg" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2014/11/love.jpg" alt="love"></a> 前两天为代号为“幸福IIII”的规划圈征婚活动吹了把牛，细数了一下嫁娶规划师的十大理由，虽然有点夸张的成分，但还是基本上能够反应规划师的基本形象啦，再来回顾一下，欢迎吐槽。 为什么要跟规划师结婚呢？因为他们是： 城市认知活地图，约会无忧活力足。 功能分区分分钟，家中整洁尘无踪。 善解人意沟通王，柔情蜜意暖情郎。  艺术气质审美力，耐看养眼品味帝。 文科理科样样通，子女教育也轻松。 设计创意有灵气，浪漫惊喜甜蜜蜜。 利益协调小能手，婆婆媳妇手牵手。 走南闯北见识广，大气从容家人赏。 文能载道画载情，不疾不徐真性情。 城市生活梦想家，美好未来交给他(她)。   哈哈，有点浮夸了。规划师同学得好好努力，继续修炼啊。   <em>题图来源：<a href="http://www.bing.com/images/search?q=love&amp;FORM=HDRSC2#view=detail&amp;id=35A2A304B631E832724FA00A7ADD21C809713C02&amp;selectedIndex=27" target="_blank" rel="noopener">http://www.bing.com/images/search?q=love&amp;FORM=HDRSC2#view=detail&amp;id=35A2A304B631E832724FA00A7ADD21C809713C02&amp;selectedIndex=27</a></em></p>
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p><a href="http://citiesheart.com/wp-content/uploads/2014/11/people-in-cities.jpg" target="_blank" rel="noopener"><img src="http://citiesheart.com/wp-content/uploads/2014/11/people-in-cities.jpg" alt="people in cities"></a> 在2014年9月23日于天津滨海新区召开的第九届城市发展与规划大会上，中国城市规划设计研究院总规划师张兵教授做了题为《城市转型与规划对生活的关注》主题演讲。重点探讨了三方面的问题：一，规划技术创新的努力；二，城市空间增长方式与城市生活；三，未来城市总体规划改进的重点方向。 <strong>首先，张兵教授结合此次北京总体规划修编总结了规划技术创新的努力。</strong> 主要有：（1）开展总体规划实施评估，评估上一轮总体规划的实施情况；（2）积极探索以大数据为支撑的社会动员与公众参与的技术方式；（3）城市转型发展与规划转型，从增量规划向存量规划的转变，更加注重城市更新；（4）城市规划编制中增加对“人”的深入研究；（5）从城市规划与土地利用规划的两规合一，到经济社会发展总体规划、城市规划与土地利用规划的多规融合；（6）整合和划定开发边界；（7）生态文明建设与文化传承的重要性提升；（8）（这一点没记下来）。张教授认为以上规划技术创新的努力体现出规划行业的学习能力和反思能力的提升，各方面发展条件的变化也让规划编制更加关注人的城市生活。  <strong>第二，关于城市空间增长方式与城市生活。</strong> 过去几十年，各地区城市的开发建设总量都很大，像苏州这样的城市，土地增量已达极限。很多城市的用地膨胀速度都很快，其结构如何，内部功能怎样，人口、功能与交通的相互关系如何，都值得关注。在上海的城市扩张过程中，呈现出了以下三点特征：（1）圈层结构，呈现出明显的核心-边缘关系；（2）靠近中心的地区增长最快；（3）居住空间的扩张大于就业岗位的增长。 从城市发育过程来看，城市总体规划必须处理好城市各项功能的空间关系，因为这些关系会影响到人们的日常生活。从过去三十年来看，城市中人们的平均出行距离增加，但实际上增长不多。根据调查统计，进城人员的平均出行距离为22km（具体的数据来源和详细的数据描述没记清楚）。这样来看，我们一般情况下所说的以50km为半径构造大都市区同城圈尺度，会导致误判。 在大都市空间增长过程中，公共服务设施体系的发展并不完善。公共服务设施的布局，多集中在都会区。如果从人的生活和出行角度来思考城市规划，就应该更加关注规划的单元和尺度。广州居民平均出行距离在1984年时为3.2公里，2005年为5.0公里。从中可以发现大都市区空间组织的理想模式：大尺度和小半径，增加规划的生活单元中的公共服务设施比重，为生活在各个生活单元中的人提供便利。 <strong>第三，关于未来城市总体规划改进的重点方向。</strong> 张兵教授认为主要有三个方向：（1）大都市区的结构塑形。为当前的虚胖状态，增加骨头，进行重塑，而不是拼盘。考虑扩张的形态与内部的结构缺陷，依靠交通小区调查，将承载最紧密联系的功能布局于城市中心，外围可以更加松散地布局空间单元。（2）设施引领的场所再组织。将各项功能关系的空间性加以考虑，在重塑城市结构的基础上，系统性地创造场所。比如说，深圳不是一个城市，而是很多城市，由很多功能单元构成。（3）改革空间治理的体系。当前的规划审批架构，存在不适应当前发展需要之处。城市总体规划往往是针对某一个特定城市的行政区划范围进行，而无法将城市与周边区域作为一个统一的都市区来开展规划，导致很多问题的产生。因此，这种架构有待进一步调整。 张兵教授最后提到两位老先生的箴言，周干峙先生曾说城市规划应该：“求真情况，讲真道理，做真规划”。李德华先生也提到城市规划“传播真理经验”的作用。城市规划最终还是要回归到城市发展的客观规律上来，回归到城市生活，回归到人的生活。   我的思考：自上而下的规划和自下而上的城市自发生长在塑造城市生活单元中分别起到怎样的作用？城市生活单元需要在规划初期设置到位吗？市场对城市功能区空间的选择很有可能无法按照规划设想的城市生活单元模式进行，那么最后在规划与市场的双重作用力下，如何保证城市生活单元的形成？规划应该如何看待自身与市场的关系，自身应该首先做好哪些事？阶段均衡与长期均衡的关系是怎样？还是些老问题，持续思考中。   _ 题图来源：<a href="http://pic25.nipic.com/20121207/4499633\_161016042000\_2.jpg" target="_blank" rel="noopener">http://pic25.nipic.com/20121207/4499633\_161016042000\_2.jpg</a>_ <em>（全文未经演讲者审核，未经允许，不得转载）</em></p>
-
+          
+        
       
     </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2014/11/10/urban-transition-and-planning-concern-towards-urban-life/" data-id="ck6ni9efk008kd16b1mjd4o5c" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%9F%8E%E5%B8%82%E7%A0%94%E7%A9%B6/" rel="tag">城市研究</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E8%A7%84%E5%88%92%E8%BD%AC%E5%9E%8B/" rel="tag">规划转型</a></li></ul>
+    
+    
+    
 
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
     </footer>
   </div>
   
-</article>
+  
+  
+  </article>
 
+
+    
+  </section>
 
   
-
-
-  <nav id="page-nav">
-    
-    <a class="extend prev" rel="prev" href="/page/2/">&amp;laquo; Prev</a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/">2</a><span class="page-number current">3</span><a class="page-number" href="/page/4/">4</a><a class="page-number" href="/page/5/">5</a><span class="space">&hellip;</span><a class="page-number" href="/page/11/">11</a><a class="extend next" rel="next" href="/page/4/">Next &amp;raquo;</a>
+  <nav class="pagination">
+    <a class="extend prev" rel="prev" href="/page/2/">&lt;i class&#x3D;&quot;fa fa-angle-left&quot;&gt;&lt;&#x2F;i&gt;</a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/">2</a><span class="page-number current">3</span><a class="page-number" href="/page/4/">4</a><span class="space">&hellip;</span><a class="page-number" href="/page/11/">11</a><a class="extend next" rel="next" href="/page/4/">&lt;i class&#x3D;&quot;fa fa-angle-right&quot;&gt;&lt;&#x2F;i&gt;</a>
   </nav>
 
-</section>
+
+
+          </div>
+          
+
+
+          
+
+        </div>
         
-          <aside id="sidebar">
+          
   
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Categories</h3>
-    <div class="widget">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%9F%8E%E5%B8%82%E6%80%9D%E8%80%83/">城市思考</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%9F%8E%E5%B8%82%E6%80%9D%E8%80%83/%E5%AD%A6%E6%9C%AF%E4%BA%A4%E6%B5%81/">学术交流</a></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%AD%A6%E6%9C%AF%E4%BA%A4%E6%B5%81/">学术交流</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%AD%A6%E6%9C%AF%E4%BA%A4%E6%B5%81/%E6%88%90%E9%95%BF%E6%84%9F%E6%82%9F/">成长感悟</a></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%88%90%E9%95%BF%E6%84%9F%E6%82%9F/">成长感悟</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E8%AF%BB%E4%B9%A6%E5%BF%83%E5%BE%97/">读书心得</a></li></ul>
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
     </div>
   </div>
 
-
-  
+  <aside id="sidebar" class="sidebar">
     
-  <div class="widget-wrap">
-    <h3 class="widget-title">Tags</h3>
-    <div class="widget">
-      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%B8%8D%E7%A1%AE%E5%AE%9A%E6%80%A7/" rel="tag">不确定性</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%B8%93%E6%B3%A8%E5%8A%9B/" rel="tag">专注力</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%B8%AA%E4%BA%BA%E7%AE%A1%E7%90%86/" rel="tag">个人管理</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%B8%AA%E4%BA%BA%E9%80%89%E6%8B%A9/" rel="tag">个人选择</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%B8%AD%E8%A5%BF%E5%8C%BB/" rel="tag">中西医</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%BA%A4%E9%80%9A/" rel="tag">交通</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%BA%BA%E7%94%9F%E6%84%8F%E4%B9%89/" rel="tag">人生意义</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%BB%B7%E5%80%BC%E8%A7%82/" rel="tag">价值观</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%BC%81%E4%B8%9A%E5%AE%B6/" rel="tag">企业家</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%BC%81%E4%B8%9A%E8%BF%90%E8%90%A5/" rel="tag">企业运营</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%BC%97%E5%88%9B%E7%A9%BA%E9%97%B4/" rel="tag">众创空间</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%BC%A0%E7%BB%9F%E6%96%87%E5%8C%96/" rel="tag">传统文化</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%81%A5%E5%BA%B7/" rel="tag">健康</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%85%AC%E7%9B%8A%E5%88%9B%E4%B8%9A/" rel="tag">公益创业</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%85%BB%E8%80%81%E8%A7%84%E5%88%92/" rel="tag">养老规划</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%88%9B%E4%B8%9A/" rel="tag">创业</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%88%9B%E6%96%B0/" rel="tag">创新</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%88%B6%E5%BA%A6%E5%88%9B%E6%96%B0/" rel="tag">制度创新</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%8D%9A%E5%A3%AB%E8%AE%BA%E6%96%87/" rel="tag">博士论文</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%90%88%E4%BD%9C/" rel="tag">合作</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%9B%9E%E5%BF%86/" rel="tag">回忆</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%9F%8E%E5%B8%82%E4%BA%BA/" rel="tag">城市人</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%9F%8E%E5%B8%82%E7%94%9F%E6%B4%BB/" rel="tag">城市生活</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%9F%8E%E5%B8%82%E7%A0%94%E7%A9%B6/" rel="tag">城市研究</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE/" rel="tag">大数据</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%AD%B5%E5%8C%96%E5%99%A8/" rel="tag">孵化器</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%AE%9A%E9%87%8F%E7%A0%94%E7%A9%B6/" rel="tag">定量研究</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%B7%A5%E5%85%B7/" rel="tag">工具</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%8B%96%E5%BB%B6%E7%97%87/" rel="tag">拖延症</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/" rel="tag">数据分析</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%96%87%E7%8C%AE%E6%A3%80%E7%B4%A2/" rel="tag">文献检索</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%96%B9%E6%B3%95%E8%AE%BA/" rel="tag">方法论</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%97%B6%E7%A9%BA%E8%A7%82/" rel="tag">时空观</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%9C%89%E6%84%8F%E6%80%9D/" rel="tag">有意思</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%9C%AA%E6%9D%A5/" rel="tag">未来</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%A2%A6%E6%83%B3/" rel="tag">梦想</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%AF%95%E4%B8%9A/" rel="tag">毕业</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%86%B5/" rel="tag">熵</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%8B%AC%E8%A7%92%E5%85%BD/" rel="tag">独角兽</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%94%B5%E5%95%86%E7%89%A9%E6%B5%81/" rel="tag">电商物流</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%9F%A5%E8%AF%86%E5%9F%8E%E5%B8%82/" rel="tag">知识城市</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86/" rel="tag">知识管理</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%A4%BE%E4%BC%9A%E7%89%A9%E7%90%86/" rel="tag">社会物理</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%A4%BE%E4%BC%9A%E7%89%A9%E7%90%86%E5%AD%A6/" rel="tag">社会物理学</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%A4%BE%E4%BC%9A%E7%BB%93%E6%9E%84/" rel="tag">社会结构</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%A7%91%E5%AD%A6%E5%9F%8E/" rel="tag">科学城</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%A7%91%E5%B9%BB/" rel="tag">科幻</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%A7%91%E6%8A%80%E5%9F%8E/" rel="tag">科技城</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%A9%BA%E9%97%B4%E7%94%9F%E4%BA%A7/" rel="tag">空间生产</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%BC%96%E7%A8%8B/" rel="tag">编程</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%99%9A%E6%8B%9F%E7%8E%B0%E5%AE%9E/" rel="tag">虚拟现实</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%A7%84%E5%88%92%E5%B8%88/" rel="tag">规划师</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%A7%84%E5%88%92%E7%90%86%E8%AE%BA/" rel="tag">规划理论</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%A7%84%E5%88%92%E8%BD%AC%E5%9E%8B/" rel="tag">规划转型</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%B4%B9%E6%9B%BC/" rel="tag">费曼</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%B5%84%E6%9C%AC%E9%80%BB%E8%BE%91/" rel="tag">资本逻辑</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%9F%B3%E4%B9%90/" rel="tag">音乐</a></li></ul>
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">Xiaohui Yuan</p>
+              <p class="site-description motion-element" itemprop="description"></p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/%20%7C%7C%20archive">
+              
+                  <span class="site-state-item-count">104</span>
+                  <span class="site-state-item-name">posts</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                
+                  <span class="site-state-item-count">6</span>
+                  <span class="site-state-item-name">categories</span>
+                
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                
+                  <span class="site-state-item-count">57</span>
+                  <span class="site-state-item-name">tags</span>
+                
+              </div>
+            
+
+          </nav>
+
+          
+
+          
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+
+      
+
     </div>
-  </div>
+  </aside>
 
 
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Tag Cloud</h3>
-    <div class="widget tagcloud">
-      <a href="/tags/%E4%B8%8D%E7%A1%AE%E5%AE%9A%E6%80%A7/" style="font-size: 15.38px;">不确定性</a> <a href="/tags/%E4%B8%93%E6%B3%A8%E5%8A%9B/" style="font-size: 13.08px;">专注力</a> <a href="/tags/%E4%B8%AA%E4%BA%BA%E7%AE%A1%E7%90%86/" style="font-size: 18.46px;">个人管理</a> <a href="/tags/%E4%B8%AA%E4%BA%BA%E9%80%89%E6%8B%A9/" style="font-size: 19.23px;">个人选择</a> <a href="/tags/%E4%B8%AD%E8%A5%BF%E5%8C%BB/" style="font-size: 10.77px;">中西医</a> <a href="/tags/%E4%BA%A4%E9%80%9A/" style="font-size: 11.54px;">交通</a> <a href="/tags/%E4%BA%BA%E7%94%9F%E6%84%8F%E4%B9%89/" style="font-size: 16.92px;">人生意义</a> <a href="/tags/%E4%BB%B7%E5%80%BC%E8%A7%82/" style="font-size: 15.38px;">价值观</a> <a href="/tags/%E4%BC%81%E4%B8%9A%E5%AE%B6/" style="font-size: 12.31px;">企业家</a> <a href="/tags/%E4%BC%81%E4%B8%9A%E8%BF%90%E8%90%A5/" style="font-size: 12.31px;">企业运营</a> <a href="/tags/%E4%BC%97%E5%88%9B%E7%A9%BA%E9%97%B4/" style="font-size: 10px;">众创空间</a> <a href="/tags/%E4%BC%A0%E7%BB%9F%E6%96%87%E5%8C%96/" style="font-size: 11.54px;">传统文化</a> <a href="/tags/%E5%81%A5%E5%BA%B7/" style="font-size: 10.77px;">健康</a> <a href="/tags/%E5%85%AC%E7%9B%8A%E5%88%9B%E4%B8%9A/" style="font-size: 10px;">公益创业</a> <a href="/tags/%E5%85%BB%E8%80%81%E8%A7%84%E5%88%92/" style="font-size: 10px;">养老规划</a> <a href="/tags/%E5%88%9B%E4%B8%9A/" style="font-size: 16.15px;">创业</a> <a href="/tags/%E5%88%9B%E6%96%B0/" style="font-size: 18.46px;">创新</a> <a href="/tags/%E5%88%B6%E5%BA%A6%E5%88%9B%E6%96%B0/" style="font-size: 10px;">制度创新</a> <a href="/tags/%E5%8D%9A%E5%A3%AB%E8%AE%BA%E6%96%87/" style="font-size: 15.38px;">博士论文</a> <a href="/tags/%E5%90%88%E4%BD%9C/" style="font-size: 10px;">合作</a> <a href="/tags/%E5%9B%9E%E5%BF%86/" style="font-size: 13.85px;">回忆</a> <a href="/tags/%E5%9F%8E%E5%B8%82%E4%BA%BA/" style="font-size: 10px;">城市人</a> <a href="/tags/%E5%9F%8E%E5%B8%82%E7%94%9F%E6%B4%BB/" style="font-size: 11.54px;">城市生活</a> <a href="/tags/%E5%9F%8E%E5%B8%82%E7%A0%94%E7%A9%B6/" style="font-size: 20px;">城市研究</a> <a href="/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE/" style="font-size: 14.62px;">大数据</a> <a href="/tags/%E5%AD%B5%E5%8C%96%E5%99%A8/" style="font-size: 11.54px;">孵化器</a> <a href="/tags/%E5%AE%9A%E9%87%8F%E7%A0%94%E7%A9%B6/" style="font-size: 14.62px;">定量研究</a> <a href="/tags/%E5%B7%A5%E5%85%B7/" style="font-size: 10px;">工具</a> <a href="/tags/%E6%8B%96%E5%BB%B6%E7%97%87/" style="font-size: 10.77px;">拖延症</a> <a href="/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/" style="font-size: 11.54px;">数据分析</a> <a href="/tags/%E6%96%87%E7%8C%AE%E6%A3%80%E7%B4%A2/" style="font-size: 10px;">文献检索</a> <a href="/tags/%E6%96%B9%E6%B3%95%E8%AE%BA/" style="font-size: 17.69px;">方法论</a> <a href="/tags/%E6%97%B6%E7%A9%BA%E8%A7%82/" style="font-size: 10.77px;">时空观</a> <a href="/tags/%E6%9C%89%E6%84%8F%E6%80%9D/" style="font-size: 10.77px;">有意思</a> <a href="/tags/%E6%9C%AA%E6%9D%A5/" style="font-size: 16.92px;">未来</a> <a href="/tags/%E6%A2%A6%E6%83%B3/" style="font-size: 13.08px;">梦想</a> <a href="/tags/%E6%AF%95%E4%B8%9A/" style="font-size: 10px;">毕业</a> <a href="/tags/%E7%86%B5/" style="font-size: 10.77px;">熵</a> <a href="/tags/%E7%8B%AC%E8%A7%92%E5%85%BD/" style="font-size: 11.54px;">独角兽</a> <a href="/tags/%E7%94%B5%E5%95%86%E7%89%A9%E6%B5%81/" style="font-size: 10px;">电商物流</a> <a href="/tags/%E7%9F%A5%E8%AF%86%E5%9F%8E%E5%B8%82/" style="font-size: 11.54px;">知识城市</a> <a href="/tags/%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86/" style="font-size: 10.77px;">知识管理</a> <a href="/tags/%E7%A4%BE%E4%BC%9A%E7%89%A9%E7%90%86/" style="font-size: 10px;">社会物理</a> <a href="/tags/%E7%A4%BE%E4%BC%9A%E7%89%A9%E7%90%86%E5%AD%A6/" style="font-size: 11.54px;">社会物理学</a> <a href="/tags/%E7%A4%BE%E4%BC%9A%E7%BB%93%E6%9E%84/" style="font-size: 10px;">社会结构</a> <a href="/tags/%E7%A7%91%E5%AD%A6%E5%9F%8E/" style="font-size: 10px;">科学城</a> <a href="/tags/%E7%A7%91%E5%B9%BB/" style="font-size: 10px;">科幻</a> <a href="/tags/%E7%A7%91%E6%8A%80%E5%9F%8E/" style="font-size: 13.08px;">科技城</a> <a href="/tags/%E7%A9%BA%E9%97%B4%E7%94%9F%E4%BA%A7/" style="font-size: 10px;">空间生产</a> <a href="/tags/%E7%BC%96%E7%A8%8B/" style="font-size: 10px;">编程</a> <a href="/tags/%E8%99%9A%E6%8B%9F%E7%8E%B0%E5%AE%9E/" style="font-size: 10px;">虚拟现实</a> <a href="/tags/%E8%A7%84%E5%88%92%E5%B8%88/" style="font-size: 13.08px;">规划师</a> <a href="/tags/%E8%A7%84%E5%88%92%E7%90%86%E8%AE%BA/" style="font-size: 14.62px;">规划理论</a> <a href="/tags/%E8%A7%84%E5%88%92%E8%BD%AC%E5%9E%8B/" style="font-size: 13.08px;">规划转型</a> <a href="/tags/%E8%B4%B9%E6%9B%BC/" style="font-size: 10.77px;">费曼</a> <a href="/tags/%E8%B5%84%E6%9C%AC%E9%80%BB%E8%BE%91/" style="font-size: 11.54px;">资本逻辑</a> <a href="/tags/%E9%9F%B3%E4%B9%90/" style="font-size: 10px;">音乐</a>
-    </div>
-  </div>
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/02/">February 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/07/">July 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/06/">June 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/05/">May 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/04/">April 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/03/">March 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/01/">January 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/12/">December 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/11/">November 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/09/">September 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/08/">August 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/04/">April 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/02/">February 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/01/">January 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/12/">December 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/11/">November 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/10/">October 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/09/">September 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/08/">August 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/07/">July 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/06/">June 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/05/">May 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/04/">April 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/03/">March 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/01/">January 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/12/">December 2013</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/10/">October 2013</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/09/">September 2013</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/08/">August 2013</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/07/">July 2013</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/06/">June 2013</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/05/">May 2013</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/04/">April 2013</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/03/">March 2013</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/02/">February 2013</a></li></ul>
-    </div>
-  </div>
-
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
-    <div class="widget">
-      <ul>
-        
-          <li>
-            <a href="/2018/02/08/science-cities-in-beijing/">北京三大科学城发展策略</a>
-          </li>
-        
-          <li>
-            <a href="/2018/02/08/global-innovation-city/">全球创新中心城市发展水平比较</a>
-          </li>
-        
-          <li>
-            <a href="/2018/02/08/global-science-city/">全球科学城的类型、特征与发展趋势</a>
-          </li>
-        
-          <li>
-            <a href="/2016/07/04/founders-of-top-50-unicorns/">全球估值Top50独角兽创始人画像</a>
-          </li>
-        
-          <li>
-            <a href="/2016/06/20/cities-and-unicorn/">哪些城市孕育了独角兽？</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-
-  
-</aside>
         
       </div>
-      <footer id="footer">
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Xiaohui Yuan</span>
+
   
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      &copy; 2020 John Doe<br>
-      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
-    </div>
-  </div>
-</footer>
-    </div>
-    <nav id="mobile-nav">
-  
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-</nav>
+</div>
+
+
+  <div class="powered-by">Powered by <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a></div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Pisces</a> v5.1.4</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
     
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-
-
-  
-<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
-
-  
-<script src="/fancybox/jquery.fancybox.pack.js"></script>
-
-
-
-
-<script src="/js/script.js"></script>
-
-
-
+    
 
   </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
+
+  
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
 </body>
 </html>
